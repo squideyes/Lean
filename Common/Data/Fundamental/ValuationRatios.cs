@@ -345,5 +345,11 @@ namespace QuantConnect.Data.Fundamental
 		/// </remarks>
 		public decimal DivYield5Year { get; set; }
 
+		/// <summary>
+		/// Creates an instance of the ValuationRatios class
+		/// </summary>
+		public ValuationRatios()
+		{
+		}
 	}
 }

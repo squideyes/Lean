@@ -224,5 +224,11 @@ namespace QuantConnect.Data.Fundamental
 		/// </remarks>
 		public int ReportStyle { get; set; }
 
+		/// <summary>
+		/// Creates an instance of the CompanyReference class
+		/// </summary>
+		public CompanyReference()
+		{
+		}
 	}
 }

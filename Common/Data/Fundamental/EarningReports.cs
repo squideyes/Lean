@@ -264,5 +264,33 @@ namespace QuantConnect.Data.Fundamental
 		/// </remarks>
 		public TotalDividendPerShare TotalDividendPerShare { get; set; }
 
+		/// <summary>
+		/// Creates an instance of the EarningReports class
+		/// </summary>
+		public EarningReports()
+		{
+			BasicContinuousOperations = new BasicContinuousOperations();
+			BasicDiscontinuousOperations = new BasicDiscontinuousOperations();
+			BasicExtraordinary = new BasicExtraordinary();
+			BasicAccountingChange = new BasicAccountingChange();
+			BasicEPS = new BasicEPS();
+			DilutedContinuousOperations = new DilutedContinuousOperations();
+			DilutedDiscontinuousOperations = new DilutedDiscontinuousOperations();
+			DilutedExtraordinary = new DilutedExtraordinary();
+			DilutedAccountingChange = new DilutedAccountingChange();
+			DilutedEPS = new DilutedEPS();
+			BasicAverageShares = new BasicAverageShares();
+			DilutedAverageShares = new DilutedAverageShares();
+			DividendPerShare = new DividendPerShare();
+			BasicEPSOtherGainsLosses = new BasicEPSOtherGainsLosses();
+			ContinuingAndDiscontinuedBasicEPS = new ContinuingAndDiscontinuedBasicEPS();
+			TaxLossCarryforwardBasicEPS = new TaxLossCarryforwardBasicEPS();
+			DilutedEPSOtherGainsLosses = new DilutedEPSOtherGainsLosses();
+			ContinuingAndDiscontinuedDilutedEPS = new ContinuingAndDiscontinuedDilutedEPS();
+			TaxLossCarryforwardDilutedEPS = new TaxLossCarryforwardDilutedEPS();
+			NormalizedBasicEPS = new NormalizedBasicEPS();
+			NormalizedDilutedEPS = new NormalizedDilutedEPS();
+			TotalDividendPerShare = new TotalDividendPerShare();
+		}
 	}
 }

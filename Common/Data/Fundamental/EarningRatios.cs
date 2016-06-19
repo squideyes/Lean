@@ -74,5 +74,16 @@ namespace QuantConnect.Data.Fundamental
 		/// </remarks>
 		public RegressionGrowthofDividends5Years RegressionGrowthofDividends5Years { get; set; }
 
+		/// <summary>
+		/// Creates an instance of the EarningRatios class
+		/// </summary>
+		public EarningRatios()
+		{
+			DilutedEPSGrowth = new DilutedEPSGrowth();
+			DilutedContEPSGrowth = new DilutedContEPSGrowth();
+			DPSGrowth = new DPSGrowth();
+			EquityPerShareGrowth = new EquityPerShareGrowth();
+			RegressionGrowthofDividends5Years = new RegressionGrowthofDividends5Years();
+		}
 	}
 }

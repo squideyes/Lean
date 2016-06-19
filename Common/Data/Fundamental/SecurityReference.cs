@@ -242,5 +242,11 @@ namespace QuantConnect.Data.Fundamental
 		/// </remarks>
 		public string IPOOfferPriceRange { get; set; }
 
+		/// <summary>
+		/// Creates an instance of the SecurityReference class
+		/// </summary>
+		public SecurityReference()
+		{
+		}
 	}
 }

@@ -480,5 +480,62 @@ namespace QuantConnect.Data.Fundamental
 		/// </remarks>
 		public RegressionGrowthOperatingRevenue5Years RegressionGrowthOperatingRevenue5Years { get; set; }
 
+		/// <summary>
+		/// Creates an instance of the OperationRatios class
+		/// </summary>
+		public OperationRatios()
+		{
+			RevenueGrowth = new RevenueGrowth();
+			OperationIncomeGrowth = new OperationIncomeGrowth();
+			NetIncomeGrowth = new NetIncomeGrowth();
+			NetIncomeContOpsGrowth = new NetIncomeContOpsGrowth();
+			CFOGrowth3MonthAvg = new CFOGrowth3MonthAvg();
+			FCFGrowth3MonthAvg = new FCFGrowth3MonthAvg();
+			OperationRevenueGrowth3MonthAvg = new OperationRevenueGrowth3MonthAvg();
+			GrossMargin = new GrossMargin();
+			OperationMargin = new OperationMargin();
+			PretaxMargin = new PretaxMargin();
+			NetMargin = new NetMargin();
+			TaxRate = new TaxRate();
+			EBITMargin = new EBITMargin();
+			EBITDAMargin = new EBITDAMargin();
+			SalesPerEmployee = new SalesPerEmployee();
+			CurrentRatio = new CurrentRatio();
+			QuickRatio = new QuickRatio();
+			LongTermDebtTotalCapitalRatio = new LongTermDebtTotalCapitalRatio();
+			InterestCoverage = new InterestCoverage();
+			LongTermDebtEquityRatio = new LongTermDebtEquityRatio();
+			FinancialLeverage = new FinancialLeverage();
+			TotalDebtEquityRatio = new TotalDebtEquityRatio();
+			NormalizedNetProfitMargin = new NormalizedNetProfitMargin();
+			DaysInSales = new DaysInSales();
+			DaysInInventory = new DaysInInventory();
+			DaysInPayment = new DaysInPayment();
+			CashConversionCycle = new CashConversionCycle();
+			ReceivableTurnover = new ReceivableTurnover();
+			InventoryTurnover = new InventoryTurnover();
+			PaymentTurnover = new PaymentTurnover();
+			FixAssetsTuronver = new FixAssetsTuronver();
+			AssetsTurnover = new AssetsTurnover();
+			ROE = new ROE();
+			ROA = new ROA();
+			ROIC = new ROIC();
+			FCFSalesRatio = new FCFSalesRatio();
+			FCFNetIncomeRatio = new FCFNetIncomeRatio();
+			CapExSalesRatio = new CapExSalesRatio();
+			DebttoAssets = new DebttoAssets();
+			CommonEquityToAssets = new CommonEquityToAssets();
+			CapitalExpenditureAnnual5YrGrowth = new CapitalExpenditureAnnual5YrGrowth();
+			GrossProfitAnnual5YrGrowth = new GrossProfitAnnual5YrGrowth();
+			GrossMargin5YrAvg = new GrossMargin5YrAvg();
+			PostTaxMargin5YrAvg = new PostTaxMargin5YrAvg();
+			PreTaxMargin5YrAvg = new PreTaxMargin5YrAvg();
+			ProfitMargin5YrAvg = new ProfitMargin5YrAvg();
+			ROE5YrAvg = new ROE5YrAvg();
+			ROA5YrAvg = new ROA5YrAvg();
+			AVG5YrsROIC = new AVG5YrsROIC();
+			NormalizedROIC = new NormalizedROIC();
+			RegressionGrowthOperatingRevenue5Years = new RegressionGrowthOperatingRevenue5Years();
+		}
 	}
 }

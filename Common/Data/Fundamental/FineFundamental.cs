@@ -61,5 +61,18 @@ namespace QuantConnect.Data.Fundamental
 		/// </summary>
 		public ValuationRatios ValuationRatios { get; set; }
 
+		/// <summary>
+		/// Creates an instance of the FineFundamental class
+		/// </summary>
+		public FineFundamental()
+		{
+			CompanyReference = new CompanyReference();
+			SecurityReference = new SecurityReference();
+			FinancialStatements = new FinancialStatements();
+			EarningReports = new EarningReports();
+			OperationRatios = new OperationRatios();
+			EarningRatios = new EarningRatios();
+			ValuationRatios = new ValuationRatios();
+		}
 	}
 }

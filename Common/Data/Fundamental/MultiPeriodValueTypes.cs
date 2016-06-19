@@ -66,6 +66,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AmortizationIncomeStatement class
 		/// </summary>
+		public AmortizationIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AmortizationIncomeStatement class
+		/// </summary>
 		public AmortizationIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -104,6 +109,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SecuritiesAmortizationIncomeStatement class
+		/// </summary>
+		public SecuritiesAmortizationIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SecuritiesAmortizationIncomeStatement class
@@ -157,6 +167,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CostOfRevenueIncomeStatement class
 		/// </summary>
+		public CostOfRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CostOfRevenueIncomeStatement class
+		/// </summary>
 		public CostOfRevenueIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -195,6 +210,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CumulativeEffectOfAccountingChangeIncomeStatement class
 		/// </summary>
+		public CumulativeEffectOfAccountingChangeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CumulativeEffectOfAccountingChangeIncomeStatement class
+		/// </summary>
 		public CumulativeEffectOfAccountingChangeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -227,6 +247,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DepletionIncomeStatement class
+		/// </summary>
+		public DepletionIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DepletionIncomeStatement class
@@ -268,6 +293,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DepreciationIncomeStatement class
+		/// </summary>
+		public DepreciationIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DepreciationIncomeStatement class
@@ -320,6 +350,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DepreciationAndAmortizationIncomeStatement class
 		/// </summary>
+		public DepreciationAndAmortizationIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DepreciationAndAmortizationIncomeStatement class
+		/// </summary>
 		public DepreciationAndAmortizationIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -363,6 +398,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DepreciationAmortizationDepletionIncomeStatement class
+		/// </summary>
+		public DepreciationAmortizationDepletionIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DepreciationAmortizationDepletionIncomeStatement class
@@ -421,6 +461,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeDiscontinuousOperationsIncomeStatement class
 		/// </summary>
+		public NetIncomeDiscontinuousOperationsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeDiscontinuousOperationsIncomeStatement class
+		/// </summary>
 		public NetIncomeDiscontinuousOperationsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -454,6 +499,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ExciseTaxesIncomeStatement class
+		/// </summary>
+		public ExciseTaxesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ExciseTaxesIncomeStatement class
@@ -506,6 +556,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeExtraordinaryIncomeStatement class
 		/// </summary>
+		public NetIncomeExtraordinaryIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeExtraordinaryIncomeStatement class
+		/// </summary>
 		public NetIncomeExtraordinaryIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -538,6 +593,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FeeRevenueAndOtherIncomeIncomeStatement class
+		/// </summary>
+		public FeeRevenueAndOtherIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FeeRevenueAndOtherIncomeIncomeStatement class
@@ -584,6 +644,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GeneralAndAdministrativeExpenseIncomeStatement class
+		/// </summary>
+		public GeneralAndAdministrativeExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GeneralAndAdministrativeExpenseIncomeStatement class
@@ -636,6 +701,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GrossProfitIncomeStatement class
 		/// </summary>
+		public GrossProfitIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GrossProfitIncomeStatement class
+		/// </summary>
 		public GrossProfitIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -678,6 +748,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseIncomeStatement class
+		/// </summary>
+		public InterestExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestExpenseIncomeStatement class
@@ -729,6 +804,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestExpenseNonOperatingIncomeStatement class
 		/// </summary>
+		public InterestExpenseNonOperatingIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseNonOperatingIncomeStatement class
+		/// </summary>
 		public InterestExpenseNonOperatingIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -771,6 +851,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseOperatingIncomeStatement class
+		/// </summary>
+		public InterestExpenseOperatingIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestExpenseOperatingIncomeStatement class
@@ -822,6 +907,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestIncomeAfterProvisionForLoanLossIncomeStatement class
 		/// </summary>
+		public InterestIncomeAfterProvisionForLoanLossIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeAfterProvisionForLoanLossIncomeStatement class
+		/// </summary>
 		public InterestIncomeAfterProvisionForLoanLossIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -868,6 +958,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestIncomeNonOperatingIncomeStatement class
 		/// </summary>
+		public InterestIncomeNonOperatingIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeNonOperatingIncomeStatement class
+		/// </summary>
 		public InterestIncomeNonOperatingIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -900,6 +995,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeOperatingIncomeStatement class
+		/// </summary>
+		public InterestIncomeOperatingIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestIncomeOperatingIncomeStatement class
@@ -950,6 +1050,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetNonOperatingInterestIncomeExpenseIncomeStatement class
 		/// </summary>
+		public NetNonOperatingInterestIncomeExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetNonOperatingInterestIncomeExpenseIncomeStatement class
+		/// </summary>
 		public NetNonOperatingInterestIncomeExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -996,6 +1101,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetOperatingInterestIncomeExpenseIncomeStatement class
 		/// </summary>
+		public NetOperatingInterestIncomeExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetOperatingInterestIncomeExpenseIncomeStatement class
+		/// </summary>
 		public NetOperatingInterestIncomeExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1031,6 +1141,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LossAdjustmentExpenseIncomeStatement class
+		/// </summary>
+		public LossAdjustmentExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LossAdjustmentExpenseIncomeStatement class
@@ -1085,6 +1200,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MinorityInterestsIncomeStatement class
 		/// </summary>
+		public MinorityInterestsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MinorityInterestsIncomeStatement class
+		/// </summary>
 		public MinorityInterestsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1132,6 +1252,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeIncomeStatement class
 		/// </summary>
+		public NetIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeIncomeStatement class
+		/// </summary>
 		public NetIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1174,6 +1299,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeCommonStockholdersIncomeStatement class
+		/// </summary>
+		public NetIncomeCommonStockholdersIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetIncomeCommonStockholdersIncomeStatement class
@@ -1226,6 +1356,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeContinuousOperationsIncomeStatement class
 		/// </summary>
+		public NetIncomeContinuousOperationsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeContinuousOperationsIncomeStatement class
+		/// </summary>
 		public NetIncomeContinuousOperationsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1273,6 +1408,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetInterestIncomeIncomeStatement class
 		/// </summary>
+		public NetInterestIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetInterestIncomeIncomeStatement class
+		/// </summary>
 		public NetInterestIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1307,6 +1447,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetInvestmentIncomeIncomeStatement class
+		/// </summary>
+		public NetInvestmentIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetInvestmentIncomeIncomeStatement class
@@ -1359,6 +1504,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalRevenueIncomeStatement class
 		/// </summary>
+		public TotalRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalRevenueIncomeStatement class
+		/// </summary>
 		public TotalRevenueIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1403,6 +1553,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NonInterestExpenseIncomeStatement class
+		/// </summary>
+		public NonInterestExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NonInterestExpenseIncomeStatement class
@@ -1455,6 +1610,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonInterestIncomeIncomeStatement class
 		/// </summary>
+		public NonInterestIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonInterestIncomeIncomeStatement class
+		/// </summary>
 		public NonInterestIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1498,6 +1658,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OperatingExpenseIncomeStatement class
+		/// </summary>
+		public OperatingExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OperatingExpenseIncomeStatement class
@@ -1549,6 +1714,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OperatingIncomeIncomeStatement class
 		/// </summary>
+		public OperatingIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OperatingIncomeIncomeStatement class
+		/// </summary>
 		public OperatingIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1592,6 +1762,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OperatingRevenueIncomeStatement class
+		/// </summary>
+		public OperatingRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OperatingRevenueIncomeStatement class
@@ -1642,6 +1817,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherIncomeExpenseIncomeStatement class
 		/// </summary>
+		public OtherIncomeExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherIncomeExpenseIncomeStatement class
+		/// </summary>
 		public OtherIncomeExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1675,6 +1855,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PolicyAcquisitionExpenseIncomeStatement class
+		/// </summary>
+		public PolicyAcquisitionExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PolicyAcquisitionExpenseIncomeStatement class
@@ -1713,6 +1898,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetPolicyholderBenefitsAndClaimsIncomeStatement class
+		/// </summary>
+		public NetPolicyholderBenefitsAndClaimsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetPolicyholderBenefitsAndClaimsIncomeStatement class
@@ -1765,6 +1955,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PreferredStockDividendsIncomeStatement class
 		/// </summary>
+		public PreferredStockDividendsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PreferredStockDividendsIncomeStatement class
+		/// </summary>
 		public PreferredStockDividendsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1798,6 +1993,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalPremiumsEarnedIncomeStatement class
+		/// </summary>
+		public TotalPremiumsEarnedIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalPremiumsEarnedIncomeStatement class
@@ -1848,6 +2048,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PretaxIncomeIncomeStatement class
 		/// </summary>
+		public PretaxIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PretaxIncomeIncomeStatement class
+		/// </summary>
 		public PretaxIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1894,6 +2099,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TaxProvisionIncomeStatement class
 		/// </summary>
+		public TaxProvisionIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TaxProvisionIncomeStatement class
+		/// </summary>
 		public TaxProvisionIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -1934,6 +2144,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CreditLossesProvisionIncomeStatement class
+		/// </summary>
+		public CreditLossesProvisionIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CreditLossesProvisionIncomeStatement class
@@ -1984,6 +2199,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ResearchAndDevelopmentIncomeStatement class
 		/// </summary>
+		public ResearchAndDevelopmentIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ResearchAndDevelopmentIncomeStatement class
+		/// </summary>
 		public ResearchAndDevelopmentIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2026,6 +2246,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SellingAndMarketingExpenseIncomeStatement class
+		/// </summary>
+		public SellingAndMarketingExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SellingAndMarketingExpenseIncomeStatement class
@@ -2080,6 +2305,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SellingGeneralAndAdministrationIncomeStatement class
 		/// </summary>
+		public SellingGeneralAndAdministrationIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SellingGeneralAndAdministrationIncomeStatement class
+		/// </summary>
 		public SellingGeneralAndAdministrationIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2122,6 +2352,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SpecialIncomeChargesIncomeStatement class
+		/// </summary>
+		public SpecialIncomeChargesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SpecialIncomeChargesIncomeStatement class
@@ -2173,6 +2408,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalExpensesIncomeStatement class
 		/// </summary>
+		public TotalExpensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalExpensesIncomeStatement class
+		/// </summary>
 		public TotalExpensesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2208,6 +2448,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AmortizationOfDeferredAcquisitionCostsIncomeStatement class
+		/// </summary>
+		public AmortizationOfDeferredAcquisitionCostsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AmortizationOfDeferredAcquisitionCostsIncomeStatement class
@@ -2258,6 +2503,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestIncomeIncomeStatement class
 		/// </summary>
+		public InterestIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeIncomeStatement class
+		/// </summary>
 		public InterestIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2290,6 +2540,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PropertyLiabilityInsuranceClaimsIncomeStatement class
+		/// </summary>
+		public PropertyLiabilityInsuranceClaimsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PropertyLiabilityInsuranceClaimsIncomeStatement class
@@ -2340,6 +2595,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EBITIncomeStatement class
 		/// </summary>
+		public EBITIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EBITIncomeStatement class
+		/// </summary>
 		public EBITIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2386,6 +2646,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EBITDAIncomeStatement class
 		/// </summary>
+		public EBITDAIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EBITDAIncomeStatement class
+		/// </summary>
 		public EBITDAIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2420,6 +2685,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeContinuousOperationsNetMinorityInterestIncomeStatement class
+		/// </summary>
+		public NetIncomeContinuousOperationsNetMinorityInterestIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetIncomeContinuousOperationsNetMinorityInterestIncomeStatement class
@@ -2471,6 +2741,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AccretionOnPreferredStockIncomeStatement class
 		/// </summary>
+		public AccretionOnPreferredStockIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AccretionOnPreferredStockIncomeStatement class
+		/// </summary>
 		public AccretionOnPreferredStockIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2518,6 +2793,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AccruedPreferredStockDividendsIncomeStatement class
 		/// </summary>
+		public AccruedPreferredStockDividendsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AccruedPreferredStockDividendsIncomeStatement class
+		/// </summary>
 		public AccruedPreferredStockDividendsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2550,6 +2830,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AcquiredInProcessRnDIncomeStatement class
+		/// </summary>
+		public AcquiredInProcessRnDIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AcquiredInProcessRnDIncomeStatement class
@@ -2601,6 +2886,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AcquisitionExpenseIncomeStatement class
 		/// </summary>
+		public AcquisitionExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AcquisitionExpenseIncomeStatement class
+		/// </summary>
 		public AcquisitionExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2643,6 +2933,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AdministrativeExpenseIncomeStatement class
 		/// </summary>
+		public AdministrativeExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AdministrativeExpenseIncomeStatement class
+		/// </summary>
 		public AdministrativeExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2675,6 +2970,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AgencyFeesIncomeStatement class
+		/// </summary>
+		public AgencyFeesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AgencyFeesIncomeStatement class
@@ -2712,6 +3012,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AgencyFeesAndCommissionsIncomeStatement class
+		/// </summary>
+		public AgencyFeesAndCommissionsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AgencyFeesAndCommissionsIncomeStatement class
@@ -2754,6 +3059,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AllowancesForConstructionIncomeStatement class
 		/// </summary>
+		public AllowancesForConstructionIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AllowancesForConstructionIncomeStatement class
+		/// </summary>
 		public AllowancesForConstructionIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2792,6 +3102,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CapitalnBusinessTaxesIncomeStatement class
 		/// </summary>
+		public CapitalnBusinessTaxesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CapitalnBusinessTaxesIncomeStatement class
+		/// </summary>
 		public CapitalnBusinessTaxesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2825,6 +3140,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CededPremiumsIncomeStatement class
+		/// </summary>
+		public CededPremiumsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CededPremiumsIncomeStatement class
@@ -2875,6 +3195,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommissionExpensesIncomeStatement class
 		/// </summary>
+		public CommissionExpensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommissionExpensesIncomeStatement class
+		/// </summary>
 		public CommissionExpensesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2912,6 +3237,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommissionRevenueIncomeStatement class
 		/// </summary>
+		public CommissionRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommissionRevenueIncomeStatement class
+		/// </summary>
 		public CommissionRevenueIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -2945,6 +3275,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CreditCardIncomeStatement class
+		/// </summary>
+		public CreditCardIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CreditCardIncomeStatement class
@@ -2995,6 +3330,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DevelopmentExpenseIncomeStatement class
 		/// </summary>
+		public DevelopmentExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DevelopmentExpenseIncomeStatement class
+		/// </summary>
 		public DevelopmentExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3041,6 +3381,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DividendIncomeIncomeStatement class
 		/// </summary>
+		public DividendIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DividendIncomeIncomeStatement class
+		/// </summary>
 		public DividendIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3079,6 +3424,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the EarningLossOfEquityInvestmentsIncomeStatement class
+		/// </summary>
+		public EarningLossOfEquityInvestmentsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the EarningLossOfEquityInvestmentsIncomeStatement class
@@ -3131,6 +3481,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EarningsFromEquityInterestIncomeStatement class
 		/// </summary>
+		public EarningsFromEquityInterestIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EarningsFromEquityInterestIncomeStatement class
+		/// </summary>
 		public EarningsFromEquityInterestIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3165,6 +3520,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ElectricRevenueIncomeStatement class
+		/// </summary>
+		public ElectricRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ElectricRevenueIncomeStatement class
@@ -3207,6 +3567,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EquipmentIncomeStatement class
 		/// </summary>
+		public EquipmentIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EquipmentIncomeStatement class
+		/// </summary>
 		public EquipmentIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3244,6 +3609,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ExplorationDevelopmentAndMineralPropertyLeaseExpensesIncomeStatement class
+		/// </summary>
+		public ExplorationDevelopmentAndMineralPropertyLeaseExpensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ExplorationDevelopmentAndMineralPropertyLeaseExpensesIncomeStatement class
@@ -3294,6 +3664,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FeesIncomeStatement class
 		/// </summary>
+		public FeesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FeesIncomeStatement class
+		/// </summary>
 		public FeesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3337,6 +3712,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FeesAndCommissionsIncomeStatement class
 		/// </summary>
+		public FeesAndCommissionsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FeesAndCommissionsIncomeStatement class
+		/// </summary>
 		public FeesAndCommissionsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3370,6 +3750,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ForeignExchangeTradingGainsIncomeStatement class
+		/// </summary>
+		public ForeignExchangeTradingGainsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ForeignExchangeTradingGainsIncomeStatement class
@@ -3421,6 +3806,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FuelIncomeStatement class
 		/// </summary>
+		public FuelIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FuelIncomeStatement class
+		/// </summary>
 		public FuelIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3453,6 +3843,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FuelAndPurchasePowerIncomeStatement class
+		/// </summary>
+		public FuelAndPurchasePowerIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FuelAndPurchasePowerIncomeStatement class
@@ -3504,6 +3899,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainOnSaleOfBusinessIncomeStatement class
 		/// </summary>
+		public GainOnSaleOfBusinessIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainOnSaleOfBusinessIncomeStatement class
+		/// </summary>
 		public GainOnSaleOfBusinessIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3542,6 +3942,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainOnSaleOfPPEIncomeStatement class
+		/// </summary>
+		public GainOnSaleOfPPEIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainOnSaleOfPPEIncomeStatement class
@@ -3588,6 +3993,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainOnSaleOfSecurityIncomeStatement class
+		/// </summary>
+		public GainOnSaleOfSecurityIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainOnSaleOfSecurityIncomeStatement class
@@ -3639,6 +4049,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainsLossOnDisposalOfDiscontinuedOperationsIncomeStatement class
 		/// </summary>
+		public GainsLossOnDisposalOfDiscontinuedOperationsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainsLossOnDisposalOfDiscontinuedOperationsIncomeStatement class
+		/// </summary>
 		public GainsLossOnDisposalOfDiscontinuedOperationsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3673,6 +4088,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GasRevenueIncomeStatement class
+		/// </summary>
+		public GasRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GasRevenueIncomeStatement class
@@ -3714,6 +4134,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GeneralAccountAssetsIncomeStatement class
 		/// </summary>
+		public GeneralAccountAssetsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GeneralAccountAssetsIncomeStatement class
+		/// </summary>
 		public GeneralAccountAssetsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3746,6 +4171,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GeneralExpenseIncomeStatement class
+		/// </summary>
+		public GeneralExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GeneralExpenseIncomeStatement class
@@ -3783,6 +4213,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GrossPremiumsWrittenIncomeStatement class
+		/// </summary>
+		public GrossPremiumsWrittenIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GrossPremiumsWrittenIncomeStatement class
@@ -3838,6 +4273,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ImpairmentOfCapitalAssetsIncomeStatement class
 		/// </summary>
+		public ImpairmentOfCapitalAssetsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ImpairmentOfCapitalAssetsIncomeStatement class
+		/// </summary>
 		public ImpairmentOfCapitalAssetsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3884,6 +4324,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherImpairmentOfCapitalAssetsIncomeStatement class
 		/// </summary>
+		public OtherImpairmentOfCapitalAssetsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherImpairmentOfCapitalAssetsIncomeStatement class
+		/// </summary>
 		public OtherImpairmentOfCapitalAssetsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3918,6 +4363,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the IncomeFromEquityMethodInvestmentsIncomeStatement class
+		/// </summary>
+		public IncomeFromEquityMethodInvestmentsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the IncomeFromEquityMethodInvestmentsIncomeStatement class
@@ -3959,6 +4409,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AcquiredInProcessRnDIncomeIncomeStatement class
 		/// </summary>
+		public AcquiredInProcessRnDIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AcquiredInProcessRnDIncomeIncomeStatement class
+		/// </summary>
 		public AcquiredInProcessRnDIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -3991,6 +4446,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RestructringAndMnAIncomeIncomeStatement class
+		/// </summary>
+		public RestructringAndMnAIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RestructringAndMnAIncomeIncomeStatement class
@@ -4034,6 +4494,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IncreaseDecreaseInNetUnearnedPremiumReservesIncomeStatement class
 		/// </summary>
+		public IncreaseDecreaseInNetUnearnedPremiumReservesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IncreaseDecreaseInNetUnearnedPremiumReservesIncomeStatement class
+		/// </summary>
 		public IncreaseDecreaseInNetUnearnedPremiumReservesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4072,6 +4537,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InsuranceAndClaimsIncomeStatement class
 		/// </summary>
+		public InsuranceAndClaimsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InsuranceAndClaimsIncomeStatement class
+		/// </summary>
 		public InsuranceAndClaimsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4104,6 +4574,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InsuranceAndPremiumsIncomeStatement class
+		/// </summary>
+		public InsuranceAndPremiumsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InsuranceAndPremiumsIncomeStatement class
@@ -4145,6 +4620,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromInterestBearingDepositsIncomeStatement class
 		/// </summary>
+		public InterestIncomeFromInterestBearingDepositsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromInterestBearingDepositsIncomeStatement class
+		/// </summary>
 		public InterestIncomeFromInterestBearingDepositsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4177,6 +4657,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseForCapitalizedLeaseObligationsIncomeStatement class
+		/// </summary>
+		public InterestExpenseForCapitalizedLeaseObligationsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestExpenseForCapitalizedLeaseObligationsIncomeStatement class
@@ -4223,6 +4708,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestExpenseForDepositIncomeStatement class
 		/// </summary>
+		public InterestExpenseForDepositIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseForDepositIncomeStatement class
+		/// </summary>
 		public InterestExpenseForDepositIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4256,6 +4746,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseForFederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellIncomeStatement class
+		/// </summary>
+		public InterestExpenseForFederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestExpenseForFederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellIncomeStatement class
@@ -4302,6 +4797,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestExpenseForLongTermDebtIncomeStatement class
 		/// </summary>
+		public InterestExpenseForLongTermDebtIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseForLongTermDebtIncomeStatement class
+		/// </summary>
 		public InterestExpenseForLongTermDebtIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4344,6 +4844,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestExpenseForLongTermDebtAndCapitalSecuritiesIncomeStatement class
 		/// </summary>
+		public InterestExpenseForLongTermDebtAndCapitalSecuritiesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseForLongTermDebtAndCapitalSecuritiesIncomeStatement class
+		/// </summary>
 		public InterestExpenseForLongTermDebtAndCapitalSecuritiesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4377,6 +4882,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestExpenseForShortTermDebtIncomeStatement class
+		/// </summary>
+		public InterestExpenseForShortTermDebtIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestExpenseForShortTermDebtIncomeStatement class
@@ -4422,6 +4932,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromDepositsIncomeStatement class
 		/// </summary>
+		public InterestIncomeFromDepositsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromDepositsIncomeStatement class
+		/// </summary>
 		public InterestIncomeFromDepositsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4458,6 +4973,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromFederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellIncomeStatement class
+		/// </summary>
+		public InterestIncomeFromFederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromFederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellIncomeStatement class
@@ -4509,6 +5029,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromInvestmentSecuritiesIncomeStatement class
 		/// </summary>
+		public InterestIncomeFromInvestmentSecuritiesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromInvestmentSecuritiesIncomeStatement class
+		/// </summary>
 		public InterestIncomeFromInvestmentSecuritiesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4546,6 +5071,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromLeasesIncomeStatement class
+		/// </summary>
+		public InterestIncomeFromLeasesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromLeasesIncomeStatement class
@@ -4593,6 +5123,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromLoansIncomeStatement class
 		/// </summary>
+		public InterestIncomeFromLoansIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromLoansIncomeStatement class
+		/// </summary>
 		public InterestIncomeFromLoansIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4630,6 +5165,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromLoansAndLeaseIncomeStatement class
+		/// </summary>
+		public InterestIncomeFromLoansAndLeaseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromLoansAndLeaseIncomeStatement class
@@ -4683,6 +5223,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromSecuritiesIncomeStatement class
 		/// </summary>
+		public InterestIncomeFromSecuritiesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromSecuritiesIncomeStatement class
+		/// </summary>
 		public InterestIncomeFromSecuritiesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4715,6 +5260,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromTradingAccountSecuritiesIncomeStatement class
+		/// </summary>
+		public InterestIncomeFromTradingAccountSecuritiesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromTradingAccountSecuritiesIncomeStatement class
@@ -4758,6 +5308,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InvestmentBankingProfitIncomeStatement class
 		/// </summary>
+		public InvestmentBankingProfitIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentBankingProfitIncomeStatement class
+		/// </summary>
 		public InvestmentBankingProfitIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4790,6 +5345,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LifeAnnuityPremiumsIncomeStatement class
+		/// </summary>
+		public LifeAnnuityPremiumsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LifeAnnuityPremiumsIncomeStatement class
@@ -4830,6 +5390,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LoansHeldForResellIncomeStatement class
 		/// </summary>
+		public LoansHeldForResellIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LoansHeldForResellIncomeStatement class
+		/// </summary>
 		public LoansHeldForResellIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4863,6 +5428,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LossAndLossAdjustmentExpectedIncurredIncomeStatement class
+		/// </summary>
+		public LossAndLossAdjustmentExpectedIncurredIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LossAndLossAdjustmentExpectedIncurredIncomeStatement class
@@ -4914,6 +5484,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MaintenanceAndRepairsIncomeStatement class
 		/// </summary>
+		public MaintenanceAndRepairsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MaintenanceAndRepairsIncomeStatement class
+		/// </summary>
 		public MaintenanceAndRepairsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4955,6 +5530,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MarketingExpenseIncomeStatement class
 		/// </summary>
+		public MarketingExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MarketingExpenseIncomeStatement class
+		/// </summary>
 		public MarketingExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -4987,6 +5567,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeFromOtherMoneyMarketInvestmentsIncomeStatement class
+		/// </summary>
+		public InterestIncomeFromOtherMoneyMarketInvestmentsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestIncomeFromOtherMoneyMarketInvestmentsIncomeStatement class
@@ -5028,6 +5613,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetForeignExchangeGainLossIncomeStatement class
 		/// </summary>
+		public NetForeignExchangeGainLossIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetForeignExchangeGainLossIncomeStatement class
+		/// </summary>
 		public NetForeignExchangeGainLossIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5061,6 +5651,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetOccupancyExpenseIncomeStatement class
+		/// </summary>
+		public NetOccupancyExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetOccupancyExpenseIncomeStatement class
@@ -5101,6 +5696,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetPremiumsWrittenIncomeStatement class
 		/// </summary>
+		public NetPremiumsWrittenIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetPremiumsWrittenIncomeStatement class
+		/// </summary>
 		public NetPremiumsWrittenIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5134,6 +5734,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetRealizedGainLossOnInvestmentsIncomeStatement class
+		/// </summary>
+		public NetRealizedGainLossOnInvestmentsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetRealizedGainLossOnInvestmentsIncomeStatement class
@@ -5184,6 +5789,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonRecurringOperationExpenseIncomeStatement class
 		/// </summary>
+		public NonRecurringOperationExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonRecurringOperationExpenseIncomeStatement class
+		/// </summary>
 		public NonRecurringOperationExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5220,6 +5830,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OccupancyAndEquipmentIncomeStatement class
 		/// </summary>
+		public OccupancyAndEquipmentIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OccupancyAndEquipmentIncomeStatement class
+		/// </summary>
 		public OccupancyAndEquipmentIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5238,6 +5853,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OperatingTaxesnLicensesIncomeStatement class
+		/// </summary>
+		public OperatingTaxesnLicensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OperatingTaxesnLicensesIncomeStatement class
@@ -5290,6 +5910,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OperationAndMaintenanceIncomeStatement class
 		/// </summary>
+		public OperationAndMaintenanceIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OperationAndMaintenanceIncomeStatement class
+		/// </summary>
 		public OperationAndMaintenanceIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5331,6 +5956,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherCustomerServicesIncomeStatement class
 		/// </summary>
+		public OtherCustomerServicesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherCustomerServicesIncomeStatement class
+		/// </summary>
 		public OtherCustomerServicesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5363,6 +5993,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherGainLossFromDispositionOfDiscontinuedOperationsIncomeStatement class
+		/// </summary>
+		public OtherGainLossFromDispositionOfDiscontinuedOperationsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherGainLossFromDispositionOfDiscontinuedOperationsIncomeStatement class
@@ -5408,6 +6043,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherInterestExpenseIncomeStatement class
 		/// </summary>
+		public OtherInterestExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherInterestExpenseIncomeStatement class
+		/// </summary>
 		public OtherInterestExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5445,6 +6085,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherInterestIncomeIncomeStatement class
+		/// </summary>
+		public OtherInterestIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherInterestIncomeIncomeStatement class
@@ -5491,6 +6136,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherNonInterestExpenseIncomeStatement class
+		/// </summary>
+		public OtherNonInterestExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherNonInterestExpenseIncomeStatement class
@@ -5543,6 +6193,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherOperatingRevenueIncomeStatement class
 		/// </summary>
+		public OtherOperatingRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherOperatingRevenueIncomeStatement class
+		/// </summary>
 		public OtherOperatingRevenueIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5580,6 +6235,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherSpecialChargesIncomeStatement class
+		/// </summary>
+		public OtherSpecialChargesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherSpecialChargesIncomeStatement class
@@ -5630,6 +6290,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MiscOtherSpecialChargesIncomeStatement class
 		/// </summary>
+		public MiscOtherSpecialChargesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MiscOtherSpecialChargesIncomeStatement class
+		/// </summary>
 		public MiscOtherSpecialChargesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5676,6 +6341,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherTaxesIncomeStatement class
 		/// </summary>
+		public OtherTaxesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherTaxesIncomeStatement class
+		/// </summary>
 		public OtherTaxesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5712,6 +6382,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PolicyFeesIncomeStatement class
 		/// </summary>
+		public PolicyFeesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PolicyFeesIncomeStatement class
+		/// </summary>
 		public PolicyFeesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5730,6 +6405,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PolicyholderBenefitsCededIncomeStatement class
+		/// </summary>
+		public PolicyholderBenefitsCededIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PolicyholderBenefitsCededIncomeStatement class
@@ -5767,6 +6447,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PolicyholderBenefitsGrossIncomeStatement class
+		/// </summary>
+		public PolicyholderBenefitsGrossIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PolicyholderBenefitsGrossIncomeStatement class
@@ -5809,6 +6494,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PolicyholderDividendsIncomeStatement class
 		/// </summary>
+		public PolicyholderDividendsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PolicyholderDividendsIncomeStatement class
+		/// </summary>
 		public PolicyholderDividendsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5842,6 +6532,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PolicyholderInterestIncomeStatement class
+		/// </summary>
+		public PolicyholderInterestIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PolicyholderInterestIncomeStatement class
@@ -5883,6 +6578,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PolicyholderAndReinsurerAccountsIncomeStatement class
 		/// </summary>
+		public PolicyholderAndReinsurerAccountsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PolicyholderAndReinsurerAccountsIncomeStatement class
+		/// </summary>
 		public PolicyholderAndReinsurerAccountsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -5916,6 +6616,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TrustPreferredSecuritiesIncomeStatement class
+		/// </summary>
+		public TrustPreferredSecuritiesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TrustPreferredSecuritiesIncomeStatement class
@@ -5967,6 +6672,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PrincipleTransactionRevenueIncomeStatement class
 		/// </summary>
+		public PrincipleTransactionRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PrincipleTransactionRevenueIncomeStatement class
+		/// </summary>
 		public PrincipleTransactionRevenueIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6014,6 +6724,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProfessionalExpenseAndContractServicesExpenseIncomeStatement class
 		/// </summary>
+		public ProfessionalExpenseAndContractServicesExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProfessionalExpenseAndContractServicesExpenseIncomeStatement class
+		/// </summary>
 		public ProfessionalExpenseAndContractServicesExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6056,6 +6771,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PromotionAndAdvertisingIncomeStatement class
 		/// </summary>
+		public PromotionAndAdvertisingIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PromotionAndAdvertisingIncomeStatement class
+		/// </summary>
 		public PromotionAndAdvertisingIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6089,6 +6809,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PropertyCasualtyPremiumsIncomeStatement class
+		/// </summary>
+		public PropertyCasualtyPremiumsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PropertyCasualtyPremiumsIncomeStatement class
@@ -6137,6 +6862,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProvisionForDoubtfulAccountsIncomeStatement class
 		/// </summary>
+		public ProvisionForDoubtfulAccountsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProvisionForDoubtfulAccountsIncomeStatement class
+		/// </summary>
 		public ProvisionForDoubtfulAccountsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6169,6 +6899,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProvisionForGainLossOnDisposalIncomeStatement class
+		/// </summary>
+		public ProvisionForGainLossOnDisposalIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProvisionForGainLossOnDisposalIncomeStatement class
@@ -6210,6 +6945,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PurchasedTransportationServicesIncomeStatement class
 		/// </summary>
+		public PurchasedTransportationServicesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PurchasedTransportationServicesIncomeStatement class
+		/// </summary>
 		public PurchasedTransportationServicesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6243,6 +6983,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RealizedCapitalGainIncomeStatement class
+		/// </summary>
+		public RealizedCapitalGainIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RealizedCapitalGainIncomeStatement class
@@ -6294,6 +7039,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RentAndLandingFeesIncomeStatement class
 		/// </summary>
+		public RentAndLandingFeesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RentAndLandingFeesIncomeStatement class
+		/// </summary>
 		public RentAndLandingFeesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6328,6 +7078,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ResearchExpenseIncomeStatement class
+		/// </summary>
+		public ResearchExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ResearchExpenseIncomeStatement class
@@ -6381,6 +7136,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RestructuringAndMergernAcquisitionIncomeStatement class
 		/// </summary>
+		public RestructuringAndMergernAcquisitionIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RestructuringAndMergernAcquisitionIncomeStatement class
+		/// </summary>
 		public RestructuringAndMergernAcquisitionIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6423,6 +7183,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RevenuesCargoIncomeStatement class
+		/// </summary>
+		public RevenuesCargoIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RevenuesCargoIncomeStatement class
@@ -6474,6 +7239,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RevenuesPassengerIncomeStatement class
 		/// </summary>
+		public RevenuesPassengerIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RevenuesPassengerIncomeStatement class
+		/// </summary>
 		public RevenuesPassengerIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6520,6 +7290,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SalariesAndWagesIncomeStatement class
 		/// </summary>
+		public SalariesAndWagesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SalariesAndWagesIncomeStatement class
+		/// </summary>
 		public SalariesAndWagesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6552,6 +7327,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SecuritiesActivitiesIncomeStatement class
+		/// </summary>
+		public SecuritiesActivitiesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SecuritiesActivitiesIncomeStatement class
@@ -6602,6 +7382,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SellingExpenseIncomeStatement class
 		/// </summary>
+		public SellingExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SellingExpenseIncomeStatement class
+		/// </summary>
 		public SellingExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6646,6 +7431,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ServiceChargeOnDepositorAccountsIncomeStatement class
 		/// </summary>
+		public ServiceChargeOnDepositorAccountsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ServiceChargeOnDepositorAccountsIncomeStatement class
+		/// </summary>
 		public ServiceChargeOnDepositorAccountsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6679,6 +7469,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ShareInNetIncomeOfUnconsolidatedEntitiesIncomeStatement class
+		/// </summary>
+		public ShareInNetIncomeOfUnconsolidatedEntitiesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ShareInNetIncomeOfUnconsolidatedEntitiesIncomeStatement class
@@ -6718,6 +7513,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TimeDepositsPlacedIncomeStatement class
+		/// </summary>
+		public TimeDepositsPlacedIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TimeDepositsPlacedIncomeStatement class
@@ -6767,6 +7567,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TradingGainLossIncomeStatement class
 		/// </summary>
+		public TradingGainLossIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TradingGainLossIncomeStatement class
+		/// </summary>
 		public TradingGainLossIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6804,6 +7609,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TransportationRevenueIncomeStatement class
 		/// </summary>
+		public TransportationRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TransportationRevenueIncomeStatement class
+		/// </summary>
 		public TransportationRevenueIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6837,6 +7647,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TrustFeesbyCommissionsIncomeStatement class
+		/// </summary>
+		public TrustFeesbyCommissionsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TrustFeesbyCommissionsIncomeStatement class
@@ -6880,6 +7695,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the UnderwritingExpensesIncomeStatement class
 		/// </summary>
+		public UnderwritingExpensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the UnderwritingExpensesIncomeStatement class
+		/// </summary>
 		public UnderwritingExpensesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6912,6 +7732,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the WriteDownIncomeStatement class
+		/// </summary>
+		public WriteDownIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the WriteDownIncomeStatement class
@@ -6952,6 +7777,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherWriteDownIncomeStatement class
 		/// </summary>
+		public OtherWriteDownIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherWriteDownIncomeStatement class
+		/// </summary>
 		public OtherWriteDownIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -6988,6 +7818,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the WriteOffIncomeStatement class
 		/// </summary>
+		public WriteOffIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the WriteOffIncomeStatement class
+		/// </summary>
 		public WriteOffIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7020,6 +7855,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherWriteOffIncomeStatement class
+		/// </summary>
+		public OtherWriteOffIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherWriteOffIncomeStatement class
@@ -7065,6 +7905,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherNonInterestIncomeIncomeStatement class
 		/// </summary>
+		public OtherNonInterestIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherNonInterestIncomeIncomeStatement class
+		/// </summary>
 		public OtherNonInterestIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7098,6 +7943,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PremiumTaxesCreditIncomeStatement class
+		/// </summary>
+		public PremiumTaxesCreditIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PremiumTaxesCreditIncomeStatement class
@@ -7149,6 +7999,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AmortizationOfIntangiblesIncomeStatement class
 		/// </summary>
+		public AmortizationOfIntangiblesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AmortizationOfIntangiblesIncomeStatement class
+		/// </summary>
 		public AmortizationOfIntangiblesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7195,6 +8050,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeFromContinuingAndDiscontinuedOperationIncomeStatement class
 		/// </summary>
+		public NetIncomeFromContinuingAndDiscontinuedOperationIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeFromContinuingAndDiscontinuedOperationIncomeStatement class
+		/// </summary>
 		public NetIncomeFromContinuingAndDiscontinuedOperationIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7232,6 +8092,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeFromOtherGainsLossesIncomeStatement class
 		/// </summary>
+		public NetIncomeFromOtherGainsLossesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeFromOtherGainsLossesIncomeStatement class
+		/// </summary>
 		public NetIncomeFromOtherGainsLossesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7265,6 +8130,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeFromTaxLossCarryforwardIncomeStatement class
+		/// </summary>
+		public NetIncomeFromTaxLossCarryforwardIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetIncomeFromTaxLossCarryforwardIncomeStatement class
@@ -7316,6 +8186,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherOperatingExpensesIncomeStatement class
 		/// </summary>
+		public OtherOperatingExpensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherOperatingExpensesIncomeStatement class
+		/// </summary>
 		public OtherOperatingExpensesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7353,6 +8228,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalMoneyMarketInvestmentsIncomeStatement class
+		/// </summary>
+		public TotalMoneyMarketInvestmentsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalMoneyMarketInvestmentsIncomeStatement class
@@ -7404,6 +8284,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReconciledCostOfRevenueIncomeStatement class
 		/// </summary>
+		public ReconciledCostOfRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReconciledCostOfRevenueIncomeStatement class
+		/// </summary>
 		public ReconciledCostOfRevenueIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7446,6 +8331,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ReconciledDepreciationIncomeStatement class
+		/// </summary>
+		public ReconciledDepreciationIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ReconciledDepreciationIncomeStatement class
@@ -7497,6 +8387,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NormalizedIncomeIncomeStatement class
 		/// </summary>
+		public NormalizedIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NormalizedIncomeIncomeStatement class
+		/// </summary>
 		public NormalizedIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7540,6 +8435,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NonOperatingExpensesIncomeStatement class
+		/// </summary>
+		public NonOperatingExpensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NonOperatingExpensesIncomeStatement class
@@ -7592,6 +8492,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonOperatingIncomeIncomeStatement class
 		/// </summary>
+		public NonOperatingIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonOperatingIncomeIncomeStatement class
+		/// </summary>
 		public NonOperatingIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7640,6 +8545,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeFromContinuingOperationNetMinorityInterestIncomeStatement class
 		/// </summary>
+		public NetIncomeFromContinuingOperationNetMinorityInterestIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeFromContinuingOperationNetMinorityInterestIncomeStatement class
+		/// </summary>
 		public NetIncomeFromContinuingOperationNetMinorityInterestIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7677,6 +8587,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PrincipleInvestmentGainLossIncomeStatement class
+		/// </summary>
+		public PrincipleInvestmentGainLossIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PrincipleInvestmentGainLossIncomeStatement class
@@ -7723,6 +8638,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainLossonSaleofAssetsIncomeStatement class
 		/// </summary>
+		public GainLossonSaleofAssetsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainLossonSaleofAssetsIncomeStatement class
+		/// </summary>
 		public GainLossonSaleofAssetsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7764,6 +8684,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainonSaleofLoansIncomeStatement class
 		/// </summary>
+		public GainonSaleofLoansIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainonSaleofLoansIncomeStatement class
+		/// </summary>
 		public GainonSaleofLoansIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7796,6 +8721,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainonSaleofInvestmentPropertyIncomeStatement class
+		/// </summary>
+		public GainonSaleofInvestmentPropertyIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainonSaleofInvestmentPropertyIncomeStatement class
@@ -7836,6 +8766,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SpecialIncomeIncomeStatement class
 		/// </summary>
+		public SpecialIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SpecialIncomeIncomeStatement class
+		/// </summary>
 		public SpecialIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7868,6 +8803,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AcquiredinProcessRnDIncomeBanksIncomeStatement class
+		/// </summary>
+		public AcquiredinProcessRnDIncomeBanksIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AcquiredinProcessRnDIncomeBanksIncomeStatement class
@@ -7912,6 +8852,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RestructuringAndMergerAndAcquisitionIncomeIncomeStatement class
 		/// </summary>
+		public RestructuringAndMergerAndAcquisitionIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RestructuringAndMergerAndAcquisitionIncomeIncomeStatement class
+		/// </summary>
 		public RestructuringAndMergerAndAcquisitionIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -7945,6 +8890,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ImpairmentofCapitalAssetsIncomeIncomeStatement class
+		/// </summary>
+		public ImpairmentofCapitalAssetsIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ImpairmentofCapitalAssetsIncomeIncomeStatement class
@@ -7984,6 +8934,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainonExtinguishmentofDebtIncomeStatement class
+		/// </summary>
+		public GainonExtinguishmentofDebtIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainonExtinguishmentofDebtIncomeStatement class
@@ -8034,6 +8989,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SpecialChargeIncomeStatement class
 		/// </summary>
+		public SpecialChargeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SpecialChargeIncomeStatement class
+		/// </summary>
 		public SpecialChargeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8069,6 +9029,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LossonExtinguishmentofDebtIncomeStatement class
+		/// </summary>
+		public LossonExtinguishmentofDebtIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LossonExtinguishmentofDebtIncomeStatement class
@@ -8119,6 +9084,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EarningsfromEquityInterestNetOfTaxIncomeStatement class
 		/// </summary>
+		public EarningsfromEquityInterestNetOfTaxIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EarningsfromEquityInterestNetOfTaxIncomeStatement class
+		/// </summary>
 		public EarningsfromEquityInterestNetOfTaxIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8165,6 +9135,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeIncludingNoncontrollingInterestsIncomeStatement class
 		/// </summary>
+		public NetIncomeIncludingNoncontrollingInterestsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeIncludingNoncontrollingInterestsIncomeStatement class
+		/// </summary>
 		public NetIncomeIncludingNoncontrollingInterestsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8206,6 +9181,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherunderPreferredStockDividendIncomeStatement class
 		/// </summary>
+		public OtherunderPreferredStockDividendIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherunderPreferredStockDividendIncomeStatement class
+		/// </summary>
 		public OtherunderPreferredStockDividendIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8239,6 +9219,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the EarningsfromEquityInterestRevenueIncomeStatement class
+		/// </summary>
+		public EarningsfromEquityInterestRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the EarningsfromEquityInterestRevenueIncomeStatement class
@@ -8279,6 +9264,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainLossfromDisposalSaleofAssetsIncomeStatement class
 		/// </summary>
+		public GainLossfromDisposalSaleofAssetsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainLossfromDisposalSaleofAssetsIncomeStatement class
+		/// </summary>
 		public GainLossfromDisposalSaleofAssetsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8311,6 +9301,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainLossfromDisposalSaleofAssetsOtherIncomeStatement class
+		/// </summary>
+		public GainLossfromDisposalSaleofAssetsOtherIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainLossfromDisposalSaleofAssetsOtherIncomeStatement class
@@ -8351,6 +9346,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainonSaleofOtherRealEstateOwnedIncomeStatement class
 		/// </summary>
+		public GainonSaleofOtherRealEstateOwnedIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainonSaleofOtherRealEstateOwnedIncomeStatement class
+		/// </summary>
 		public GainonSaleofOtherRealEstateOwnedIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8383,6 +9383,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeRevenueIncomeStatement class
+		/// </summary>
+		public InterestIncomeRevenueIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestIncomeRevenueIncomeStatement class
@@ -8423,6 +9428,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LitigationExpenseIncomeStatement class
 		/// </summary>
+		public LitigationExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LitigationExpenseIncomeStatement class
+		/// </summary>
 		public LitigationExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8455,6 +9465,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherthanTemporaryImpairmentLossesInvestmentsIncomeStatement class
+		/// </summary>
+		public OtherthanTemporaryImpairmentLossesInvestmentsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherthanTemporaryImpairmentLossesInvestmentsIncomeStatement class
@@ -8495,6 +9510,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the UnrealizedGainorLossIncomeStatement class
 		/// </summary>
+		public UnrealizedGainorLossIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the UnrealizedGainorLossIncomeStatement class
+		/// </summary>
 		public UnrealizedGainorLossIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8527,6 +9547,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangesinInventoriesofFinishedGoodsandWorkinProgressIncomeStatement class
+		/// </summary>
+		public ChangesinInventoriesofFinishedGoodsandWorkinProgressIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangesinInventoriesofFinishedGoodsandWorkinProgressIncomeStatement class
@@ -8567,6 +9592,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the WorkPerformedbyEntityandCapitalizedIncomeStatement class
 		/// </summary>
+		public WorkPerformedbyEntityandCapitalizedIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the WorkPerformedbyEntityandCapitalizedIncomeStatement class
+		/// </summary>
 		public WorkPerformedbyEntityandCapitalizedIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8584,6 +9614,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DistributionCostsIncomeStatement class
+		/// </summary>
+		public DistributionCostsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DistributionCostsIncomeStatement class
@@ -8629,6 +9664,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the StaffCostsIncomeStatement class
 		/// </summary>
+		public StaffCostsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the StaffCostsIncomeStatement class
+		/// </summary>
 		public StaffCostsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8646,6 +9686,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SocialSecurityCostsIncomeStatement class
+		/// </summary>
+		public SocialSecurityCostsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SocialSecurityCostsIncomeStatement class
@@ -8668,6 +9713,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PensionCostsIncomeStatement class
+		/// </summary>
+		public PensionCostsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PensionCostsIncomeStatement class
@@ -8713,6 +9763,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherOperatingIncomeTotalIncomeStatement class
 		/// </summary>
+		public OtherOperatingIncomeTotalIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherOperatingIncomeTotalIncomeStatement class
+		/// </summary>
 		public OtherOperatingIncomeTotalIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8745,6 +9800,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ShareofOperatingProfitLossfromJointVenturesAndAssociatesIncomeStatement class
+		/// </summary>
+		public ShareofOperatingProfitLossfromJointVenturesAndAssociatesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ShareofOperatingProfitLossfromJointVenturesAndAssociatesIncomeStatement class
@@ -8785,6 +9845,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ExceptionalItemsIncomeStatement class
 		/// </summary>
+		public ExceptionalItemsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ExceptionalItemsIncomeStatement class
+		/// </summary>
 		public ExceptionalItemsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8817,6 +9882,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the IncomefromSharesinSubsidiariesGroupUndertakingsIncomeStatement class
+		/// </summary>
+		public IncomefromSharesinSubsidiariesGroupUndertakingsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the IncomefromSharesinSubsidiariesGroupUndertakingsIncomeStatement class
@@ -8857,6 +9927,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IncomefromAssociatesandOtherParticipatingInterestsIncomeStatement class
 		/// </summary>
+		public IncomefromAssociatesandOtherParticipatingInterestsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IncomefromAssociatesandOtherParticipatingInterestsIncomeStatement class
+		/// </summary>
 		public IncomefromAssociatesandOtherParticipatingInterestsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8893,6 +9968,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalOtherFinanceCostIncomeStatement class
 		/// </summary>
+		public TotalOtherFinanceCostIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalOtherFinanceCostIncomeStatement class
+		/// </summary>
 		public TotalOtherFinanceCostIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -8920,6 +10000,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GrossDividendPaymentIncomeStatement class
+		/// </summary>
+		public GrossDividendPaymentIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GrossDividendPaymentIncomeStatement class
@@ -8971,6 +10056,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestandSimilarIncomeIncomeStatement class
 		/// </summary>
+		public InterestandSimilarIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestandSimilarIncomeIncomeStatement class
+		/// </summary>
 		public InterestandSimilarIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9003,6 +10093,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FeesandCommissionIncomeIncomeStatement class
+		/// </summary>
+		public FeesandCommissionIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FeesandCommissionIncomeIncomeStatement class
@@ -9043,6 +10138,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FeesandCommissionExpenseIncomeStatement class
 		/// </summary>
+		public FeesandCommissionExpenseIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FeesandCommissionExpenseIncomeStatement class
+		/// </summary>
 		public FeesandCommissionExpenseIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9060,6 +10160,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetTradingIncomeIncomeStatement class
+		/// </summary>
+		public NetTradingIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetTradingIncomeIncomeStatement class
@@ -9100,6 +10205,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OutwardReinsurancePremiumsIncomeStatement class
 		/// </summary>
+		public OutwardReinsurancePremiumsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OutwardReinsurancePremiumsIncomeStatement class
+		/// </summary>
 		public OutwardReinsurancePremiumsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9117,6 +10227,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherStaffCostsIncomeStatement class
+		/// </summary>
+		public OtherStaffCostsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherStaffCostsIncomeStatement class
@@ -9148,6 +10263,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ShareBasedPaymentsIncomeStatement class
+		/// </summary>
+		public ShareBasedPaymentsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ShareBasedPaymentsIncomeStatement class
@@ -9184,6 +10304,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainonInvestmentPropertiesIncomeStatement class
+		/// </summary>
+		public GainonInvestmentPropertiesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainonInvestmentPropertiesIncomeStatement class
@@ -9226,6 +10351,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AverageDilutionEarnIncomeStatement class
 		/// </summary>
+		public AverageDilutionEarnIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AverageDilutionEarnIncomeStatement class
+		/// </summary>
 		public AverageDilutionEarnIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9243,6 +10373,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainonRedemptionandExtinguishmentofDebtIncomeStatement class
+		/// </summary>
+		public GainonRedemptionandExtinguishmentofDebtIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainonRedemptionandExtinguishmentofDebtIncomeStatement class
@@ -9283,6 +10418,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MiscellaneousOtherOperatingIncomeIncomeStatement class
 		/// </summary>
+		public MiscellaneousOtherOperatingIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MiscellaneousOtherOperatingIncomeIncomeStatement class
+		/// </summary>
 		public MiscellaneousOtherOperatingIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9315,6 +10455,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainLossonFinancialInstrumentsDesignatedasCashFlowHedgesIncomeStatement class
+		/// </summary>
+		public GainLossonFinancialInstrumentsDesignatedasCashFlowHedgesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainLossonFinancialInstrumentsDesignatedasCashFlowHedgesIncomeStatement class
@@ -9355,6 +10500,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainLossonDerecognitionofAvailableForSaleFinancialAssetsIncomeStatement class
 		/// </summary>
+		public GainLossonDerecognitionofAvailableForSaleFinancialAssetsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainLossonDerecognitionofAvailableForSaleFinancialAssetsIncomeStatement class
+		/// </summary>
 		public GainLossonDerecognitionofAvailableForSaleFinancialAssetsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9391,6 +10541,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainLossonDerecognitionofNonCurrentAssetsNotHeldforSaleTotalIncomeStatement class
 		/// </summary>
+		public GainLossonDerecognitionofNonCurrentAssetsNotHeldforSaleTotalIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainLossonDerecognitionofNonCurrentAssetsNotHeldforSaleTotalIncomeStatement class
+		/// </summary>
 		public GainLossonDerecognitionofNonCurrentAssetsNotHeldforSaleTotalIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9419,6 +10574,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NegativeGoodwillImmediatelyRecognizedIncomeStatement class
+		/// </summary>
+		public NegativeGoodwillImmediatelyRecognizedIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NegativeGoodwillImmediatelyRecognizedIncomeStatement class
@@ -9455,6 +10615,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainsLossesonFinancialInstrumentsDuetoFairValueAdjustmentsinHedgeAccountingTotalIncomeStatement class
+		/// </summary>
+		public GainsLossesonFinancialInstrumentsDuetoFairValueAdjustmentsinHedgeAccountingTotalIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainsLossesonFinancialInstrumentsDuetoFairValueAdjustmentsinHedgeAccountingTotalIncomeStatement class
@@ -9496,6 +10661,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ImpairmentLossesReversalsFinancialInstrumentsNetIncomeStatement class
 		/// </summary>
+		public ImpairmentLossesReversalsFinancialInstrumentsNetIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ImpairmentLossesReversalsFinancialInstrumentsNetIncomeStatement class
+		/// </summary>
 		public ImpairmentLossesReversalsFinancialInstrumentsNetIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9513,6 +10683,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ShareofProfitLossfromEquityAccountedInvestmentsIncomeStatement class
+		/// </summary>
+		public ShareofProfitLossfromEquityAccountedInvestmentsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ShareofProfitLossfromEquityAccountedInvestmentsIncomeStatement class
@@ -9553,6 +10728,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ClaimsandPaidIncurredIncomeStatement class
 		/// </summary>
+		public ClaimsandPaidIncurredIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ClaimsandPaidIncurredIncomeStatement class
+		/// </summary>
 		public ClaimsandPaidIncurredIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9585,6 +10765,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceRecoveriesClaimsandBenefitsIncomeStatement class
+		/// </summary>
+		public ReinsuranceRecoveriesClaimsandBenefitsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ReinsuranceRecoveriesClaimsandBenefitsIncomeStatement class
@@ -9625,6 +10810,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinInsuranceLiabilitiesNetofReinsuranceIncomeStatement class
 		/// </summary>
+		public ChangeinInsuranceLiabilitiesNetofReinsuranceIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinInsuranceLiabilitiesNetofReinsuranceIncomeStatement class
+		/// </summary>
 		public ChangeinInsuranceLiabilitiesNetofReinsuranceIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9661,6 +10851,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinInvestmentContractIncomeStatement class
 		/// </summary>
+		public ChangeinInvestmentContractIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinInvestmentContractIncomeStatement class
+		/// </summary>
 		public ChangeinInvestmentContractIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9693,6 +10888,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinReinsuranceAssetsIncomeStatement class
+		/// </summary>
+		public ChangeinReinsuranceAssetsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeinReinsuranceAssetsIncomeStatement class
@@ -9736,6 +10936,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CreditRiskProvisionsIncomeStatement class
 		/// </summary>
+		public CreditRiskProvisionsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CreditRiskProvisionsIncomeStatement class
+		/// </summary>
 		public CreditRiskProvisionsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9758,6 +10963,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the WagesandSalariesIncomeStatement class
+		/// </summary>
+		public WagesandSalariesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the WagesandSalariesIncomeStatement class
@@ -9803,6 +11013,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherNonOperatingIncomeExpensesIncomeStatement class
 		/// </summary>
+		public OtherNonOperatingIncomeExpensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherNonOperatingIncomeExpensesIncomeStatement class
+		/// </summary>
 		public OtherNonOperatingIncomeExpensesIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9835,6 +11050,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestIncomeOtherOperatingIncomeIncomeStatement class
+		/// </summary>
+		public InterestIncomeOtherOperatingIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestIncomeOtherOperatingIncomeIncomeStatement class
@@ -9875,6 +11095,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherNonOperatingIncomeIncomeStatement class
 		/// </summary>
+		public OtherNonOperatingIncomeIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherNonOperatingIncomeIncomeStatement class
+		/// </summary>
 		public OtherNonOperatingIncomeIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9907,6 +11132,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherNonOperatingExpensesIncomeStatement class
+		/// </summary>
+		public OtherNonOperatingExpensesIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherNonOperatingExpensesIncomeStatement class
@@ -9957,6 +11187,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalUnusualItemsIncomeStatement class
 		/// </summary>
+		public TotalUnusualItemsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalUnusualItemsIncomeStatement class
+		/// </summary>
 		public TotalUnusualItemsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -9999,6 +11234,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalUnusualItemsExcludingGoodwillIncomeStatement class
+		/// </summary>
+		public TotalUnusualItemsExcludingGoodwillIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalUnusualItemsExcludingGoodwillIncomeStatement class
@@ -10049,6 +11289,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TaxRateForCalcsIncomeStatement class
 		/// </summary>
+		public TaxRateForCalcsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TaxRateForCalcsIncomeStatement class
+		/// </summary>
 		public TaxRateForCalcsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10091,6 +11336,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TaxEffectOfUnusualItemsIncomeStatement class
+		/// </summary>
+		public TaxEffectOfUnusualItemsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TaxEffectOfUnusualItemsIncomeStatement class
@@ -10141,6 +11391,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NormalizedEBITDAIncomeStatement class
 		/// </summary>
+		public NormalizedEBITDAIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NormalizedEBITDAIncomeStatement class
+		/// </summary>
 		public NormalizedEBITDAIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10178,6 +11433,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainOnForeignCurrencyExchangeFromBorrowingsRelatingToInterestCostsIncomeStatement class
 		/// </summary>
+		public GainOnForeignCurrencyExchangeFromBorrowingsRelatingToInterestCostsIncomeStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainOnForeignCurrencyExchangeFromBorrowingsRelatingToInterestCostsIncomeStatement class
+		/// </summary>
 		public GainOnForeignCurrencyExchangeFromBorrowingsRelatingToInterestCostsIncomeStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10210,6 +11470,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the StockBasedCompensationIncomeStatement class
+		/// </summary>
+		public StockBasedCompensationIncomeStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the StockBasedCompensationIncomeStatement class
@@ -10261,6 +11526,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AccountsPayableBalanceSheet class
 		/// </summary>
+		public AccountsPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AccountsPayableBalanceSheet class
+		/// </summary>
 		public AccountsPayableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10303,6 +11573,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AccountsReceivableBalanceSheet class
+		/// </summary>
+		public AccountsReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AccountsReceivableBalanceSheet class
@@ -10354,6 +11629,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentAccruedExpensesBalanceSheet class
 		/// </summary>
+		public CurrentAccruedExpensesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentAccruedExpensesBalanceSheet class
+		/// </summary>
 		public CurrentAccruedExpensesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10392,6 +11672,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonCurrentAccruedExpensesBalanceSheet class
 		/// </summary>
+		public NonCurrentAccruedExpensesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentAccruedExpensesBalanceSheet class
+		/// </summary>
 		public NonCurrentAccruedExpensesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10419,6 +11704,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AccruedInvestmentIncomeBalanceSheet class
+		/// </summary>
+		public AccruedInvestmentIncomeBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AccruedInvestmentIncomeBalanceSheet class
@@ -10469,6 +11759,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AccumulatedDepreciationBalanceSheet class
 		/// </summary>
+		public AccumulatedDepreciationBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AccumulatedDepreciationBalanceSheet class
+		/// </summary>
 		public AccumulatedDepreciationBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10511,6 +11806,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainsLossesNotAffectingRetainedEarningsBalanceSheet class
+		/// </summary>
+		public GainsLossesNotAffectingRetainedEarningsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainsLossesNotAffectingRetainedEarningsBalanceSheet class
@@ -10566,6 +11866,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AdditionalPaidInCapitalBalanceSheet class
 		/// </summary>
+		public AdditionalPaidInCapitalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AdditionalPaidInCapitalBalanceSheet class
+		/// </summary>
 		public AdditionalPaidInCapitalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10598,6 +11903,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AllowanceForLoansAndLeaseLossesBalanceSheet class
+		/// </summary>
+		public AllowanceForLoansAndLeaseLossesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AllowanceForLoansAndLeaseLossesBalanceSheet class
@@ -10638,6 +11948,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AvailableForSaleSecuritiesBalanceSheet class
+		/// </summary>
+		public AvailableForSaleSecuritiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AvailableForSaleSecuritiesBalanceSheet class
@@ -10684,6 +11999,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CapitalStockBalanceSheet class
+		/// </summary>
+		public CapitalStockBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CapitalStockBalanceSheet class
@@ -10736,6 +12056,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashBalanceSheet class
 		/// </summary>
+		public CashBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashBalanceSheet class
+		/// </summary>
 		public CashBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10773,6 +12098,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashEquivalentsBalanceSheet class
+		/// </summary>
+		public CashEquivalentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashEquivalentsBalanceSheet class
@@ -10824,6 +12154,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashAndCashEquivalentsBalanceSheet class
 		/// </summary>
+		public CashAndCashEquivalentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashAndCashEquivalentsBalanceSheet class
+		/// </summary>
 		public CashAndCashEquivalentsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -10858,6 +12193,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashAndDueFromBanksBalanceSheet class
+		/// </summary>
+		public CashAndDueFromBanksBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashAndDueFromBanksBalanceSheet class
@@ -10899,6 +12239,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashCashEquivalentsAndFederalFundsSoldBalanceSheet class
+		/// </summary>
+		public CashCashEquivalentsAndFederalFundsSoldBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashCashEquivalentsAndFederalFundsSoldBalanceSheet class
@@ -10945,6 +12290,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashCashEquivalentsAndMarketableSecuritiesBalanceSheet class
+		/// </summary>
+		public CashCashEquivalentsAndMarketableSecuritiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashCashEquivalentsAndMarketableSecuritiesBalanceSheet class
@@ -10996,6 +12346,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommonStockBalanceSheet class
 		/// </summary>
+		public CommonStockBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommonStockBalanceSheet class
+		/// </summary>
 		public CommonStockBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11042,6 +12397,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentAssetsBalanceSheet class
 		/// </summary>
+		public CurrentAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentAssetsBalanceSheet class
+		/// </summary>
 		public CurrentAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11084,6 +12444,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CurrentDebtBalanceSheet class
+		/// </summary>
+		public CurrentDebtBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CurrentDebtBalanceSheet class
@@ -11135,6 +12500,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentDebtAndCapitalLeaseObligationBalanceSheet class
 		/// </summary>
+		public CurrentDebtAndCapitalLeaseObligationBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentDebtAndCapitalLeaseObligationBalanceSheet class
+		/// </summary>
 		public CurrentDebtAndCapitalLeaseObligationBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11177,6 +12547,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CurrentLiabilitiesBalanceSheet class
+		/// </summary>
+		public CurrentLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CurrentLiabilitiesBalanceSheet class
@@ -11228,6 +12603,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentCapitalLeaseObligationBalanceSheet class
 		/// </summary>
+		public CurrentCapitalLeaseObligationBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentCapitalLeaseObligationBalanceSheet class
+		/// </summary>
 		public CurrentCapitalLeaseObligationBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11260,6 +12640,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DeferredAssetsBalanceSheet class
+		/// </summary>
+		public DeferredAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DeferredAssetsBalanceSheet class
@@ -11311,6 +12696,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DeferredCostsBalanceSheet class
 		/// </summary>
+		public DeferredCostsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DeferredCostsBalanceSheet class
+		/// </summary>
 		public DeferredCostsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11353,6 +12743,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentDeferredLiabilitiesBalanceSheet class
+		/// </summary>
+		public NonCurrentDeferredLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NonCurrentDeferredLiabilitiesBalanceSheet class
@@ -11403,6 +12798,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentDeferredLiabilitiesBalanceSheet class
 		/// </summary>
+		public CurrentDeferredLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentDeferredLiabilitiesBalanceSheet class
+		/// </summary>
 		public CurrentDeferredLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11435,6 +12835,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DeferredPolicyAcquisitionCostsBalanceSheet class
+		/// </summary>
+		public DeferredPolicyAcquisitionCostsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DeferredPolicyAcquisitionCostsBalanceSheet class
@@ -11488,6 +12893,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentDeferredRevenueBalanceSheet class
 		/// </summary>
+		public CurrentDeferredRevenueBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentDeferredRevenueBalanceSheet class
+		/// </summary>
 		public CurrentDeferredRevenueBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11535,6 +12945,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonCurrentDeferredRevenueBalanceSheet class
 		/// </summary>
+		public NonCurrentDeferredRevenueBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentDeferredRevenueBalanceSheet class
+		/// </summary>
 		public NonCurrentDeferredRevenueBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11569,6 +12984,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DeferredTaxAssetsBalanceSheet class
+		/// </summary>
+		public DeferredTaxAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DeferredTaxAssetsBalanceSheet class
@@ -11621,6 +13041,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentDeferredTaxesAssetsBalanceSheet class
 		/// </summary>
+		public CurrentDeferredTaxesAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentDeferredTaxesAssetsBalanceSheet class
+		/// </summary>
 		public CurrentDeferredTaxesAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11656,6 +13081,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CurrentDeferredTaxesLiabilitiesBalanceSheet class
+		/// </summary>
+		public CurrentDeferredTaxesLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CurrentDeferredTaxesLiabilitiesBalanceSheet class
@@ -11708,6 +13138,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonCurrentDeferredTaxesAssetsBalanceSheet class
 		/// </summary>
+		public NonCurrentDeferredTaxesAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentDeferredTaxesAssetsBalanceSheet class
+		/// </summary>
 		public NonCurrentDeferredTaxesAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11756,6 +13191,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonCurrentDeferredTaxesLiabilitiesBalanceSheet class
 		/// </summary>
+		public NonCurrentDeferredTaxesLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentDeferredTaxesLiabilitiesBalanceSheet class
+		/// </summary>
 		public NonCurrentDeferredTaxesLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11783,6 +13223,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the EquityInvestmentsBalanceSheet class
+		/// </summary>
+		public EquityInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the EquityInvestmentsBalanceSheet class
@@ -11816,6 +13261,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FederalFundsPurchasedAndSecuritiesSoldUnderAgreementToRepurchaseBalanceSheet class
+		/// </summary>
+		public FederalFundsPurchasedAndSecuritiesSoldUnderAgreementToRepurchaseBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FederalFundsPurchasedAndSecuritiesSoldUnderAgreementToRepurchaseBalanceSheet class
@@ -11856,6 +13306,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellBalanceSheet class
 		/// </summary>
+		public FederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellBalanceSheet class
+		/// </summary>
 		public FederalFundsSoldAndSecuritiesPurchaseUnderAgreementsToResellBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11890,6 +13345,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FixedMaturitiesAvailableForSaleBalanceSheet class
 		/// </summary>
+		public FixedMaturitiesAvailableForSaleBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FixedMaturitiesAvailableForSaleBalanceSheet class
+		/// </summary>
 		public FixedMaturitiesAvailableForSaleBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11917,6 +13377,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FixedMaturitiesHeldToMaturityBalanceSheet class
 		/// </summary>
+		public FixedMaturitiesHeldToMaturityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FixedMaturitiesHeldToMaturityBalanceSheet class
+		/// </summary>
 		public FixedMaturitiesHeldToMaturityBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -11939,6 +13404,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FixedMaturitiesTradingBalanceSheet class
+		/// </summary>
+		public FixedMaturitiesTradingBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FixedMaturitiesTradingBalanceSheet class
@@ -11981,6 +13451,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FixedMaturityInvestmentsBalanceSheet class
 		/// </summary>
+		public FixedMaturityInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FixedMaturityInvestmentsBalanceSheet class
+		/// </summary>
 		public FixedMaturityInvestmentsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12005,6 +13480,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FuturePolicyBenefitsBalanceSheet class
+		/// </summary>
+		public FuturePolicyBenefitsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FuturePolicyBenefitsBalanceSheet class
@@ -12037,6 +13517,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GeneralPartnershipCapitalBalanceSheet class
+		/// </summary>
+		public GeneralPartnershipCapitalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GeneralPartnershipCapitalBalanceSheet class
@@ -12088,6 +13573,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GoodwillBalanceSheet class
 		/// </summary>
+		public GoodwillBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GoodwillBalanceSheet class
+		/// </summary>
 		public GoodwillBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12135,6 +13625,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GoodwillAndOtherIntangibleAssetsBalanceSheet class
 		/// </summary>
+		public GoodwillAndOtherIntangibleAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GoodwillAndOtherIntangibleAssetsBalanceSheet class
+		/// </summary>
 		public GoodwillAndOtherIntangibleAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12168,6 +13663,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GrossLoanBalanceSheet class
+		/// </summary>
+		public GrossLoanBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GrossLoanBalanceSheet class
@@ -12220,6 +13720,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GrossPPEBalanceSheet class
 		/// </summary>
+		public GrossPPEBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GrossPPEBalanceSheet class
+		/// </summary>
 		public GrossPPEBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12252,6 +13757,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the HeldToMaturitySecuritiesBalanceSheet class
+		/// </summary>
+		public HeldToMaturitySecuritiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the HeldToMaturitySecuritiesBalanceSheet class
@@ -12297,6 +13807,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IncomeTaxPayableBalanceSheet class
 		/// </summary>
+		public IncomeTaxPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IncomeTaxPayableBalanceSheet class
+		/// </summary>
 		public IncomeTaxPayableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12329,6 +13844,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestBearingDepositsLiabilitiesBalanceSheet class
+		/// </summary>
+		public InterestBearingDepositsLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestBearingDepositsLiabilitiesBalanceSheet class
@@ -12380,6 +13900,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestPayableBalanceSheet class
 		/// </summary>
+		public InterestPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestPayableBalanceSheet class
+		/// </summary>
 		public InterestPayableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12413,6 +13938,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestBearingDepositsAssetsBalanceSheet class
+		/// </summary>
+		public InterestBearingDepositsAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestBearingDepositsAssetsBalanceSheet class
@@ -12463,6 +13993,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InventoryBalanceSheet class
 		/// </summary>
+		public InventoryBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InventoryBalanceSheet class
+		/// </summary>
 		public InventoryBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12509,6 +14044,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InvestmentsAndAdvancesBalanceSheet class
 		/// </summary>
+		public InvestmentsAndAdvancesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentsAndAdvancesBalanceSheet class
+		/// </summary>
 		public InvestmentsAndAdvancesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12537,6 +14077,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LimitedPartnershipCapitalBalanceSheet class
+		/// </summary>
+		public LimitedPartnershipCapitalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LimitedPartnershipCapitalBalanceSheet class
@@ -12590,6 +14135,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermDebtBalanceSheet class
 		/// </summary>
+		public LongTermDebtBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermDebtBalanceSheet class
+		/// </summary>
 		public LongTermDebtBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12636,6 +14186,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermDebtAndCapitalLeaseObligationBalanceSheet class
 		/// </summary>
+		public LongTermDebtAndCapitalLeaseObligationBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermDebtAndCapitalLeaseObligationBalanceSheet class
+		/// </summary>
 		public LongTermDebtAndCapitalLeaseObligationBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12664,6 +14219,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LongTermInvestmentsBalanceSheet class
+		/// </summary>
+		public LongTermInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LongTermInvestmentsBalanceSheet class
@@ -12715,6 +14275,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermCapitalLeaseObligationBalanceSheet class
 		/// </summary>
+		public LongTermCapitalLeaseObligationBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermCapitalLeaseObligationBalanceSheet class
+		/// </summary>
 		public LongTermCapitalLeaseObligationBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12762,6 +14327,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MinorityInterestBalanceSheet class
 		/// </summary>
+		public MinorityInterestBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MinorityInterestBalanceSheet class
+		/// </summary>
 		public MinorityInterestBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12799,6 +14369,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MoneyMarketInvestmentsBalanceSheet class
 		/// </summary>
+		public MoneyMarketInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MoneyMarketInvestmentsBalanceSheet class
+		/// </summary>
 		public MoneyMarketInvestmentsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12831,6 +14406,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetLoanBalanceSheet class
+		/// </summary>
+		public NetLoanBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetLoanBalanceSheet class
@@ -12883,6 +14463,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetPPEBalanceSheet class
 		/// </summary>
+		public NetPPEBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetPPEBalanceSheet class
+		/// </summary>
 		public NetPPEBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12915,6 +14500,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NonInterestBearingDepositsBalanceSheet class
+		/// </summary>
+		public NonInterestBearingDepositsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NonInterestBearingDepositsBalanceSheet class
@@ -12965,6 +14555,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentNotesPayableBalanceSheet class
 		/// </summary>
+		public CurrentNotesPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentNotesPayableBalanceSheet class
+		/// </summary>
 		public CurrentNotesPayableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -12996,6 +14591,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NotesReceivableBalanceSheet class
+		/// </summary>
+		public NotesReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NotesReceivableBalanceSheet class
@@ -13034,6 +14634,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentNoteReceivablesBalanceSheet class
+		/// </summary>
+		public NonCurrentNoteReceivablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NonCurrentNoteReceivablesBalanceSheet class
@@ -13085,6 +14690,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherCurrentLiabilitiesBalanceSheet class
 		/// </summary>
+		public OtherCurrentLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherCurrentLiabilitiesBalanceSheet class
+		/// </summary>
 		public OtherCurrentLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13131,6 +14741,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherIntangibleAssetsBalanceSheet class
 		/// </summary>
+		public OtherIntangibleAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherIntangibleAssetsBalanceSheet class
+		/// </summary>
 		public OtherIntangibleAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13169,6 +14784,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherShortTermInvestmentsBalanceSheet class
+		/// </summary>
+		public OtherShortTermInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherShortTermInvestmentsBalanceSheet class
@@ -13220,6 +14840,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PayablesBalanceSheet class
 		/// </summary>
+		public PayablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PayablesBalanceSheet class
+		/// </summary>
 		public PayablesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13266,6 +14891,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PayablesAndAccruedExpensesBalanceSheet class
 		/// </summary>
+		public PayablesAndAccruedExpensesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PayablesAndAccruedExpensesBalanceSheet class
+		/// </summary>
 		public PayablesAndAccruedExpensesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13304,6 +14934,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PolicyReservesBenefitsBalanceSheet class
 		/// </summary>
+		public PolicyReservesBenefitsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PolicyReservesBenefitsBalanceSheet class
+		/// </summary>
 		public PolicyReservesBenefitsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13327,6 +14962,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PolicyholderFundsBalanceSheet class
+		/// </summary>
+		public PolicyholderFundsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PolicyholderFundsBalanceSheet class
@@ -13368,6 +15008,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PreferredSecuritiesOutsideStockEquityBalanceSheet class
+		/// </summary>
+		public PreferredSecuritiesOutsideStockEquityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PreferredSecuritiesOutsideStockEquityBalanceSheet class
@@ -13418,6 +15063,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PreferredStockBalanceSheet class
 		/// </summary>
+		public PreferredStockBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PreferredStockBalanceSheet class
+		/// </summary>
 		public PreferredStockBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13445,6 +15095,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PremiumsReceivableBalanceSheet class
+		/// </summary>
+		public PremiumsReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PremiumsReceivableBalanceSheet class
@@ -13495,6 +15150,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PrepaidAssetsBalanceSheet class
 		/// </summary>
+		public PrepaidAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PrepaidAssetsBalanceSheet class
+		/// </summary>
 		public PrepaidAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13528,6 +15188,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentPrepaidAssetsBalanceSheet class
+		/// </summary>
+		public NonCurrentPrepaidAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NonCurrentPrepaidAssetsBalanceSheet class
@@ -13579,6 +15244,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReceivablesBalanceSheet class
 		/// </summary>
+		public ReceivablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReceivablesBalanceSheet class
+		/// </summary>
 		public ReceivablesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13620,6 +15290,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RedeemablePreferredStockBalanceSheet class
 		/// </summary>
+		public RedeemablePreferredStockBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RedeemablePreferredStockBalanceSheet class
+		/// </summary>
 		public RedeemablePreferredStockBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13644,6 +15319,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceRecoverableBalanceSheet class
+		/// </summary>
+		public ReinsuranceRecoverableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ReinsuranceRecoverableBalanceSheet class
@@ -13695,6 +15375,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RetainedEarningsBalanceSheet class
 		/// </summary>
+		public RetainedEarningsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RetainedEarningsBalanceSheet class
+		/// </summary>
 		public RetainedEarningsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13719,6 +15404,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SecuritiesLendingCollateralBalanceSheet class
+		/// </summary>
+		public SecuritiesLendingCollateralBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SecuritiesLendingCollateralBalanceSheet class
@@ -13751,6 +15441,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SecurityAgreeToBeResellBalanceSheet class
 		/// </summary>
+		public SecurityAgreeToBeResellBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SecurityAgreeToBeResellBalanceSheet class
+		/// </summary>
 		public SecurityAgreeToBeResellBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13774,6 +15469,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SecuritySoldNotYetRepurchasedBalanceSheet class
+		/// </summary>
+		public SecuritySoldNotYetRepurchasedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SecuritySoldNotYetRepurchasedBalanceSheet class
@@ -13804,6 +15504,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SeparateAccountAssetsBalanceSheet class
 		/// </summary>
+		public SeparateAccountAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SeparateAccountAssetsBalanceSheet class
+		/// </summary>
 		public SeparateAccountAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13826,6 +15531,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SeparateAccountBusinessBalanceSheet class
+		/// </summary>
+		public SeparateAccountBusinessBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SeparateAccountBusinessBalanceSheet class
@@ -13857,6 +15567,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ShortTermInvestmentsAvailableForSaleBalanceSheet class
 		/// </summary>
+		public ShortTermInvestmentsAvailableForSaleBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ShortTermInvestmentsAvailableForSaleBalanceSheet class
+		/// </summary>
 		public ShortTermInvestmentsAvailableForSaleBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13884,6 +15599,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ShortTermInvestmentsHeldToMaturityBalanceSheet class
 		/// </summary>
+		public ShortTermInvestmentsHeldToMaturityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ShortTermInvestmentsHeldToMaturityBalanceSheet class
+		/// </summary>
 		public ShortTermInvestmentsHeldToMaturityBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -13906,6 +15626,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ShortTermInvestmentsTradingBalanceSheet class
+		/// </summary>
+		public ShortTermInvestmentsTradingBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ShortTermInvestmentsTradingBalanceSheet class
@@ -13957,6 +15682,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the StockholdersEquityBalanceSheet class
 		/// </summary>
+		public StockholdersEquityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the StockholdersEquityBalanceSheet class
+		/// </summary>
 		public StockholdersEquityBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14000,6 +15730,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalTaxPayableBalanceSheet class
+		/// </summary>
+		public TotalTaxPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalTaxPayableBalanceSheet class
@@ -14051,6 +15786,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalAssetsBalanceSheet class
 		/// </summary>
+		public TotalAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalAssetsBalanceSheet class
+		/// </summary>
 		public TotalAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14087,6 +15827,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalDepositsBalanceSheet class
 		/// </summary>
+		public TotalDepositsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalDepositsBalanceSheet class
+		/// </summary>
 		public TotalDepositsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14115,6 +15860,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalInvestmentsBalanceSheet class
+		/// </summary>
+		public TotalInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalInvestmentsBalanceSheet class
@@ -14166,6 +15916,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalLiabilitiesBalanceSheet class
 		/// </summary>
+		public TotalLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalLiabilitiesBalanceSheet class
+		/// </summary>
 		public TotalLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14209,6 +15964,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalNonCurrentAssetsBalanceSheet class
+		/// </summary>
+		public TotalNonCurrentAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalNonCurrentAssetsBalanceSheet class
@@ -14260,6 +16020,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalNonCurrentLiabilitiesBalanceSheet class
 		/// </summary>
+		public TotalNonCurrentLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalNonCurrentLiabilitiesBalanceSheet class
+		/// </summary>
 		public TotalNonCurrentLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14292,6 +16057,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalPartnershipCapitalBalanceSheet class
 		/// </summary>
+		public TotalPartnershipCapitalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalPartnershipCapitalBalanceSheet class
+		/// </summary>
 		public TotalPartnershipCapitalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14315,6 +16085,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TradingAssetsBalanceSheet class
+		/// </summary>
+		public TradingAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TradingAssetsBalanceSheet class
@@ -14348,6 +16123,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TradingLiabilitiesBalanceSheet class
 		/// </summary>
+		public TradingLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TradingLiabilitiesBalanceSheet class
+		/// </summary>
 		public TradingLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14377,6 +16157,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TradingSecuritiesBalanceSheet class
+		/// </summary>
+		public TradingSecuritiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TradingSecuritiesBalanceSheet class
@@ -14429,6 +16214,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TreasuryStockBalanceSheet class
 		/// </summary>
+		public TreasuryStockBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TreasuryStockBalanceSheet class
+		/// </summary>
 		public TreasuryStockBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14461,6 +16251,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the UnearnedIncomeBalanceSheet class
+		/// </summary>
+		public UnearnedIncomeBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the UnearnedIncomeBalanceSheet class
@@ -14501,6 +16296,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the UnearnedPremiumsBalanceSheet class
 		/// </summary>
+		public UnearnedPremiumsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the UnearnedPremiumsBalanceSheet class
+		/// </summary>
 		public UnearnedPremiumsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14534,6 +16334,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the UnpaidLossAndLossReserveBalanceSheet class
+		/// </summary>
+		public UnpaidLossAndLossReserveBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the UnpaidLossAndLossReserveBalanceSheet class
@@ -14580,6 +16385,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InvestedCapitalBalanceSheet class
+		/// </summary>
+		public InvestedCapitalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InvestedCapitalBalanceSheet class
@@ -14631,6 +16441,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentDeferredAssetsBalanceSheet class
 		/// </summary>
+		public CurrentDeferredAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentDeferredAssetsBalanceSheet class
+		/// </summary>
 		public CurrentDeferredAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14678,6 +16493,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonCurrentDeferredAssetsBalanceSheet class
 		/// </summary>
+		public NonCurrentDeferredAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentDeferredAssetsBalanceSheet class
+		/// </summary>
 		public NonCurrentDeferredAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14715,6 +16535,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SecuritiesAndInvestmentsBalanceSheet class
+		/// </summary>
+		public SecuritiesAndInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SecuritiesAndInvestmentsBalanceSheet class
@@ -14766,6 +16591,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalLiabilitiesNetMinorityInterestBalanceSheet class
 		/// </summary>
+		public TotalLiabilitiesNetMinorityInterestBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalLiabilitiesNetMinorityInterestBalanceSheet class
+		/// </summary>
 		public TotalLiabilitiesNetMinorityInterestBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14809,6 +16639,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalNonCurrentLiabilitiesNetMinorityInterestBalanceSheet class
+		/// </summary>
+		public TotalNonCurrentLiabilitiesNetMinorityInterestBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalNonCurrentLiabilitiesNetMinorityInterestBalanceSheet class
@@ -14860,6 +16695,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalEquityGrossMinorityInterestBalanceSheet class
 		/// </summary>
+		public TotalEquityGrossMinorityInterestBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalEquityGrossMinorityInterestBalanceSheet class
+		/// </summary>
 		public TotalEquityGrossMinorityInterestBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -14882,6 +16722,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GrossAccountsReceivableBalanceSheet class
+		/// </summary>
+		public GrossAccountsReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GrossAccountsReceivableBalanceSheet class
@@ -14919,6 +16764,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentAccountsReceivableBalanceSheet class
+		/// </summary>
+		public NonCurrentAccountsReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NonCurrentAccountsReceivableBalanceSheet class
@@ -14965,6 +16815,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AccruedInterestReceivableBalanceSheet class
 		/// </summary>
+		public AccruedInterestReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AccruedInterestReceivableBalanceSheet class
+		/// </summary>
 		public AccruedInterestReceivableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15002,6 +16857,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AdvanceFromFederalHomeLoanBanksBalanceSheet class
 		/// </summary>
+		public AdvanceFromFederalHomeLoanBanksBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AdvanceFromFederalHomeLoanBanksBalanceSheet class
+		/// </summary>
 		public AdvanceFromFederalHomeLoanBanksBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15024,6 +16884,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AllowanceForDoubtfulAccountsReceivableBalanceSheet class
+		/// </summary>
+		public AllowanceForDoubtfulAccountsReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AllowanceForDoubtfulAccountsReceivableBalanceSheet class
@@ -15056,6 +16921,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AllowanceForNotesReceivableBalanceSheet class
 		/// </summary>
+		public AllowanceForNotesReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AllowanceForNotesReceivableBalanceSheet class
+		/// </summary>
 		public AllowanceForNotesReceivableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15078,6 +16948,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AssetsHeldForSaleBalanceSheet class
+		/// </summary>
+		public AssetsHeldForSaleBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AssetsHeldForSaleBalanceSheet class
@@ -15108,6 +16983,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AssetsOfDiscontinuedOperationsBalanceSheet class
 		/// </summary>
+		public AssetsOfDiscontinuedOperationsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AssetsOfDiscontinuedOperationsBalanceSheet class
+		/// </summary>
 		public AssetsOfDiscontinuedOperationsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15131,6 +17011,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BankAcceptanceExecutedAndOutstandingBalanceSheet class
+		/// </summary>
+		public BankAcceptanceExecutedAndOutstandingBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BankAcceptanceExecutedAndOutstandingBalanceSheet class
@@ -15163,6 +17048,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the BankIndebtednessBalanceSheet class
 		/// </summary>
+		public BankIndebtednessBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the BankIndebtednessBalanceSheet class
+		/// </summary>
 		public BankIndebtednessBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15185,6 +17075,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BankLoanBalanceSheet class
+		/// </summary>
+		public BankLoanBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BankLoanBalanceSheet class
@@ -15226,6 +17121,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the BankOwnedLifeInsuranceBalanceSheet class
 		/// </summary>
+		public BankOwnedLifeInsuranceBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the BankOwnedLifeInsuranceBalanceSheet class
+		/// </summary>
 		public BankOwnedLifeInsuranceBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15249,6 +17149,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SecurityBorrowedBalanceSheet class
+		/// </summary>
+		public SecurityBorrowedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SecurityBorrowedBalanceSheet class
@@ -15299,6 +17204,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the BuildingsAndImprovementsBalanceSheet class
 		/// </summary>
+		public BuildingsAndImprovementsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the BuildingsAndImprovementsBalanceSheet class
+		/// </summary>
 		public BuildingsAndImprovementsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15321,6 +17231,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CasualtyClaimsBalanceSheet class
+		/// </summary>
+		public CasualtyClaimsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CasualtyClaimsBalanceSheet class
@@ -15348,6 +17263,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CededUnearnedPremiumsBalanceSheet class
+		/// </summary>
+		public CededUnearnedPremiumsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CededUnearnedPremiumsBalanceSheet class
@@ -15388,6 +17308,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommercialLoanBalanceSheet class
 		/// </summary>
+		public CommercialLoanBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommercialLoanBalanceSheet class
+		/// </summary>
 		public CommercialLoanBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15412,6 +17337,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CommercialPaperBalanceSheet class
+		/// </summary>
+		public CommercialPaperBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CommercialPaperBalanceSheet class
@@ -15462,6 +17392,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommonStockEquityBalanceSheet class
 		/// </summary>
+		public CommonStockEquityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommonStockEquityBalanceSheet class
+		/// </summary>
 		public CommonStockEquityBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15484,6 +17419,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CommonStocksAvailableForSaleBalanceSheet class
+		/// </summary>
+		public CommonStocksAvailableForSaleBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CommonStocksAvailableForSaleBalanceSheet class
@@ -15535,6 +17475,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ConstructionInProgressBalanceSheet class
 		/// </summary>
+		public ConstructionInProgressBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ConstructionInProgressBalanceSheet class
+		/// </summary>
 		public ConstructionInProgressBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15572,6 +17517,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ConsumerLoanBalanceSheet class
 		/// </summary>
+		public ConsumerLoanBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ConsumerLoanBalanceSheet class
+		/// </summary>
 		public ConsumerLoanBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15595,6 +17545,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the MinimumPensionLiabilitiesBalanceSheet class
+		/// </summary>
+		public MinimumPensionLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the MinimumPensionLiabilitiesBalanceSheet class
@@ -15626,6 +17581,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CustomerAcceptancesBalanceSheet class
 		/// </summary>
+		public CustomerAcceptancesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CustomerAcceptancesBalanceSheet class
+		/// </summary>
 		public CustomerAcceptancesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15649,6 +17609,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DeferredAcquisitionCostsBalanceSheet class
+		/// </summary>
+		public DeferredAcquisitionCostsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DeferredAcquisitionCostsBalanceSheet class
@@ -15695,6 +17660,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DeferredFinancingCostsBalanceSheet class
 		/// </summary>
+		public DeferredFinancingCostsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DeferredFinancingCostsBalanceSheet class
+		/// </summary>
 		public DeferredFinancingCostsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15722,6 +17692,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DefinedPensionBenefitBalanceSheet class
+		/// </summary>
+		public DefinedPensionBenefitBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DefinedPensionBenefitBalanceSheet class
@@ -15773,6 +17748,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DerivativeProductLiabilitiesBalanceSheet class
 		/// </summary>
+		public DerivativeProductLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DerivativeProductLiabilitiesBalanceSheet class
+		/// </summary>
 		public DerivativeProductLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15801,6 +17781,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DerivativeAssetsBalanceSheet class
+		/// </summary>
+		public DerivativeAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DerivativeAssetsBalanceSheet class
@@ -15847,6 +17832,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DividendsPayableBalanceSheet class
 		/// </summary>
+		public DividendsPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DividendsPayableBalanceSheet class
+		/// </summary>
 		public DividendsPayableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15880,6 +17870,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ESOPDebtGuaranteeBalanceSheet class
+		/// </summary>
+		public ESOPDebtGuaranteeBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ESOPDebtGuaranteeBalanceSheet class
@@ -15926,6 +17921,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EmployeeBenefitsBalanceSheet class
 		/// </summary>
+		public EmployeeBenefitsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EmployeeBenefitsBalanceSheet class
+		/// </summary>
 		public EmployeeBenefitsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15953,6 +17953,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FacilitiesAndOtherBalanceSheet class
 		/// </summary>
+		public FacilitiesAndOtherBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FacilitiesAndOtherBalanceSheet class
+		/// </summary>
 		public FacilitiesAndOtherBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -15976,6 +17981,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FederalFundsPurchasedBalanceSheet class
+		/// </summary>
+		public FederalFundsPurchasedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FederalFundsPurchasedBalanceSheet class
@@ -16008,6 +18018,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FederalFundsSoldBalanceSheet class
+		/// </summary>
+		public FederalFundsSoldBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FederalFundsSoldBalanceSheet class
@@ -16049,6 +18064,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FederalHomeLoanBankStockBalanceSheet class
 		/// </summary>
+		public FederalHomeLoanBankStockBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FederalHomeLoanBankStockBalanceSheet class
+		/// </summary>
 		public FederalHomeLoanBankStockBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16077,6 +18097,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FinancialAssetsBalanceSheet class
+		/// </summary>
+		public FinancialAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FinancialAssetsBalanceSheet class
@@ -16110,6 +18135,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FinancialInstrumentsSoldUnderAgreementsToRepurchaseBalanceSheet class
+		/// </summary>
+		public FinancialInstrumentsSoldUnderAgreementsToRepurchaseBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FinancialInstrumentsSoldUnderAgreementsToRepurchaseBalanceSheet class
@@ -16161,6 +18191,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FinishedGoodsBalanceSheet class
 		/// </summary>
+		public FinishedGoodsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FinishedGoodsBalanceSheet class
+		/// </summary>
 		public FinishedGoodsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16189,6 +18224,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FlightFleetVehicleAndRelatedEquipmentsBalanceSheet class
+		/// </summary>
+		public FlightFleetVehicleAndRelatedEquipmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FlightFleetVehicleAndRelatedEquipmentsBalanceSheet class
@@ -16226,6 +18266,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ForeclosedAssetsBalanceSheet class
 		/// </summary>
+		public ForeclosedAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ForeclosedAssetsBalanceSheet class
+		/// </summary>
 		public ForeclosedAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16248,6 +18293,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ForeignComponentBalanceSheet class
+		/// </summary>
+		public ForeignComponentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ForeignComponentBalanceSheet class
@@ -16294,6 +18344,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ForeignCurrencyTranslationAdjustmentsBalanceSheet class
 		/// </summary>
+		public ForeignCurrencyTranslationAdjustmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ForeignCurrencyTranslationAdjustmentsBalanceSheet class
+		/// </summary>
 		public ForeignCurrencyTranslationAdjustmentsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16316,6 +18371,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FuelAndNaturalGasBalanceSheet class
+		/// </summary>
+		public FuelAndNaturalGasBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FuelAndNaturalGasBalanceSheet class
@@ -16343,6 +18403,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GuaranteedInvestmentContractBalanceSheet class
+		/// </summary>
+		public GuaranteedInvestmentContractBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GuaranteedInvestmentContractBalanceSheet class
@@ -16384,6 +18449,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InventoriesAdjustmentsAllowancesBalanceSheet class
 		/// </summary>
+		public InventoriesAdjustmentsAllowancesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InventoriesAdjustmentsAllowancesBalanceSheet class
+		/// </summary>
 		public InventoriesAdjustmentsAllowancesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16407,6 +18477,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentTaxCreditsBalanceSheet class
+		/// </summary>
+		public InvestmentTaxCreditsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InvestmentTaxCreditsBalanceSheet class
@@ -16444,6 +18519,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesBalanceSheet class
 		/// </summary>
+		public InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesBalanceSheet class
+		/// </summary>
 		public InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16471,6 +18551,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InvestmentsInOtherVenturesUnderEquityMethodBalanceSheet class
 		/// </summary>
+		public InvestmentsInOtherVenturesUnderEquityMethodBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentsInOtherVenturesUnderEquityMethodBalanceSheet class
+		/// </summary>
 		public InvestmentsInOtherVenturesUnderEquityMethodBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16494,6 +18579,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentsInVariableInterestEntityBalanceSheet class
+		/// </summary>
+		public InvestmentsInVariableInterestEntityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InvestmentsInVariableInterestEntityBalanceSheet class
@@ -16545,6 +18635,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LandAndImprovementsBalanceSheet class
 		/// </summary>
+		public LandAndImprovementsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LandAndImprovementsBalanceSheet class
+		/// </summary>
 		public LandAndImprovementsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16592,6 +18687,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LeasesBalanceSheet class
 		/// </summary>
+		public LeasesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LeasesBalanceSheet class
+		/// </summary>
 		public LeasesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16615,6 +18715,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LiabilitiesOfDiscontinuedOperationsBalanceSheet class
+		/// </summary>
+		public LiabilitiesOfDiscontinuedOperationsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LiabilitiesOfDiscontinuedOperationsBalanceSheet class
@@ -16643,6 +18748,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LimitedPartnershipBalanceSheet class
+		/// </summary>
+		public LimitedPartnershipBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LimitedPartnershipBalanceSheet class
@@ -16684,6 +18794,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LineOfCreditBalanceSheet class
 		/// </summary>
+		public LineOfCreditBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LineOfCreditBalanceSheet class
+		/// </summary>
 		public LineOfCreditBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16717,6 +18832,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LoansHeldForSaleBalanceSheet class
+		/// </summary>
+		public LoansHeldForSaleBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LoansHeldForSaleBalanceSheet class
@@ -16758,6 +18878,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LoansReceivableBalanceSheet class
+		/// </summary>
+		public LoansReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LoansReceivableBalanceSheet class
@@ -16809,6 +18934,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MachineryFurnitureEquipmentBalanceSheet class
 		/// </summary>
+		public MachineryFurnitureEquipmentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MachineryFurnitureEquipmentBalanceSheet class
+		/// </summary>
 		public MachineryFurnitureEquipmentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16832,6 +18962,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the MaterialsAndSuppliesBalanceSheet class
+		/// </summary>
+		public MaterialsAndSuppliesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the MaterialsAndSuppliesBalanceSheet class
@@ -16872,6 +19007,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MineralPropertiesBalanceSheet class
 		/// </summary>
+		public MineralPropertiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MineralPropertiesBalanceSheet class
+		/// </summary>
 		public MineralPropertiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16908,6 +19048,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the MortgageLoanBalanceSheet class
 		/// </summary>
+		public MortgageLoanBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the MortgageLoanBalanceSheet class
+		/// </summary>
 		public MortgageLoanBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16930,6 +19075,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the MortgageAndConsumerloansBalanceSheet class
+		/// </summary>
+		public MortgageAndConsumerloansBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the MortgageAndConsumerloansBalanceSheet class
@@ -16961,6 +19111,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NaturalResourceAssetsBalanceSheet class
 		/// </summary>
+		public NaturalResourceAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NaturalResourceAssetsBalanceSheet class
+		/// </summary>
 		public NaturalResourceAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -16983,6 +19138,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetOtherUnrealizedGainLossBalanceSheet class
+		/// </summary>
+		public NetOtherUnrealizedGainLossBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetOtherUnrealizedGainLossBalanceSheet class
@@ -17013,6 +19173,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetUnrealizedGainLossForeignCurrencyBalanceSheet class
 		/// </summary>
+		public NetUnrealizedGainLossForeignCurrencyBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetUnrealizedGainLossForeignCurrencyBalanceSheet class
+		/// </summary>
 		public NetUnrealizedGainLossForeignCurrencyBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17035,6 +19200,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetUnrealizedGainLossInvestmentsBalanceSheet class
+		/// </summary>
+		public NetUnrealizedGainLossInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetUnrealizedGainLossInvestmentsBalanceSheet class
@@ -17065,6 +19235,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GrossNotesReceivableBalanceSheet class
+		/// </summary>
+		public GrossNotesReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GrossNotesReceivableBalanceSheet class
@@ -17110,6 +19285,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherAssetsBalanceSheet class
 		/// </summary>
+		public OtherAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherAssetsBalanceSheet class
+		/// </summary>
 		public OtherAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17142,6 +19322,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherCapitalStockBalanceSheet class
+		/// </summary>
+		public OtherCapitalStockBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherCapitalStockBalanceSheet class
@@ -17192,6 +19377,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherCurrentAssetsBalanceSheet class
 		/// </summary>
+		public OtherCurrentAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherCurrentAssetsBalanceSheet class
+		/// </summary>
 		public OtherCurrentAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17228,6 +19418,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherCurrentBorrowingsBalanceSheet class
 		/// </summary>
+		public OtherCurrentBorrowingsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherCurrentBorrowingsBalanceSheet class
+		/// </summary>
 		public OtherCurrentBorrowingsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17254,6 +19449,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherDeferredCostsBalanceSheet class
 		/// </summary>
+		public OtherDeferredCostsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherDeferredCostsBalanceSheet class
+		/// </summary>
 		public OtherDeferredCostsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17276,6 +19476,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherDepositsBalanceSheet class
+		/// </summary>
+		public OtherDepositsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherDepositsBalanceSheet class
@@ -17316,6 +19521,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherEquityAdjustmentsBalanceSheet class
 		/// </summary>
+		public OtherEquityAdjustmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherEquityAdjustmentsBalanceSheet class
+		/// </summary>
 		public OtherEquityAdjustmentsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17338,6 +19548,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherInterestEarningAssetsBalanceSheet class
+		/// </summary>
+		public OtherInterestEarningAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherInterestEarningAssetsBalanceSheet class
@@ -17383,6 +19598,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherInventoriesBalanceSheet class
 		/// </summary>
+		public OtherInventoriesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherInventoriesBalanceSheet class
+		/// </summary>
 		public OtherInventoriesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17406,6 +19626,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherInvestedAssetsBalanceSheet class
+		/// </summary>
+		public OtherInvestedAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherInvestedAssetsBalanceSheet class
@@ -17456,6 +19681,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherNonCurrentAssetsBalanceSheet class
 		/// </summary>
+		public OtherNonCurrentAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherNonCurrentAssetsBalanceSheet class
+		/// </summary>
 		public OtherNonCurrentAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17497,6 +19727,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherPropertiesBalanceSheet class
 		/// </summary>
+		public OtherPropertiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherPropertiesBalanceSheet class
+		/// </summary>
 		public OtherPropertiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17532,6 +19767,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherRealEstateOwnedBalanceSheet class
+		/// </summary>
+		public OtherRealEstateOwnedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherRealEstateOwnedBalanceSheet class
@@ -17577,6 +19817,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherReceivablesBalanceSheet class
 		/// </summary>
+		public OtherReceivablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherReceivablesBalanceSheet class
+		/// </summary>
 		public OtherReceivablesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17614,6 +19859,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PatentsBalanceSheet class
+		/// </summary>
+		public PatentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PatentsBalanceSheet class
@@ -17660,6 +19910,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonCurrentPensionAndOtherPostretirementBenefitPlansBalanceSheet class
 		/// </summary>
+		public NonCurrentPensionAndOtherPostretirementBenefitPlansBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonCurrentPensionAndOtherPostretirementBenefitPlansBalanceSheet class
+		/// </summary>
 		public NonCurrentPensionAndOtherPostretirementBenefitPlansBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17683,6 +19938,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PolicyLoansBalanceSheet class
+		/// </summary>
+		public PolicyLoansBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PolicyLoansBalanceSheet class
@@ -17735,6 +19995,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PreferredStockEquityBalanceSheet class
 		/// </summary>
+		public PreferredStockEquityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PreferredStockEquityBalanceSheet class
+		/// </summary>
 		public PreferredStockEquityBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17761,6 +20026,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PreferredStockOfSubsidiaryBalanceSheet class
 		/// </summary>
+		public PreferredStockOfSubsidiaryBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PreferredStockOfSubsidiaryBalanceSheet class
+		/// </summary>
 		public PreferredStockOfSubsidiaryBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17783,6 +20053,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PreferredStocksAvailableForSaleBalanceSheet class
+		/// </summary>
+		public PreferredStocksAvailableForSaleBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PreferredStocksAvailableForSaleBalanceSheet class
@@ -17814,6 +20089,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PrepaidReinsurancePremiumsBalanceSheet class
 		/// </summary>
+		public PrepaidReinsurancePremiumsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PrepaidReinsurancePremiumsBalanceSheet class
+		/// </summary>
 		public PrepaidReinsurancePremiumsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17838,6 +20118,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PropertiesBalanceSheet class
+		/// </summary>
+		public PropertiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PropertiesBalanceSheet class
@@ -17879,6 +20164,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CurrentProvisionsBalanceSheet class
 		/// </summary>
+		public CurrentProvisionsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CurrentProvisionsBalanceSheet class
+		/// </summary>
 		public CurrentProvisionsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17916,6 +20206,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermProvisionsBalanceSheet class
 		/// </summary>
+		public LongTermProvisionsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermProvisionsBalanceSheet class
+		/// </summary>
 		public LongTermProvisionsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -17943,6 +20238,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PurchasedComponentsBalanceSheet class
+		/// </summary>
+		public PurchasedComponentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PurchasedComponentsBalanceSheet class
@@ -17989,6 +20289,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RawMaterialsBalanceSheet class
 		/// </summary>
+		public RawMaterialsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RawMaterialsBalanceSheet class
+		/// </summary>
 		public RawMaterialsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18016,6 +20321,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RealEstateHeldForSaleBalanceSheet class
 		/// </summary>
+		public RealEstateHeldForSaleBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RealEstateHeldForSaleBalanceSheet class
+		/// </summary>
 		public RealEstateHeldForSaleBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18039,6 +20349,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RealEstateAndRealEstateJointVenturesHeldForInvestmentBalanceSheet class
+		/// </summary>
+		public RealEstateAndRealEstateJointVenturesHeldForInvestmentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RealEstateAndRealEstateJointVenturesHeldForInvestmentBalanceSheet class
@@ -18075,6 +20390,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReceivablesAdjustmentsAllowancesBalanceSheet class
 		/// </summary>
+		public ReceivablesAdjustmentsAllowancesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReceivablesAdjustmentsAllowancesBalanceSheet class
+		/// </summary>
 		public ReceivablesAdjustmentsAllowancesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18098,6 +20418,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RegulatoryAssetsBalanceSheet class
+		/// </summary>
+		public RegulatoryAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RegulatoryAssetsBalanceSheet class
@@ -18130,6 +20455,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RegulatoryLiabilitiesBalanceSheet class
 		/// </summary>
+		public RegulatoryLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RegulatoryLiabilitiesBalanceSheet class
+		/// </summary>
 		public RegulatoryLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18153,6 +20483,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceBalancesPayableBalanceSheet class
+		/// </summary>
+		public ReinsuranceBalancesPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ReinsuranceBalancesPayableBalanceSheet class
@@ -18186,6 +20521,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReinsuranceReceivablesBalanceSheet class
 		/// </summary>
+		public ReinsuranceReceivablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceReceivablesBalanceSheet class
+		/// </summary>
 		public ReinsuranceReceivablesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18212,6 +20552,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReinsuranceRecoverableForPaidLossesBalanceSheet class
 		/// </summary>
+		public ReinsuranceRecoverableForPaidLossesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceRecoverableForPaidLossesBalanceSheet class
+		/// </summary>
 		public ReinsuranceRecoverableForPaidLossesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18234,6 +20579,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceRecoverableForUnpaidLossesBalanceSheet class
+		/// </summary>
+		public ReinsuranceRecoverableForUnpaidLossesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ReinsuranceRecoverableForUnpaidLossesBalanceSheet class
@@ -18290,6 +20640,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RestrictedCashBalanceSheet class
 		/// </summary>
+		public RestrictedCashBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RestrictedCashBalanceSheet class
+		/// </summary>
 		public RestrictedCashBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18323,6 +20678,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RestrictedCashAndCashEquivalentsBalanceSheet class
+		/// </summary>
+		public RestrictedCashAndCashEquivalentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RestrictedCashAndCashEquivalentsBalanceSheet class
@@ -18364,6 +20724,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RestrictedCashAndInvestmentsBalanceSheet class
 		/// </summary>
+		public RestrictedCashAndInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RestrictedCashAndInvestmentsBalanceSheet class
+		/// </summary>
 		public RestrictedCashAndInvestmentsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18397,6 +20762,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RestrictedCommonStockBalanceSheet class
 		/// </summary>
+		public RestrictedCommonStockBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RestrictedCommonStockBalanceSheet class
+		/// </summary>
 		public RestrictedCommonStockBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18420,6 +20790,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RestrictedInvestmentsBalanceSheet class
+		/// </summary>
+		public RestrictedInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RestrictedInvestmentsBalanceSheet class
@@ -18450,6 +20825,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SecuritiesLendingPayableBalanceSheet class
 		/// </summary>
+		public SecuritiesLendingPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SecuritiesLendingPayableBalanceSheet class
+		/// </summary>
 		public SecuritiesLendingPayableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18473,6 +20853,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the StudentLoanBalanceSheet class
+		/// </summary>
+		public StudentLoanBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the StudentLoanBalanceSheet class
@@ -18520,6 +20905,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TaxesReceivableBalanceSheet class
 		/// </summary>
+		public TaxesReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TaxesReceivableBalanceSheet class
+		/// </summary>
 		public TaxesReceivableBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18545,6 +20935,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TimeDepositsPlacedBalanceSheet class
+		/// </summary>
+		public TimeDepositsPlacedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TimeDepositsPlacedBalanceSheet class
@@ -18595,6 +20990,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalCapitalizationBalanceSheet class
 		/// </summary>
+		public TotalCapitalizationBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalCapitalizationBalanceSheet class
+		/// </summary>
 		public TotalCapitalizationBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18631,6 +21031,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalDeferredCreditsAndOtherNonCurrentLiabilitiesBalanceSheet class
 		/// </summary>
+		public TotalDeferredCreditsAndOtherNonCurrentLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalDeferredCreditsAndOtherNonCurrentLiabilitiesBalanceSheet class
+		/// </summary>
 		public TotalDeferredCreditsAndOtherNonCurrentLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18654,6 +21059,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the UnbilledReceivablesBalanceSheet class
+		/// </summary>
+		public UnbilledReceivablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the UnbilledReceivablesBalanceSheet class
@@ -18685,6 +21095,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the UnrealizedGainLossBalanceSheet class
+		/// </summary>
+		public UnrealizedGainLossBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the UnrealizedGainLossBalanceSheet class
@@ -18736,6 +21151,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the WorkInProcessBalanceSheet class
 		/// </summary>
+		public WorkInProcessBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the WorkInProcessBalanceSheet class
+		/// </summary>
 		public WorkInProcessBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18778,6 +21198,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherNonCurrentLiabilitiesBalanceSheet class
+		/// </summary>
+		public OtherNonCurrentLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherNonCurrentLiabilitiesBalanceSheet class
@@ -18828,6 +21253,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CapitalLeaseObligationsBalanceSheet class
 		/// </summary>
+		public CapitalLeaseObligationsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CapitalLeaseObligationsBalanceSheet class
+		/// </summary>
 		public CapitalLeaseObligationsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -18865,6 +21295,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherLiabilitiesBalanceSheet class
+		/// </summary>
+		public OtherLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherLiabilitiesBalanceSheet class
@@ -18911,6 +21346,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherPayableBalanceSheet class
+		/// </summary>
+		public OtherPayableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherPayableBalanceSheet class
@@ -18962,6 +21402,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TangibleBookValueBalanceSheet class
 		/// </summary>
+		public TangibleBookValueBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TangibleBookValueBalanceSheet class
+		/// </summary>
 		public TangibleBookValueBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19004,6 +21449,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalEquityBalanceSheet class
+		/// </summary>
+		public TotalEquityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalEquityBalanceSheet class
@@ -19054,6 +21504,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the WorkingCapitalBalanceSheet class
 		/// </summary>
+		public WorkingCapitalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the WorkingCapitalBalanceSheet class
+		/// </summary>
 		public WorkingCapitalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19100,6 +21555,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalDebtBalanceSheet class
 		/// </summary>
+		public TotalDebtBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalDebtBalanceSheet class
+		/// </summary>
 		public TotalDebtBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19137,6 +21597,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashValueOfLifeInsuranceBalanceSheet class
 		/// </summary>
+		public CashValueOfLifeInsuranceBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashValueOfLifeInsuranceBalanceSheet class
+		/// </summary>
 		public CashValueOfLifeInsuranceBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19168,6 +21633,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommonUtilityPlantBalanceSheet class
 		/// </summary>
+		public CommonUtilityPlantBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommonUtilityPlantBalanceSheet class
+		/// </summary>
 		public CommonUtilityPlantBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19190,6 +21660,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ElectricUtilityPlantBalanceSheet class
+		/// </summary>
+		public ElectricUtilityPlantBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ElectricUtilityPlantBalanceSheet class
@@ -19217,6 +21692,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NaturalGasFuelAndOtherBalanceSheet class
+		/// </summary>
+		public NaturalGasFuelAndOtherBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NaturalGasFuelAndOtherBalanceSheet class
@@ -19253,6 +21733,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetUtilityPlantBalanceSheet class
 		/// </summary>
+		public NetUtilityPlantBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetUtilityPlantBalanceSheet class
+		/// </summary>
 		public NetUtilityPlantBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19277,6 +21762,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the WaterProductionBalanceSheet class
+		/// </summary>
+		public WaterProductionBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the WaterProductionBalanceSheet class
@@ -19307,6 +21797,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OrdinarySharesNumberBalanceSheet class
 		/// </summary>
+		public OrdinarySharesNumberBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OrdinarySharesNumberBalanceSheet class
+		/// </summary>
 		public OrdinarySharesNumberBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19329,6 +21824,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PreferredSharesNumberBalanceSheet class
+		/// </summary>
+		public PreferredSharesNumberBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PreferredSharesNumberBalanceSheet class
@@ -19359,6 +21859,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TreasurySharesNumberBalanceSheet class
 		/// </summary>
+		public TreasurySharesNumberBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TreasurySharesNumberBalanceSheet class
+		/// </summary>
 		public TreasurySharesNumberBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19382,6 +21887,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TradingAndOtherReceivableBalanceSheet class
+		/// </summary>
+		public TradingAndOtherReceivableBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TradingAndOtherReceivableBalanceSheet class
@@ -19418,6 +21928,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EquityAttributableToOwnersOfParentBalanceSheet class
 		/// </summary>
+		public EquityAttributableToOwnersOfParentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EquityAttributableToOwnersOfParentBalanceSheet class
+		/// </summary>
 		public EquityAttributableToOwnersOfParentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19445,6 +21960,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SecuritiesLoanedBalanceSheet class
 		/// </summary>
+		public SecuritiesLoanedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SecuritiesLoanedBalanceSheet class
+		/// </summary>
 		public SecuritiesLoanedBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19468,6 +21988,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ParticipatingPolicyholderEquityBalanceSheet class
+		/// </summary>
+		public ParticipatingPolicyholderEquityBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ParticipatingPolicyholderEquityBalanceSheet class
@@ -19518,6 +22043,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetTangibleAssetsBalanceSheet class
 		/// </summary>
+		public NetTangibleAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetTangibleAssetsBalanceSheet class
+		/// </summary>
 		public NetTangibleAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19540,6 +22070,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DuefromRelatedPartiesCurrentBalanceSheet class
+		/// </summary>
+		public DuefromRelatedPartiesCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DuefromRelatedPartiesCurrentBalanceSheet class
@@ -19570,6 +22105,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DuefromRelatedPartiesNonCurrentBalanceSheet class
 		/// </summary>
+		public DuefromRelatedPartiesNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DuefromRelatedPartiesNonCurrentBalanceSheet class
+		/// </summary>
 		public DuefromRelatedPartiesNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19592,6 +22132,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DuetoRelatedPartiesBalanceSheet class
+		/// </summary>
+		public DuetoRelatedPartiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DuetoRelatedPartiesBalanceSheet class
@@ -19622,6 +22167,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DuetoRelatedPartiesCurrentBalanceSheet class
 		/// </summary>
+		public DuetoRelatedPartiesCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DuetoRelatedPartiesCurrentBalanceSheet class
+		/// </summary>
 		public DuetoRelatedPartiesCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19644,6 +22194,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DuetoRelatedPartiesNonCurrentBalanceSheet class
+		/// </summary>
+		public DuetoRelatedPartiesNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DuetoRelatedPartiesNonCurrentBalanceSheet class
@@ -19674,6 +22229,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetAssetsBalanceSheet class
 		/// </summary>
+		public NetAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetAssetsBalanceSheet class
+		/// </summary>
 		public NetAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19696,6 +22256,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentPropertiesBalanceSheet class
+		/// </summary>
+		public InvestmentPropertiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InvestmentPropertiesBalanceSheet class
@@ -19726,6 +22291,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InvestmentsinSubsidiariesatCostBalanceSheet class
 		/// </summary>
+		public InvestmentsinSubsidiariesatCostBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentsinSubsidiariesatCostBalanceSheet class
+		/// </summary>
 		public InvestmentsinSubsidiariesatCostBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19752,6 +22322,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InvestmentsinAssociatesatCostBalanceSheet class
 		/// </summary>
+		public InvestmentsinAssociatesatCostBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentsinAssociatesatCostBalanceSheet class
+		/// </summary>
 		public InvestmentsinAssociatesatCostBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19774,6 +22349,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentsinJointVenturesatCostBalanceSheet class
+		/// </summary>
+		public InvestmentsinJointVenturesatCostBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InvestmentsinJointVenturesatCostBalanceSheet class
@@ -19809,6 +22389,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InvestmentinFinancialAssetsBalanceSheet class
 		/// </summary>
+		public InvestmentinFinancialAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentinFinancialAssetsBalanceSheet class
+		/// </summary>
 		public InvestmentinFinancialAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19836,6 +22421,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FinanceLeaseReceivablesBalanceSheet class
 		/// </summary>
+		public FinanceLeaseReceivablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FinanceLeaseReceivablesBalanceSheet class
+		/// </summary>
 		public FinanceLeaseReceivablesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19854,6 +22444,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ConvertibleLoansCurrentBalanceSheet class
+		/// </summary>
+		public ConvertibleLoansCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ConvertibleLoansCurrentBalanceSheet class
@@ -19885,6 +22480,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the BankLoansCurrentBalanceSheet class
 		/// </summary>
+		public BankLoansCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the BankLoansCurrentBalanceSheet class
+		/// </summary>
 		public BankLoansCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19908,6 +22508,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherLoansCurrentBalanceSheet class
+		/// </summary>
+		public OtherLoansCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherLoansCurrentBalanceSheet class
@@ -19939,6 +22544,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AccruedandDeferredIncomeBalanceSheet class
 		/// </summary>
+		public AccruedandDeferredIncomeBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AccruedandDeferredIncomeBalanceSheet class
+		/// </summary>
 		public AccruedandDeferredIncomeBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -19962,6 +22572,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BankLoansNonCurrentBalanceSheet class
+		/// </summary>
+		public BankLoansNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BankLoansNonCurrentBalanceSheet class
@@ -19993,6 +22608,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherLoansNonCurrentBalanceSheet class
 		/// </summary>
+		public OtherLoansNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherLoansNonCurrentBalanceSheet class
+		/// </summary>
 		public OtherLoansNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20015,6 +22635,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherReservesBalanceSheet class
+		/// </summary>
+		public OtherReservesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherReservesBalanceSheet class
@@ -20045,6 +22670,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LoansandAdvancestoBankBalanceSheet class
 		/// </summary>
+		public LoansandAdvancestoBankBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LoansandAdvancestoBankBalanceSheet class
+		/// </summary>
 		public LoansandAdvancestoBankBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20067,6 +22697,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LoansandAdvancestoCustomerBalanceSheet class
+		/// </summary>
+		public LoansandAdvancestoCustomerBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LoansandAdvancestoCustomerBalanceSheet class
@@ -20097,6 +22732,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TreasuryBillsandOtherEligibleBillsBalanceSheet class
 		/// </summary>
+		public TreasuryBillsandOtherEligibleBillsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TreasuryBillsandOtherEligibleBillsBalanceSheet class
+		/// </summary>
 		public TreasuryBillsandOtherEligibleBillsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20123,6 +22763,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EquitySharesInvestmentsBalanceSheet class
 		/// </summary>
+		public EquitySharesInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EquitySharesInvestmentsBalanceSheet class
+		/// </summary>
 		public EquitySharesInvestmentsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20145,6 +22790,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DepositsbyBankBalanceSheet class
+		/// </summary>
+		public DepositsbyBankBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DepositsbyBankBalanceSheet class
@@ -20176,6 +22826,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CustomerAccountsBalanceSheet class
 		/// </summary>
+		public CustomerAccountsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CustomerAccountsBalanceSheet class
+		/// </summary>
 		public CustomerAccountsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20199,6 +22854,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ItemsinTheCourseofTransmissiontoOtherBanksBalanceSheet class
+		/// </summary>
+		public ItemsinTheCourseofTransmissiontoOtherBanksBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ItemsinTheCourseofTransmissiontoOtherBanksBalanceSheet class
@@ -20229,6 +22889,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TradingandFinancialLiabilitiesBalanceSheet class
 		/// </summary>
+		public TradingandFinancialLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TradingandFinancialLiabilitiesBalanceSheet class
+		/// </summary>
 		public TradingandFinancialLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20251,6 +22916,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DebtSecuritiesinIssueBalanceSheet class
+		/// </summary>
+		public DebtSecuritiesinIssueBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DebtSecuritiesinIssueBalanceSheet class
@@ -20282,6 +22952,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SubordinatedLiabilitiesBalanceSheet class
 		/// </summary>
+		public SubordinatedLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SubordinatedLiabilitiesBalanceSheet class
+		/// </summary>
 		public SubordinatedLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20305,6 +22980,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProvisionsTotalBalanceSheet class
+		/// </summary>
+		public ProvisionsTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProvisionsTotalBalanceSheet class
@@ -20337,6 +23017,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OperatingLeaseAssetsBalanceSheet class
 		/// </summary>
+		public OperatingLeaseAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OperatingLeaseAssetsBalanceSheet class
+		/// </summary>
 		public OperatingLeaseAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20359,6 +23044,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ClaimsOutstandingBalanceSheet class
+		/// </summary>
+		public ClaimsOutstandingBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ClaimsOutstandingBalanceSheet class
@@ -20389,6 +23079,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermContractsBalanceSheet class
 		/// </summary>
+		public LongTermContractsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermContractsBalanceSheet class
+		/// </summary>
 		public LongTermContractsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20411,6 +23106,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RealEstateBalanceSheet class
+		/// </summary>
+		public RealEstateBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RealEstateBalanceSheet class
@@ -20441,6 +23141,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PaymentofBillsBalanceSheet class
 		/// </summary>
+		public PaymentofBillsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PaymentofBillsBalanceSheet class
+		/// </summary>
 		public PaymentofBillsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20463,6 +23168,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LiabilitiesHeldforSaleCurrentBalanceSheet class
+		/// </summary>
+		public LiabilitiesHeldforSaleCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LiabilitiesHeldforSaleCurrentBalanceSheet class
@@ -20493,6 +23203,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LiabilitiesHeldforSaleNonCurrentBalanceSheet class
 		/// </summary>
+		public LiabilitiesHeldforSaleNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LiabilitiesHeldforSaleNonCurrentBalanceSheet class
+		/// </summary>
 		public LiabilitiesHeldforSaleNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20519,6 +23234,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the UnclassifiedCurrentAssetsBalanceSheet class
 		/// </summary>
+		public UnclassifiedCurrentAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the UnclassifiedCurrentAssetsBalanceSheet class
+		/// </summary>
 		public UnclassifiedCurrentAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20541,6 +23261,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DebtSecuritiesBalanceSheet class
+		/// </summary>
+		public DebtSecuritiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DebtSecuritiesBalanceSheet class
@@ -20573,6 +23298,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalFinancialLeaseObligationsBalanceSheet class
 		/// </summary>
+		public TotalFinancialLeaseObligationsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalFinancialLeaseObligationsBalanceSheet class
+		/// </summary>
 		public TotalFinancialLeaseObligationsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20596,6 +23326,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AccruedandDeferredIncomeCurrentBalanceSheet class
+		/// </summary>
+		public AccruedandDeferredIncomeCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AccruedandDeferredIncomeCurrentBalanceSheet class
@@ -20627,6 +23362,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AccruedandDeferredIncomeNonCurrentBalanceSheet class
 		/// </summary>
+		public AccruedandDeferredIncomeNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AccruedandDeferredIncomeNonCurrentBalanceSheet class
+		/// </summary>
 		public AccruedandDeferredIncomeNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20650,6 +23390,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FinanceLeaseReceivablesCurrentBalanceSheet class
+		/// </summary>
+		public FinanceLeaseReceivablesCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FinanceLeaseReceivablesCurrentBalanceSheet class
@@ -20681,6 +23426,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FinanceLeaseReceivablesNonCurrentBalanceSheet class
 		/// </summary>
+		public FinanceLeaseReceivablesNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FinanceLeaseReceivablesNonCurrentBalanceSheet class
+		/// </summary>
 		public FinanceLeaseReceivablesNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20704,6 +23454,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FinancialLiabilitiesCurrentBalanceSheet class
+		/// </summary>
+		public FinancialLiabilitiesCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FinancialLiabilitiesCurrentBalanceSheet class
@@ -20734,6 +23489,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FinancialLiabilitiesNonCurrentBalanceSheet class
 		/// </summary>
+		public FinancialLiabilitiesNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FinancialLiabilitiesNonCurrentBalanceSheet class
+		/// </summary>
 		public FinancialLiabilitiesNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20757,6 +23517,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FinancialAssetsDesignatedasFairValueThroughProfitorLossTotalBalanceSheet class
+		/// </summary>
+		public FinancialAssetsDesignatedasFairValueThroughProfitorLossTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FinancialAssetsDesignatedasFairValueThroughProfitorLossTotalBalanceSheet class
@@ -20789,6 +23554,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TaxesAssetsCurrentBalanceSheet class
 		/// </summary>
+		public TaxesAssetsCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TaxesAssetsCurrentBalanceSheet class
+		/// </summary>
 		public TaxesAssetsCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20811,6 +23581,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherEquityInterestBalanceSheet class
+		/// </summary>
+		public OtherEquityInterestBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherEquityInterestBalanceSheet class
@@ -20841,6 +23616,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestBearingBorrowingsNonCurrentBalanceSheet class
 		/// </summary>
+		public InterestBearingBorrowingsNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestBearingBorrowingsNonCurrentBalanceSheet class
+		/// </summary>
 		public InterestBearingBorrowingsNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20863,6 +23643,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NonInterestBearingBorrowingsNonCurrentBalanceSheet class
+		/// </summary>
+		public NonInterestBearingBorrowingsNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NonInterestBearingBorrowingsNonCurrentBalanceSheet class
@@ -20893,6 +23678,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TradeandOtherPayablesNonCurrentBalanceSheet class
 		/// </summary>
+		public TradeandOtherPayablesNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TradeandOtherPayablesNonCurrentBalanceSheet class
+		/// </summary>
 		public TradeandOtherPayablesNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20915,6 +23705,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestBearingBorrowingsCurrentBalanceSheet class
+		/// </summary>
+		public InterestBearingBorrowingsCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestBearingBorrowingsCurrentBalanceSheet class
@@ -20945,6 +23740,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonInterestBearingBorrowingsCurrentBalanceSheet class
 		/// </summary>
+		public NonInterestBearingBorrowingsCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonInterestBearingBorrowingsCurrentBalanceSheet class
+		/// </summary>
 		public NonInterestBearingBorrowingsCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -20968,6 +23768,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PensionandOtherPostRetirementBenefitPlansCurrentBalanceSheet class
+		/// </summary>
+		public PensionandOtherPostRetirementBenefitPlansCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PensionandOtherPostRetirementBenefitPlansCurrentBalanceSheet class
@@ -21004,6 +23809,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashandBalanceswithCentralBanksBalanceSheet class
 		/// </summary>
+		public CashandBalanceswithCentralBanksBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashandBalanceswithCentralBanksBalanceSheet class
+		/// </summary>
 		public CashandBalanceswithCentralBanksBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21030,6 +23840,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PlacementwithBanksandOtherFinancialInstitutionsBalanceSheet class
 		/// </summary>
+		public PlacementwithBanksandOtherFinancialInstitutionsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PlacementwithBanksandOtherFinancialInstitutionsBalanceSheet class
+		/// </summary>
 		public PlacementwithBanksandOtherFinancialInstitutionsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21052,6 +23867,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherLoanAssetsBalanceSheet class
+		/// </summary>
+		public OtherLoanAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherLoanAssetsBalanceSheet class
@@ -21083,6 +23903,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the HedgingAssetsTotalBalanceSheet class
 		/// </summary>
+		public HedgingAssetsTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the HedgingAssetsTotalBalanceSheet class
+		/// </summary>
 		public HedgingAssetsTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21109,6 +23934,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AssetsPledgedasCollateralSubjecttoSaleorRepledgingTotalBalanceSheet class
 		/// </summary>
+		public AssetsPledgedasCollateralSubjecttoSaleorRepledgingTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AssetsPledgedasCollateralSubjecttoSaleorRepledgingTotalBalanceSheet class
+		/// </summary>
 		public AssetsPledgedasCollateralSubjecttoSaleorRepledgingTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21131,6 +23961,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TaxAssetsTotalBalanceSheet class
+		/// </summary>
+		public TaxAssetsTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TaxAssetsTotalBalanceSheet class
@@ -21162,6 +23997,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AdvancesfromCentralBanksBalanceSheet class
 		/// </summary>
+		public AdvancesfromCentralBanksBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AdvancesfromCentralBanksBalanceSheet class
+		/// </summary>
 		public AdvancesfromCentralBanksBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21185,6 +24025,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CertificatesofDepositsandOtherDebtSecuritiesIssuedBalanceSheet class
+		/// </summary>
+		public CertificatesofDepositsandOtherDebtSecuritiesIssuedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CertificatesofDepositsandOtherDebtSecuritiesIssuedBalanceSheet class
@@ -21216,6 +24061,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DepositCertificatesBalanceSheet class
 		/// </summary>
+		public DepositCertificatesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DepositCertificatesBalanceSheet class
+		/// </summary>
 		public DepositCertificatesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21243,6 +24093,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DebenturesandDebtCertificatesBalanceSheet class
 		/// </summary>
+		public DebenturesandDebtCertificatesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DebenturesandDebtCertificatesBalanceSheet class
+		/// </summary>
 		public DebenturesandDebtCertificatesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21265,6 +24120,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestBearingBorrowingsTotalBalanceSheet class
+		/// </summary>
+		public InterestBearingBorrowingsTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestBearingBorrowingsTotalBalanceSheet class
@@ -21296,6 +24156,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NonInterestBearingBorrowingsTotalBalanceSheet class
 		/// </summary>
+		public NonInterestBearingBorrowingsTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NonInterestBearingBorrowingsTotalBalanceSheet class
+		/// </summary>
 		public NonInterestBearingBorrowingsTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21318,6 +24183,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherBorrowedFundsBalanceSheet class
+		/// </summary>
+		public OtherBorrowedFundsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherBorrowedFundsBalanceSheet class
@@ -21348,6 +24218,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FinancialLiabilitiesDesignatedasFairValueThroughProfitorLossTotalBalanceSheet class
 		/// </summary>
+		public FinancialLiabilitiesDesignatedasFairValueThroughProfitorLossTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FinancialLiabilitiesDesignatedasFairValueThroughProfitorLossTotalBalanceSheet class
+		/// </summary>
 		public FinancialLiabilitiesDesignatedasFairValueThroughProfitorLossTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21370,6 +24245,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FinancialLiabilitiesMeasuredatAmortizedCostTotalBalanceSheet class
+		/// </summary>
+		public FinancialLiabilitiesMeasuredatAmortizedCostTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FinancialLiabilitiesMeasuredatAmortizedCostTotalBalanceSheet class
@@ -21400,6 +24280,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LoanCapitalBalanceSheet class
 		/// </summary>
+		public LoanCapitalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LoanCapitalBalanceSheet class
+		/// </summary>
 		public LoanCapitalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21426,6 +24311,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the HedgingLiabilitiesTotalBalanceSheet class
 		/// </summary>
+		public HedgingLiabilitiesTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the HedgingLiabilitiesTotalBalanceSheet class
+		/// </summary>
 		public HedgingLiabilitiesTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21448,6 +24338,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LiabilitiesRecognizedforFairValueChangesinPortfolioHedgeofInterestRateRiskBalanceSheet class
+		/// </summary>
+		public LiabilitiesRecognizedforFairValueChangesinPortfolioHedgeofInterestRateRiskBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LiabilitiesRecognizedforFairValueChangesinPortfolioHedgeofInterestRateRiskBalanceSheet class
@@ -21485,6 +24380,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AccruedLiabilitiesTotalBalanceSheet class
 		/// </summary>
+		public AccruedLiabilitiesTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AccruedLiabilitiesTotalBalanceSheet class
+		/// </summary>
 		public AccruedLiabilitiesTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21508,6 +24408,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DeferredIncomeTotalBalanceSheet class
+		/// </summary>
+		public DeferredIncomeTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DeferredIncomeTotalBalanceSheet class
@@ -21540,6 +24445,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DeferredTaxLiabilitiesTotalBalanceSheet class
 		/// </summary>
+		public DeferredTaxLiabilitiesTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DeferredTaxLiabilitiesTotalBalanceSheet class
+		/// </summary>
 		public DeferredTaxLiabilitiesTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21562,6 +24472,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceAssetsBalanceSheet class
+		/// </summary>
+		public ReinsuranceAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ReinsuranceAssetsBalanceSheet class
@@ -21592,6 +24507,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReinsuranceShareofInsuranceContractBalanceSheet class
 		/// </summary>
+		public ReinsuranceShareofInsuranceContractBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceShareofInsuranceContractBalanceSheet class
+		/// </summary>
 		public ReinsuranceShareofInsuranceContractBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21618,6 +24538,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReinsuranceShareofAccruedPolicyholderClaimsBalanceSheet class
 		/// </summary>
+		public ReinsuranceShareofAccruedPolicyholderClaimsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceShareofAccruedPolicyholderClaimsBalanceSheet class
+		/// </summary>
 		public ReinsuranceShareofAccruedPolicyholderClaimsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21640,6 +24565,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DepositsMadeunderAssumedReinsuranceContractBalanceSheet class
+		/// </summary>
+		public DepositsMadeunderAssumedReinsuranceContractBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DepositsMadeunderAssumedReinsuranceContractBalanceSheet class
@@ -21672,6 +24602,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InsuranceContractAssetsBalanceSheet class
 		/// </summary>
+		public InsuranceContractAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InsuranceContractAssetsBalanceSheet class
+		/// </summary>
 		public InsuranceContractAssetsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21695,6 +24630,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InsuranceReceivablesBalanceSheet class
+		/// </summary>
+		public InsuranceReceivablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InsuranceReceivablesBalanceSheet class
@@ -21728,6 +24668,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InsuranceContractLiabilitiesBalanceSheet class
 		/// </summary>
+		public InsuranceContractLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InsuranceContractLiabilitiesBalanceSheet class
+		/// </summary>
 		public InsuranceContractLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21751,6 +24696,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InsurancePayablesBalanceSheet class
+		/// </summary>
+		public InsurancePayablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InsurancePayablesBalanceSheet class
@@ -21781,6 +24731,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DepositsReceivedunderCededInsuranceContractBalanceSheet class
 		/// </summary>
+		public DepositsReceivedunderCededInsuranceContractBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DepositsReceivedunderCededInsuranceContractBalanceSheet class
+		/// </summary>
 		public DepositsReceivedunderCededInsuranceContractBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21803,6 +24758,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InvestmentContractLiabilitiesBalanceSheet class
+		/// </summary>
+		public InvestmentContractLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InvestmentContractLiabilitiesBalanceSheet class
@@ -21834,6 +24794,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ConstructionGrantsBalanceSheet class
 		/// </summary>
+		public ConstructionGrantsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ConstructionGrantsBalanceSheet class
+		/// </summary>
 		public ConstructionGrantsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21857,6 +24822,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DeferredCostCurrentBalanceSheet class
+		/// </summary>
+		public DeferredCostCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DeferredCostCurrentBalanceSheet class
@@ -21889,6 +24859,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PensionAndOtherPostretirementBenefitPlansTotalBalanceSheet class
 		/// </summary>
+		public PensionAndOtherPostretirementBenefitPlansTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PensionAndOtherPostretirementBenefitPlansTotalBalanceSheet class
+		/// </summary>
 		public PensionAndOtherPostretirementBenefitPlansTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21911,6 +24886,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LiabilitiesHeldforSaleTotalBalanceSheet class
+		/// </summary>
+		public LiabilitiesHeldforSaleTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LiabilitiesHeldforSaleTotalBalanceSheet class
@@ -21941,6 +24921,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the HedgingAssetsNonCurrentBalanceSheet class
 		/// </summary>
+		public HedgingAssetsNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the HedgingAssetsNonCurrentBalanceSheet class
+		/// </summary>
 		public HedgingAssetsNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -21963,6 +24948,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the HedgingAssetsCurrentBalanceSheet class
+		/// </summary>
+		public HedgingAssetsCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the HedgingAssetsCurrentBalanceSheet class
@@ -21994,6 +24984,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ConvertibleLoansTotalBalanceSheet class
 		/// </summary>
+		public ConvertibleLoansTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ConvertibleLoansTotalBalanceSheet class
+		/// </summary>
 		public ConvertibleLoansTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22017,6 +25012,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BankLoansTotalBalanceSheet class
+		/// </summary>
+		public BankLoansTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BankLoansTotalBalanceSheet class
@@ -22048,6 +25048,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherLoansTotalBalanceSheet class
 		/// </summary>
+		public OtherLoansTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherLoansTotalBalanceSheet class
+		/// </summary>
 		public OtherLoansTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22070,6 +25075,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the HedgingLiabilitiesNonCurrentBalanceSheet class
+		/// </summary>
+		public HedgingLiabilitiesNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the HedgingLiabilitiesNonCurrentBalanceSheet class
@@ -22100,6 +25110,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the HedgingLiabilitiesCurrentBalanceSheet class
 		/// </summary>
+		public HedgingLiabilitiesCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the HedgingLiabilitiesCurrentBalanceSheet class
+		/// </summary>
 		public HedgingLiabilitiesCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22126,6 +25141,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InsuranceFundsNonCurrentBalanceSheet class
 		/// </summary>
+		public InsuranceFundsNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InsuranceFundsNonCurrentBalanceSheet class
+		/// </summary>
 		public InsuranceFundsNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22148,6 +25168,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InsuranceFundsCurrentBalanceSheet class
+		/// </summary>
+		public InsuranceFundsCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InsuranceFundsCurrentBalanceSheet class
@@ -22179,6 +25204,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DebtTotalBalanceSheet class
 		/// </summary>
+		public DebtTotalBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DebtTotalBalanceSheet class
+		/// </summary>
 		public DebtTotalBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22206,6 +25236,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ComTreShaNumBalanceSheet class
 		/// </summary>
+		public ComTreShaNumBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ComTreShaNumBalanceSheet class
+		/// </summary>
 		public ComTreShaNumBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22229,6 +25264,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PreTreShaNumBalanceSheet class
+		/// </summary>
+		public PreTreShaNumBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PreTreShaNumBalanceSheet class
@@ -22281,6 +25321,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetDebtBalanceSheet class
 		/// </summary>
+		public NetDebtBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetDebtBalanceSheet class
+		/// </summary>
 		public NetDebtBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22305,6 +25350,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ShareIssuedBalanceSheet class
+		/// </summary>
+		public ShareIssuedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ShareIssuedBalanceSheet class
@@ -22336,6 +25386,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AssetsHeldForSaleCurrentBalanceSheet class
 		/// </summary>
+		public AssetsHeldForSaleCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AssetsHeldForSaleCurrentBalanceSheet class
+		/// </summary>
 		public AssetsHeldForSaleCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22363,6 +25418,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AssetsHeldForSaleNonCurrentBalanceSheet class
 		/// </summary>
+		public AssetsHeldForSaleNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AssetsHeldForSaleNonCurrentBalanceSheet class
+		/// </summary>
 		public AssetsHeldForSaleNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22385,6 +25445,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BiologicalAssetsBalanceSheet class
+		/// </summary>
+		public BiologicalAssetsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BiologicalAssetsBalanceSheet class
@@ -22416,6 +25481,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashRestrictedOrPledgedBalanceSheet class
 		/// </summary>
+		public CashRestrictedOrPledgedBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashRestrictedOrPledgedBalanceSheet class
+		/// </summary>
 		public CashRestrictedOrPledgedBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22439,6 +25509,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ConvertibleLoansNonCurrentBalanceSheet class
+		/// </summary>
+		public ConvertibleLoansNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ConvertibleLoansNonCurrentBalanceSheet class
@@ -22470,6 +25545,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FinancialOrDerivativeInvestmentCurrentLiabilitiesBalanceSheet class
 		/// </summary>
+		public FinancialOrDerivativeInvestmentCurrentLiabilitiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FinancialOrDerivativeInvestmentCurrentLiabilitiesBalanceSheet class
+		/// </summary>
 		public FinancialOrDerivativeInvestmentCurrentLiabilitiesBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22492,6 +25572,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the LoanAndLoanReceivablesBalanceSheet class
+		/// </summary>
+		public LoanAndLoanReceivablesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the LoanAndLoanReceivablesBalanceSheet class
@@ -22523,6 +25608,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherInvestmentsBalanceSheet class
 		/// </summary>
+		public OtherInvestmentsBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherInvestmentsBalanceSheet class
+		/// </summary>
 		public OtherInvestmentsBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22550,6 +25640,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TradeAndOtherReceivablesNonCurrentBalanceSheet class
 		/// </summary>
+		public TradeAndOtherReceivablesNonCurrentBalanceSheet() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TradeAndOtherReceivablesNonCurrentBalanceSheet class
+		/// </summary>
 		public TradeAndOtherReceivablesNonCurrentBalanceSheet(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22572,6 +25667,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DueFromRelatedPartiesBalanceSheet class
+		/// </summary>
+		public DueFromRelatedPartiesBalanceSheet() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DueFromRelatedPartiesBalanceSheet class
@@ -22624,6 +25724,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AmortizationCashFlowStatement class
 		/// </summary>
+		public AmortizationCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AmortizationCashFlowStatement class
+		/// </summary>
 		public AmortizationCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22656,6 +25761,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CallsMaturitiesOfMaturitySecuritiesCashFlowStatement class
+		/// </summary>
+		public CallsMaturitiesOfMaturitySecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CallsMaturitiesOfMaturitySecuritiesCashFlowStatement class
@@ -22709,6 +25819,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CapitalExpenditureCashFlowStatement class
 		/// </summary>
+		public CapitalExpenditureCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CapitalExpenditureCashFlowStatement class
+		/// </summary>
 		public CapitalExpenditureCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22742,6 +25857,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetCapitalExpenditureDisposalsCashFlowStatement class
+		/// </summary>
+		public NetCapitalExpenditureDisposalsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetCapitalExpenditureDisposalsCashFlowStatement class
@@ -22793,6 +25913,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashDividendsPaidCashFlowStatement class
 		/// </summary>
+		public CashDividendsPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashDividendsPaidCashFlowStatement class
+		/// </summary>
 		public CashDividendsPaidCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22830,6 +25955,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashFlowFromContinuingFinancingActivitiesCashFlowStatement class
+		/// </summary>
+		public CashFlowFromContinuingFinancingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashFlowFromContinuingFinancingActivitiesCashFlowStatement class
@@ -22875,6 +26005,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashFlowFromContinuingInvestingActivitiesCashFlowStatement class
 		/// </summary>
+		public CashFlowFromContinuingInvestingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashFlowFromContinuingInvestingActivitiesCashFlowStatement class
+		/// </summary>
 		public CashFlowFromContinuingInvestingActivitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22916,6 +26051,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashFlowFromContinuingOperatingActivitiesCashFlowStatement class
 		/// </summary>
+		public CashFlowFromContinuingOperatingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashFlowFromContinuingOperatingActivitiesCashFlowStatement class
+		/// </summary>
 		public CashFlowFromContinuingOperatingActivitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -22949,6 +26089,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashFlowFromDiscontinuedOperationCashFlowStatement class
+		/// </summary>
+		public CashFlowFromDiscontinuedOperationCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashFlowFromDiscontinuedOperationCashFlowStatement class
@@ -23000,6 +26145,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FinancingCashFlowCashFlowStatement class
 		/// </summary>
+		public FinancingCashFlowCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FinancingCashFlowCashFlowStatement class
+		/// </summary>
 		public FinancingCashFlowCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23044,6 +26194,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InvestingCashFlowCashFlowStatement class
+		/// </summary>
+		public InvestingCashFlowCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InvestingCashFlowCashFlowStatement class
@@ -23097,6 +26252,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OperatingCashFlowCashFlowStatement class
 		/// </summary>
+		public OperatingCashFlowCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OperatingCashFlowCashFlowStatement class
+		/// </summary>
 		public OperatingCashFlowCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23139,6 +26299,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BeginningCashPositionCashFlowStatement class
+		/// </summary>
+		public BeginningCashPositionCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BeginningCashPositionCashFlowStatement class
@@ -23190,6 +26355,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EndCashPositionCashFlowStatement class
 		/// </summary>
+		public EndCashPositionCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EndCashPositionCashFlowStatement class
+		/// </summary>
 		public EndCashPositionCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23222,6 +26392,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashFromDiscontinuedFinancingCashFlowStatement class
+		/// </summary>
+		public CashFromDiscontinuedFinancingCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashFromDiscontinuedFinancingCashFlowStatement class
@@ -23262,6 +26437,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashFromDiscontinuedFinancingActivitiesCashFlowStatement class
 		/// </summary>
+		public CashFromDiscontinuedFinancingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashFromDiscontinuedFinancingActivitiesCashFlowStatement class
+		/// </summary>
 		public CashFromDiscontinuedFinancingActivitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23294,6 +26474,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashFromDiscontinuedInvestingCashFlowStatement class
+		/// </summary>
+		public CashFromDiscontinuedInvestingCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashFromDiscontinuedInvestingCashFlowStatement class
@@ -23334,6 +26519,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashFromDiscontinuedInvestingActivitiesCashFlowStatement class
 		/// </summary>
+		public CashFromDiscontinuedInvestingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashFromDiscontinuedInvestingActivitiesCashFlowStatement class
+		/// </summary>
 		public CashFromDiscontinuedInvestingActivitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23367,6 +26557,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashFromDiscontinuedOperatingCashFlowStatement class
+		/// </summary>
+		public CashFromDiscontinuedOperatingCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashFromDiscontinuedOperatingCashFlowStatement class
@@ -23417,6 +26612,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInAccountPayableCashFlowStatement class
 		/// </summary>
+		public ChangeInAccountPayableCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInAccountPayableCashFlowStatement class
+		/// </summary>
 		public ChangeInAccountPayableCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23459,6 +26659,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInTaxPayableCashFlowStatement class
+		/// </summary>
+		public ChangeInTaxPayableCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInTaxPayableCashFlowStatement class
@@ -23509,6 +26714,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInAccruedExpenseCashFlowStatement class
 		/// </summary>
+		public ChangeInAccruedExpenseCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInAccruedExpenseCashFlowStatement class
+		/// </summary>
 		public ChangeInAccruedExpenseCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23541,6 +26751,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInAccruedInvestmentIncomeCashFlowStatement class
+		/// </summary>
+		public ChangeInAccruedInvestmentIncomeCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInAccruedInvestmentIncomeCashFlowStatement class
@@ -23591,6 +26806,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangesInCashCashFlowStatement class
 		/// </summary>
+		public ChangesInCashCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangesInCashCashFlowStatement class
+		/// </summary>
 		public ChangesInCashCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23624,6 +26844,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInDeferredAcquisitionCostsCashFlowStatement class
+		/// </summary>
+		public ChangeInDeferredAcquisitionCostsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInDeferredAcquisitionCostsCashFlowStatement class
@@ -23666,6 +26891,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInFederalFundsAndSecuritiesSoldForRepurchaseCashFlowStatement class
 		/// </summary>
+		public ChangeInFederalFundsAndSecuritiesSoldForRepurchaseCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInFederalFundsAndSecuritiesSoldForRepurchaseCashFlowStatement class
+		/// </summary>
 		public ChangeInFederalFundsAndSecuritiesSoldForRepurchaseCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23698,6 +26928,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInFundsWithheldCashFlowStatement class
+		/// </summary>
+		public ChangeInFundsWithheldCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInFundsWithheldCashFlowStatement class
@@ -23744,6 +26979,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInIncomeTaxPayableCashFlowStatement class
+		/// </summary>
+		public ChangeInIncomeTaxPayableCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInIncomeTaxPayableCashFlowStatement class
@@ -23795,6 +27035,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInInterestPayableCashFlowStatement class
 		/// </summary>
+		public ChangeInInterestPayableCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInInterestPayableCashFlowStatement class
+		/// </summary>
 		public ChangeInInterestPayableCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23842,6 +27087,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInInventoryCashFlowStatement class
 		/// </summary>
+		public ChangeInInventoryCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInInventoryCashFlowStatement class
+		/// </summary>
 		public ChangeInInventoryCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23879,6 +27129,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInLoansCashFlowStatement class
 		/// </summary>
+		public ChangeInLoansCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInLoansCashFlowStatement class
+		/// </summary>
 		public ChangeInLoansCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -23911,6 +27166,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInLossAndLossAdjustmentExpenseReservesCashFlowStatement class
+		/// </summary>
+		public ChangeInLossAndLossAdjustmentExpenseReservesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInLossAndLossAdjustmentExpenseReservesCashFlowStatement class
@@ -23957,6 +27217,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInPayableCashFlowStatement class
+		/// </summary>
+		public ChangeInPayableCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInPayableCashFlowStatement class
@@ -24009,6 +27274,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInPayablesAndAccruedExpenseCashFlowStatement class
 		/// </summary>
+		public ChangeInPayablesAndAccruedExpenseCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInPayablesAndAccruedExpenseCashFlowStatement class
+		/// </summary>
 		public ChangeInPayablesAndAccruedExpenseCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24041,6 +27311,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInPremiumsReceivableCashFlowStatement class
+		/// </summary>
+		public ChangeInPremiumsReceivableCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInPremiumsReceivableCashFlowStatement class
@@ -24087,6 +27362,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInPrepaidAssetsCashFlowStatement class
+		/// </summary>
+		public ChangeInPrepaidAssetsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInPrepaidAssetsCashFlowStatement class
@@ -24138,6 +27418,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInReceivablesCashFlowStatement class
 		/// </summary>
+		public ChangeInReceivablesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInReceivablesCashFlowStatement class
+		/// </summary>
 		public ChangeInReceivablesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24175,6 +27460,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInReinsuranceRecoverableOnPaidAndUnpaidLossesCashFlowStatement class
 		/// </summary>
+		public ChangeInReinsuranceRecoverableOnPaidAndUnpaidLossesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInReinsuranceRecoverableOnPaidAndUnpaidLossesCashFlowStatement class
+		/// </summary>
 		public ChangeInReinsuranceRecoverableOnPaidAndUnpaidLossesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24198,6 +27488,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInRestrictedCashCashFlowStatement class
+		/// </summary>
+		public ChangeInRestrictedCashCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInRestrictedCashCashFlowStatement class
@@ -24236,6 +27531,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInTradingAccountSecuritiesCashFlowStatement class
+		/// </summary>
+		public ChangeInTradingAccountSecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInTradingAccountSecuritiesCashFlowStatement class
@@ -24287,6 +27587,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInWorkingCapitalCashFlowStatement class
 		/// </summary>
+		public ChangeInWorkingCapitalCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInWorkingCapitalCashFlowStatement class
+		/// </summary>
 		public ChangeInWorkingCapitalCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24320,6 +27625,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CumulativeEffectOfAccountingChangeCashFlowStatement class
+		/// </summary>
+		public CumulativeEffectOfAccountingChangeCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CumulativeEffectOfAccountingChangeCashFlowStatement class
@@ -24371,6 +27681,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DeferredIncomeTaxCashFlowStatement class
 		/// </summary>
+		public DeferredIncomeTaxCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DeferredIncomeTaxCashFlowStatement class
+		/// </summary>
 		public DeferredIncomeTaxCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24418,6 +27733,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DeferredTaxCashFlowStatement class
 		/// </summary>
+		public DeferredTaxCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DeferredTaxCashFlowStatement class
+		/// </summary>
 		public DeferredTaxCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24453,6 +27773,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DepletionCashFlowStatement class
+		/// </summary>
+		public DepletionCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DepletionCashFlowStatement class
@@ -24500,6 +27825,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DepreciationCashFlowStatement class
+		/// </summary>
+		public DepreciationCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DepreciationCashFlowStatement class
@@ -24552,6 +27882,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DepreciationAndAmortizationCashFlowStatement class
 		/// </summary>
+		public DepreciationAndAmortizationCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DepreciationAndAmortizationCashFlowStatement class
+		/// </summary>
 		public DepreciationAndAmortizationCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24596,6 +27931,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DepreciationAmortizationDepletionCashFlowStatement class
+		/// </summary>
+		public DepreciationAmortizationDepletionCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DepreciationAmortizationDepletionCashFlowStatement class
@@ -24646,6 +27986,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EffectOfExchangeRateChangesCashFlowStatement class
 		/// </summary>
+		public EffectOfExchangeRateChangesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EffectOfExchangeRateChangesCashFlowStatement class
+		/// </summary>
 		public EffectOfExchangeRateChangesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24678,6 +28023,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the IncreaseDecreaseInDepositCashFlowStatement class
+		/// </summary>
+		public IncreaseDecreaseInDepositCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the IncreaseDecreaseInDepositCashFlowStatement class
@@ -24728,6 +28078,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetCommonStockIssuanceCashFlowStatement class
 		/// </summary>
+		public NetCommonStockIssuanceCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetCommonStockIssuanceCashFlowStatement class
+		/// </summary>
 		public NetCommonStockIssuanceCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24770,6 +28125,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetIssuancePaymentsOfDebtCashFlowStatement class
+		/// </summary>
+		public NetIssuancePaymentsOfDebtCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetIssuancePaymentsOfDebtCashFlowStatement class
@@ -24821,6 +28181,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetLongTermDebtIssuanceCashFlowStatement class
 		/// </summary>
+		public NetLongTermDebtIssuanceCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetLongTermDebtIssuanceCashFlowStatement class
+		/// </summary>
 		public NetLongTermDebtIssuanceCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24863,6 +28228,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetPreferredStockIssuanceCashFlowStatement class
+		/// </summary>
+		public NetPreferredStockIssuanceCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetPreferredStockIssuanceCashFlowStatement class
@@ -24913,6 +28283,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetShortTermDebtIssuanceCashFlowStatement class
 		/// </summary>
+		public NetShortTermDebtIssuanceCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetShortTermDebtIssuanceCashFlowStatement class
+		/// </summary>
 		public NetShortTermDebtIssuanceCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -24946,6 +28321,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetCashFromDiscontinuedOperationsCashFlowStatement class
+		/// </summary>
+		public NetCashFromDiscontinuedOperationsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetCashFromDiscontinuedOperationsCashFlowStatement class
@@ -24991,6 +28371,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetForeignCurrencyExchangeGainLossCashFlowStatement class
+		/// </summary>
+		public NetForeignCurrencyExchangeGainLossCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetForeignCurrencyExchangeGainLossCashFlowStatement class
@@ -25042,6 +28427,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeCashFlowStatement class
 		/// </summary>
+		public NetIncomeCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeCashFlowStatement class
+		/// </summary>
 		public NetIncomeCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25089,6 +28479,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeFromContinuingOperationsCashFlowStatement class
 		/// </summary>
+		public NetIncomeFromContinuingOperationsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeFromContinuingOperationsCashFlowStatement class
+		/// </summary>
 		public NetIncomeFromContinuingOperationsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25122,6 +28517,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PaymentForLoansCashFlowStatement class
+		/// </summary>
+		public PaymentForLoansCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PaymentForLoansCashFlowStatement class
@@ -25172,6 +28572,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommonStockPaymentsCashFlowStatement class
 		/// </summary>
+		public CommonStockPaymentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommonStockPaymentsCashFlowStatement class
+		/// </summary>
 		public CommonStockPaymentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25209,6 +28614,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PreferredStockPaymentsCashFlowStatement class
+		/// </summary>
+		public PreferredStockPaymentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PreferredStockPaymentsCashFlowStatement class
@@ -25259,6 +28669,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermDebtPaymentsCashFlowStatement class
 		/// </summary>
+		public LongTermDebtPaymentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermDebtPaymentsCashFlowStatement class
+		/// </summary>
 		public LongTermDebtPaymentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25305,6 +28720,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ShortTermDebtPaymentsCashFlowStatement class
 		/// </summary>
+		public ShortTermDebtPaymentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ShortTermDebtPaymentsCashFlowStatement class
+		/// </summary>
 		public ShortTermDebtPaymentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25341,6 +28761,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProceedsFromIssuanceOfWarrantsCashFlowStatement class
 		/// </summary>
+		public ProceedsFromIssuanceOfWarrantsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsFromIssuanceOfWarrantsCashFlowStatement class
+		/// </summary>
 		public ProceedsFromIssuanceOfWarrantsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25373,6 +28798,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsFromLoansCashFlowStatement class
+		/// </summary>
+		public ProceedsFromLoansCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProceedsFromLoansCashFlowStatement class
@@ -25423,6 +28853,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProceedsFromStockOptionExercisedCashFlowStatement class
 		/// </summary>
+		public ProceedsFromStockOptionExercisedCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsFromStockOptionExercisedCashFlowStatement class
+		/// </summary>
 		public ProceedsFromStockOptionExercisedCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25465,6 +28900,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CommonStockIssuanceCashFlowStatement class
+		/// </summary>
+		public CommonStockIssuanceCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CommonStockIssuanceCashFlowStatement class
@@ -25515,6 +28955,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermDebtIssuanceCashFlowStatement class
 		/// </summary>
+		public LongTermDebtIssuanceCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermDebtIssuanceCashFlowStatement class
+		/// </summary>
 		public LongTermDebtIssuanceCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25557,6 +29002,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PreferredStockIssuanceCashFlowStatement class
+		/// </summary>
+		public PreferredStockIssuanceCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PreferredStockIssuanceCashFlowStatement class
@@ -25607,6 +29057,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ShortTermDebtIssuanceCashFlowStatement class
 		/// </summary>
+		public ShortTermDebtIssuanceCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ShortTermDebtIssuanceCashFlowStatement class
+		/// </summary>
 		public ShortTermDebtIssuanceCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25639,6 +29094,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetProceedsPaymentForLoanCashFlowStatement class
+		/// </summary>
+		public NetProceedsPaymentForLoanCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetProceedsPaymentForLoanCashFlowStatement class
@@ -25676,6 +29136,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsPaymentInInterestBearingDepositsInBankCashFlowStatement class
+		/// </summary>
+		public ProceedsPaymentInInterestBearingDepositsInBankCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProceedsPaymentInInterestBearingDepositsInBankCashFlowStatement class
@@ -25718,6 +29183,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PurchaseOfEquitySecuritiesCashFlowStatement class
 		/// </summary>
+		public PurchaseOfEquitySecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfEquitySecuritiesCashFlowStatement class
+		/// </summary>
 		public PurchaseOfEquitySecuritiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25751,6 +29221,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfFixedMaturitySecuritiesCashFlowStatement class
+		/// </summary>
+		public PurchaseOfFixedMaturitySecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PurchaseOfFixedMaturitySecuritiesCashFlowStatement class
@@ -25801,6 +29276,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PurchaseOfIntangiblesCashFlowStatement class
 		/// </summary>
+		public PurchaseOfIntangiblesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfIntangiblesCashFlowStatement class
+		/// </summary>
 		public PurchaseOfIntangiblesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25843,6 +29323,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfInvestmentCashFlowStatement class
+		/// </summary>
+		public PurchaseOfInvestmentCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PurchaseOfInvestmentCashFlowStatement class
@@ -25894,6 +29379,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PurchaseOfLongTermInvestmentsCashFlowStatement class
 		/// </summary>
+		public PurchaseOfLongTermInvestmentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfLongTermInvestmentsCashFlowStatement class
+		/// </summary>
 		public PurchaseOfLongTermInvestmentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -25937,6 +29427,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfPPECashFlowStatement class
+		/// </summary>
+		public PurchaseOfPPECashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PurchaseOfPPECashFlowStatement class
@@ -25988,6 +29483,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PurchaseOfShortTermInvestmentsCashFlowStatement class
 		/// </summary>
+		public PurchaseOfShortTermInvestmentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfShortTermInvestmentsCashFlowStatement class
+		/// </summary>
 		public PurchaseOfShortTermInvestmentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26020,6 +29520,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfTechnologyCashFlowStatement class
+		/// </summary>
+		public PurchaseOfTechnologyCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PurchaseOfTechnologyCashFlowStatement class
@@ -26071,6 +29576,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PurchaseOfBusinessCashFlowStatement class
 		/// </summary>
+		public PurchaseOfBusinessCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseOfBusinessCashFlowStatement class
+		/// </summary>
 		public PurchaseOfBusinessCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26113,6 +29623,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetBusinessPurchaseAndSaleCashFlowStatement class
+		/// </summary>
+		public NetBusinessPurchaseAndSaleCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetBusinessPurchaseAndSaleCashFlowStatement class
@@ -26163,6 +29678,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIntangiblesPurchaseAndSaleCashFlowStatement class
 		/// </summary>
+		public NetIntangiblesPurchaseAndSaleCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIntangiblesPurchaseAndSaleCashFlowStatement class
+		/// </summary>
 		public NetIntangiblesPurchaseAndSaleCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26205,6 +29725,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetInvestmentPurchaseAndSaleCashFlowStatement class
+		/// </summary>
+		public NetInvestmentPurchaseAndSaleCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetInvestmentPurchaseAndSaleCashFlowStatement class
@@ -26255,6 +29780,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetPPEPurchaseAndSaleCashFlowStatement class
 		/// </summary>
+		public NetPPEPurchaseAndSaleCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetPPEPurchaseAndSaleCashFlowStatement class
+		/// </summary>
 		public NetPPEPurchaseAndSaleCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26287,6 +29817,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetTechnologyPurchaseAndSaleCashFlowStatement class
+		/// </summary>
+		public NetTechnologyPurchaseAndSaleCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetTechnologyPurchaseAndSaleCashFlowStatement class
@@ -26337,6 +29872,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SaleOfBusinessCashFlowStatement class
 		/// </summary>
+		public SaleOfBusinessCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SaleOfBusinessCashFlowStatement class
+		/// </summary>
 		public SaleOfBusinessCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26374,6 +29914,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SaleOfIntangiblesCashFlowStatement class
+		/// </summary>
+		public SaleOfIntangiblesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SaleOfIntangiblesCashFlowStatement class
@@ -26424,6 +29969,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SaleOfInvestmentCashFlowStatement class
 		/// </summary>
+		public SaleOfInvestmentCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SaleOfInvestmentCashFlowStatement class
+		/// </summary>
 		public SaleOfInvestmentCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26470,6 +30020,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SaleOfLongTermInvestmentsCashFlowStatement class
 		/// </summary>
+		public SaleOfLongTermInvestmentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SaleOfLongTermInvestmentsCashFlowStatement class
+		/// </summary>
 		public SaleOfLongTermInvestmentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26512,6 +30067,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SaleOfPPECashFlowStatement class
+		/// </summary>
+		public SaleOfPPECashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SaleOfPPECashFlowStatement class
@@ -26564,6 +30124,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SaleOfShortTermInvestmentsCashFlowStatement class
 		/// </summary>
+		public SaleOfShortTermInvestmentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SaleOfShortTermInvestmentsCashFlowStatement class
+		/// </summary>
 		public SaleOfShortTermInvestmentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26596,6 +30161,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SaleOfTechnologyCashFlowStatement class
+		/// </summary>
+		public SaleOfTechnologyCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SaleOfTechnologyCashFlowStatement class
@@ -26637,6 +30207,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SalesOfEquitySecuritiesCashFlowStatement class
 		/// </summary>
+		public SalesOfEquitySecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SalesOfEquitySecuritiesCashFlowStatement class
+		/// </summary>
 		public SalesOfEquitySecuritiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26670,6 +30245,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SalesOfFixedMaturitySecuritiesCashFlowStatement class
+		/// </summary>
+		public SalesOfFixedMaturitySecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SalesOfFixedMaturitySecuritiesCashFlowStatement class
@@ -26716,6 +30296,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangesInAccountReceivablesCashFlowStatement class
+		/// </summary>
+		public ChangesInAccountReceivablesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangesInAccountReceivablesCashFlowStatement class
@@ -26768,6 +30353,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AmortizationOfFinancingCostsAndDiscountsCashFlowStatement class
 		/// </summary>
+		public AmortizationOfFinancingCostsAndDiscountsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AmortizationOfFinancingCostsAndDiscountsCashFlowStatement class
+		/// </summary>
 		public AmortizationOfFinancingCostsAndDiscountsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26811,6 +30401,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AmortizationOfSecuritiesCashFlowStatement class
+		/// </summary>
+		public AmortizationOfSecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AmortizationOfSecuritiesCashFlowStatement class
@@ -26861,6 +30456,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AssetImpairmentChargeCashFlowStatement class
 		/// </summary>
+		public AssetImpairmentChargeCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AssetImpairmentChargeCashFlowStatement class
+		/// </summary>
 		public AssetImpairmentChargeCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -26893,6 +30493,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInDividendPayableCashFlowStatement class
+		/// </summary>
+		public ChangeInDividendPayableCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInDividendPayableCashFlowStatement class
@@ -26930,6 +30535,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInDeferredChargesCashFlowStatement class
+		/// </summary>
+		public ChangeInDeferredChargesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInDeferredChargesCashFlowStatement class
@@ -26977,6 +30587,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInOtherCurrentAssetsCashFlowStatement class
+		/// </summary>
+		public ChangeInOtherCurrentAssetsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInOtherCurrentAssetsCashFlowStatement class
@@ -27029,6 +30644,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInOtherCurrentLiabilitiesCashFlowStatement class
 		/// </summary>
+		public ChangeInOtherCurrentLiabilitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInOtherCurrentLiabilitiesCashFlowStatement class
+		/// </summary>
 		public ChangeInOtherCurrentLiabilitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27075,6 +30695,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInOtherWorkingCapitalCashFlowStatement class
 		/// </summary>
+		public ChangeInOtherWorkingCapitalCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInOtherWorkingCapitalCashFlowStatement class
+		/// </summary>
 		public ChangeInOtherWorkingCapitalCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27112,6 +30737,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInPrepaidReinsurancePremiumsCashFlowStatement class
 		/// </summary>
+		public ChangeInPrepaidReinsurancePremiumsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInPrepaidReinsurancePremiumsCashFlowStatement class
+		/// </summary>
 		public ChangeInPrepaidReinsurancePremiumsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27144,6 +30774,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInReinsuranceReceivableOnPaidLossesCashFlowStatement class
+		/// </summary>
+		public ChangeInReinsuranceReceivableOnPaidLossesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInReinsuranceReceivableOnPaidLossesCashFlowStatement class
@@ -27185,6 +30820,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInReinsuranceRecoverableOnUnpaidLossesCashFlowStatement class
 		/// </summary>
+		public ChangeInReinsuranceRecoverableOnUnpaidLossesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInReinsuranceRecoverableOnUnpaidLossesCashFlowStatement class
+		/// </summary>
 		public ChangeInReinsuranceRecoverableOnUnpaidLossesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27222,6 +30862,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeInUnearnedPremiumsCashFlowStatement class
 		/// </summary>
+		public ChangeInUnearnedPremiumsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInUnearnedPremiumsCashFlowStatement class
+		/// </summary>
 		public ChangeInUnearnedPremiumsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27255,6 +30900,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeInUnearnedPremiumsCededCashFlowStatement class
+		/// </summary>
+		public ChangeInUnearnedPremiumsCededCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeInUnearnedPremiumsCededCashFlowStatement class
@@ -27301,6 +30951,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CommonStockDividendPaidCashFlowStatement class
+		/// </summary>
+		public CommonStockDividendPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CommonStockDividendPaidCashFlowStatement class
@@ -27352,6 +31007,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EarningsLossesFromEquityInvestmentsCashFlowStatement class
 		/// </summary>
+		public EarningsLossesFromEquityInvestmentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EarningsLossesFromEquityInvestmentsCashFlowStatement class
+		/// </summary>
 		public EarningsLossesFromEquityInvestmentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27395,6 +31055,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ExcessTaxBenefitFromStockBasedCompensationCashFlowStatement class
 		/// </summary>
+		public ExcessTaxBenefitFromStockBasedCompensationCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ExcessTaxBenefitFromStockBasedCompensationCashFlowStatement class
+		/// </summary>
 		public ExcessTaxBenefitFromStockBasedCompensationCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27432,6 +31097,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ExtraordinaryItemsCashFlowStatement class
+		/// </summary>
+		public ExtraordinaryItemsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ExtraordinaryItemsCashFlowStatement class
@@ -27487,6 +31157,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainLossOnInvestmentSecuritiesCashFlowStatement class
 		/// </summary>
+		public GainLossOnInvestmentSecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainLossOnInvestmentSecuritiesCashFlowStatement class
+		/// </summary>
 		public GainLossOnInvestmentSecuritiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27531,6 +31206,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the GainLossOnSaleOfBusinessCashFlowStatement class
+		/// </summary>
+		public GainLossOnSaleOfBusinessCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GainLossOnSaleOfBusinessCashFlowStatement class
@@ -27585,6 +31265,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GainLossOnSaleOfPPECashFlowStatement class
 		/// </summary>
+		public GainLossOnSaleOfPPECashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GainLossOnSaleOfPPECashFlowStatement class
+		/// </summary>
 		public GainLossOnSaleOfPPECashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27622,6 +31307,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestCreditedOnPolicyholderDepositsCashFlowStatement class
 		/// </summary>
+		public InterestCreditedOnPolicyholderDepositsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestCreditedOnPolicyholderDepositsCashFlowStatement class
+		/// </summary>
 		public InterestCreditedOnPolicyholderDepositsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27655,6 +31345,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashFromDiscontinuedOperatingActivitiesCashFlowStatement class
+		/// </summary>
+		public CashFromDiscontinuedOperatingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashFromDiscontinuedOperatingActivitiesCashFlowStatement class
@@ -27705,6 +31400,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OperatingGainsLossesCashFlowStatement class
 		/// </summary>
+		public OperatingGainsLossesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OperatingGainsLossesCashFlowStatement class
+		/// </summary>
 		public OperatingGainsLossesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27747,6 +31447,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetOtherFinancingChargesCashFlowStatement class
+		/// </summary>
+		public NetOtherFinancingChargesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetOtherFinancingChargesCashFlowStatement class
@@ -27797,6 +31502,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetOtherInvestingChangesCashFlowStatement class
 		/// </summary>
+		public NetOtherInvestingChangesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetOtherInvestingChangesCashFlowStatement class
+		/// </summary>
 		public NetOtherInvestingChangesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27839,6 +31549,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherNonCashItemsCashFlowStatement class
+		/// </summary>
+		public OtherNonCashItemsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherNonCashItemsCashFlowStatement class
@@ -27890,6 +31605,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PensionAndEmployeeBenefitExpenseCashFlowStatement class
 		/// </summary>
+		public PensionAndEmployeeBenefitExpenseCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PensionAndEmployeeBenefitExpenseCashFlowStatement class
+		/// </summary>
 		public PensionAndEmployeeBenefitExpenseCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27937,6 +31657,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PreferredStockDividendPaidCashFlowStatement class
 		/// </summary>
+		public PreferredStockDividendPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PreferredStockDividendPaidCashFlowStatement class
+		/// </summary>
 		public PreferredStockDividendPaidCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -27970,6 +31695,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsPaymentFederalFundsSoldAndSecuritiesPurchasedUnderAgreementToResellCashFlowStatement class
+		/// </summary>
+		public ProceedsPaymentFederalFundsSoldAndSecuritiesPurchasedUnderAgreementToResellCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProceedsPaymentFederalFundsSoldAndSecuritiesPurchasedUnderAgreementToResellCashFlowStatement class
@@ -28008,6 +31738,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProvisionForLoanLeaseAndOtherLossesCashFlowStatement class
+		/// </summary>
+		public ProvisionForLoanLeaseAndOtherLossesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProvisionForLoanLeaseAndOtherLossesCashFlowStatement class
@@ -28052,6 +31787,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RealizedGainLossOnSaleOfLoansAndLeaseCashFlowStatement class
+		/// </summary>
+		public RealizedGainLossOnSaleOfLoansAndLeaseCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RealizedGainLossOnSaleOfLoansAndLeaseCashFlowStatement class
@@ -28103,6 +31843,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the StockBasedCompensationCashFlowStatement class
 		/// </summary>
+		public StockBasedCompensationCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the StockBasedCompensationCashFlowStatement class
+		/// </summary>
 		public StockBasedCompensationCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28149,6 +31894,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the UnrealizedGainLossOnInvestmentSecuritiesCashFlowStatement class
 		/// </summary>
+		public UnrealizedGainLossOnInvestmentSecuritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the UnrealizedGainLossOnInvestmentSecuritiesCashFlowStatement class
+		/// </summary>
 		public UnrealizedGainLossOnInvestmentSecuritiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28171,6 +31921,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the UnrealizedGainsLossesOnDerivativesCashFlowStatement class
+		/// </summary>
+		public UnrealizedGainsLossesOnDerivativesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the UnrealizedGainsLossesOnDerivativesCashFlowStatement class
@@ -28222,6 +31977,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AmortizationOfIntangiblesCashFlowStatement class
 		/// </summary>
+		public AmortizationOfIntangiblesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AmortizationOfIntangiblesCashFlowStatement class
+		/// </summary>
 		public AmortizationOfIntangiblesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28255,6 +32015,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AllowanceForFundsConstructionCashFlowStatement class
+		/// </summary>
+		public AllowanceForFundsConstructionCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AllowanceForFundsConstructionCashFlowStatement class
@@ -28296,6 +32061,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DomesticSalesCashFlowStatement class
 		/// </summary>
+		public DomesticSalesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DomesticSalesCashFlowStatement class
+		/// </summary>
 		public DomesticSalesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28329,6 +32099,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ForeignSalesCashFlowStatement class
+		/// </summary>
+		public ForeignSalesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ForeignSalesCashFlowStatement class
@@ -28379,6 +32154,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IncomeTaxPaidSupplementalDataCashFlowStatement class
 		/// </summary>
+		public IncomeTaxPaidSupplementalDataCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IncomeTaxPaidSupplementalDataCashFlowStatement class
+		/// </summary>
 		public IncomeTaxPaidSupplementalDataCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28421,6 +32201,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestPaidSupplementalDataCashFlowStatement class
+		/// </summary>
+		public InterestPaidSupplementalDataCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestPaidSupplementalDataCashFlowStatement class
@@ -28471,6 +32256,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IssuanceOfCapitalStockCashFlowStatement class
 		/// </summary>
+		public IssuanceOfCapitalStockCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IssuanceOfCapitalStockCashFlowStatement class
+		/// </summary>
 		public IssuanceOfCapitalStockCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28513,6 +32303,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the IssuanceOfDebtCashFlowStatement class
+		/// </summary>
+		public IssuanceOfDebtCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the IssuanceOfDebtCashFlowStatement class
@@ -28563,6 +32358,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RepaymentOfDebtCashFlowStatement class
 		/// </summary>
+		public RepaymentOfDebtCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RepaymentOfDebtCashFlowStatement class
+		/// </summary>
 		public RepaymentOfDebtCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28605,6 +32405,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the RepurchaseOfCapitalStockCashFlowStatement class
+		/// </summary>
+		public RepurchaseOfCapitalStockCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RepurchaseOfCapitalStockCashFlowStatement class
@@ -28655,6 +32460,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FreeCashFlowCashFlowStatement class
 		/// </summary>
+		public FreeCashFlowCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FreeCashFlowCashFlowStatement class
+		/// </summary>
 		public FreeCashFlowCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28688,6 +32498,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DecreaseinInterestBearingDepositsinBankCashFlowStatement class
+		/// </summary>
+		public DecreaseinInterestBearingDepositsinBankCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DecreaseinInterestBearingDepositsinBankCashFlowStatement class
@@ -28728,6 +32543,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IncreaseinInterestBearingDepositsinBankCashFlowStatement class
 		/// </summary>
+		public IncreaseinInterestBearingDepositsinBankCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IncreaseinInterestBearingDepositsinBankCashFlowStatement class
+		/// </summary>
 		public IncreaseinInterestBearingDepositsinBankCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28760,6 +32580,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AdjustedGeographySegmentDataCashFlowStatement class
+		/// </summary>
+		public AdjustedGeographySegmentDataCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AdjustedGeographySegmentDataCashFlowStatement class
@@ -28800,6 +32625,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestReceivedCFOCashFlowStatement class
 		/// </summary>
+		public InterestReceivedCFOCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestReceivedCFOCashFlowStatement class
+		/// </summary>
 		public InterestReceivedCFOCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28832,6 +32662,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestPaidCFOCashFlowStatement class
+		/// </summary>
+		public InterestPaidCFOCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestPaidCFOCashFlowStatement class
@@ -28872,6 +32707,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PurchaseofSubsidiariesCashFlowStatement class
 		/// </summary>
+		public PurchaseofSubsidiariesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseofSubsidiariesCashFlowStatement class
+		/// </summary>
 		public PurchaseofSubsidiariesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28908,6 +32748,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PurchaseofJointVentureAssociateCashFlowStatement class
 		/// </summary>
+		public PurchaseofJointVentureAssociateCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PurchaseofJointVentureAssociateCashFlowStatement class
+		/// </summary>
 		public PurchaseofJointVentureAssociateCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -28930,6 +32775,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the SaleofSubsidiariesCashFlowStatement class
+		/// </summary>
+		public SaleofSubsidiariesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the SaleofSubsidiariesCashFlowStatement class
@@ -28970,6 +32820,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SaleofJointVentureAssociateCashFlowStatement class
 		/// </summary>
+		public SaleofJointVentureAssociateCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SaleofJointVentureAssociateCashFlowStatement class
+		/// </summary>
 		public SaleofJointVentureAssociateCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29006,6 +32861,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IncreaseDecreaseinLeaseFinancingCashFlowStatement class
 		/// </summary>
+		public IncreaseDecreaseinLeaseFinancingCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IncreaseDecreaseinLeaseFinancingCashFlowStatement class
+		/// </summary>
 		public IncreaseDecreaseinLeaseFinancingCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29028,6 +32888,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the IncreaseinLeaseFinancingCashFlowStatement class
+		/// </summary>
+		public IncreaseinLeaseFinancingCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the IncreaseinLeaseFinancingCashFlowStatement class
@@ -29068,6 +32933,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the RepaymentinLeaseFinancingCashFlowStatement class
 		/// </summary>
+		public RepaymentinLeaseFinancingCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the RepaymentinLeaseFinancingCashFlowStatement class
+		/// </summary>
 		public RepaymentinLeaseFinancingCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29100,6 +32970,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ShareofAssociatesCashFlowStatement class
+		/// </summary>
+		public ShareofAssociatesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ShareofAssociatesCashFlowStatement class
@@ -29141,6 +33016,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProfitonDisposalsCashFlowStatement class
 		/// </summary>
+		public ProfitonDisposalsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProfitonDisposalsCashFlowStatement class
+		/// </summary>
 		public ProfitonDisposalsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29177,6 +33057,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReorganizationOtherCostsCashFlowStatement class
 		/// </summary>
+		public ReorganizationOtherCostsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReorganizationOtherCostsCashFlowStatement class
+		/// </summary>
 		public ReorganizationOtherCostsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29208,6 +33093,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherFinancingCashFlowStatement class
 		/// </summary>
+		public OtherFinancingCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherFinancingCashFlowStatement class
+		/// </summary>
 		public OtherFinancingCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29225,6 +33115,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetOutwardLoansCashFlowStatement class
+		/// </summary>
+		public NetOutwardLoansCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetOutwardLoansCashFlowStatement class
@@ -29270,6 +33165,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IssueExpensesCashFlowStatement class
 		/// </summary>
+		public IssueExpensesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IssueExpensesCashFlowStatement class
+		/// </summary>
 		public IssueExpensesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29302,6 +33202,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinCertificatesofDepositsandDebtSecuritiesIssuedCashFlowStatement class
+		/// </summary>
+		public ChangeinCertificatesofDepositsandDebtSecuritiesIssuedCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeinCertificatesofDepositsandDebtSecuritiesIssuedCashFlowStatement class
@@ -29342,6 +33247,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PaymentstoAcquireHeldToMaturityInvestmentsCashFlowStatement class
 		/// </summary>
+		public PaymentstoAcquireHeldToMaturityInvestmentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PaymentstoAcquireHeldToMaturityInvestmentsCashFlowStatement class
+		/// </summary>
 		public PaymentstoAcquireHeldToMaturityInvestmentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29378,6 +33288,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PaymentstoAcquireAvailableForSaleFinancialAssetsCashFlowStatement class
 		/// </summary>
+		public PaymentstoAcquireAvailableForSaleFinancialAssetsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PaymentstoAcquireAvailableForSaleFinancialAssetsCashFlowStatement class
+		/// </summary>
 		public PaymentstoAcquireAvailableForSaleFinancialAssetsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29395,6 +33310,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PaymentstoAcquireFinancialAssetsDesignatedasFairValueCashFlowStatement class
+		/// </summary>
+		public PaymentstoAcquireFinancialAssetsDesignatedasFairValueCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PaymentstoAcquireFinancialAssetsDesignatedasFairValueCashFlowStatement class
@@ -29435,6 +33355,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProceedsfromDisposalofHeldToMaturityInvestmentsCashFlowStatement class
 		/// </summary>
+		public ProceedsfromDisposalofHeldToMaturityInvestmentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsfromDisposalofHeldToMaturityInvestmentsCashFlowStatement class
+		/// </summary>
 		public ProceedsfromDisposalofHeldToMaturityInvestmentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29471,6 +33396,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProceedsfromDisposalofAvailableForSaleFinancialAssetsCashFlowStatement class
 		/// </summary>
+		public ProceedsfromDisposalofAvailableForSaleFinancialAssetsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsfromDisposalofAvailableForSaleFinancialAssetsCashFlowStatement class
+		/// </summary>
 		public ProceedsfromDisposalofAvailableForSaleFinancialAssetsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29488,6 +33418,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsfromDisposalofFinancialAssetsDesignatedasFairValueCashFlowStatement class
+		/// </summary>
+		public ProceedsfromDisposalofFinancialAssetsDesignatedasFairValueCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProceedsfromDisposalofFinancialAssetsDesignatedasFairValueCashFlowStatement class
@@ -29529,6 +33464,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinFairValueofInvestmentPropertiesCashFlowStatement class
 		/// </summary>
+		public ChangeinFairValueofInvestmentPropertiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinFairValueofInvestmentPropertiesCashFlowStatement class
+		/// </summary>
 		public ChangeinFairValueofInvestmentPropertiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29546,6 +33486,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinDepositsbyBanksandCustomersCashFlowStatement class
+		/// </summary>
+		public ChangeinDepositsbyBanksandCustomersCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeinDepositsbyBanksandCustomersCashFlowStatement class
@@ -29592,6 +33537,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashFlowsfromusedinOperatingActivitiesDirectCashFlowStatement class
 		/// </summary>
+		public CashFlowsfromusedinOperatingActivitiesDirectCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashFlowsfromusedinOperatingActivitiesDirectCashFlowStatement class
+		/// </summary>
 		public CashFlowsfromusedinOperatingActivitiesDirectCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29629,6 +33579,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ClassesofCashReceiptsfromOperatingActivitiesCashFlowStatement class
+		/// </summary>
+		public ClassesofCashReceiptsfromOperatingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ClassesofCashReceiptsfromOperatingActivitiesCashFlowStatement class
@@ -29674,6 +33629,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherCashReceiptsfromOperatingActivitiesCashFlowStatement class
 		/// </summary>
+		public OtherCashReceiptsfromOperatingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherCashReceiptsfromOperatingActivitiesCashFlowStatement class
+		/// </summary>
 		public OtherCashReceiptsfromOperatingActivitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29715,6 +33675,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ClassesofCashPaymentsCashFlowStatement class
 		/// </summary>
+		public ClassesofCashPaymentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ClassesofCashPaymentsCashFlowStatement class
+		/// </summary>
 		public ClassesofCashPaymentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29747,6 +33712,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PaymentstoSuppliersforGoodsandServicesCashFlowStatement class
+		/// </summary>
+		public PaymentstoSuppliersforGoodsandServicesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PaymentstoSuppliersforGoodsandServicesCashFlowStatement class
@@ -29787,6 +33757,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PaymentsfromContractsHeldforDealingorTradingPurposeCashFlowStatement class
 		/// </summary>
+		public PaymentsfromContractsHeldforDealingorTradingPurposeCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PaymentsfromContractsHeldforDealingorTradingPurposeCashFlowStatement class
+		/// </summary>
 		public PaymentsfromContractsHeldforDealingorTradingPurposeCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29819,6 +33794,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PaymentsonBehalfofEmployeesCashFlowStatement class
+		/// </summary>
+		public PaymentsonBehalfofEmployeesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PaymentsonBehalfofEmployeesCashFlowStatement class
@@ -29856,6 +33836,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PaymentsforPremiumsandClaimsAnnuitiesandOtherPolicyBenefitsCashFlowStatement class
+		/// </summary>
+		public PaymentsforPremiumsandClaimsAnnuitiesandOtherPolicyBenefitsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PaymentsforPremiumsandClaimsAnnuitiesandOtherPolicyBenefitsCashFlowStatement class
@@ -29901,6 +33886,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherCashPaymentsfromOperatingActivitiesCashFlowStatement class
 		/// </summary>
+		public OtherCashPaymentsfromOperatingActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherCashPaymentsfromOperatingActivitiesCashFlowStatement class
+		/// </summary>
 		public OtherCashPaymentsfromOperatingActivitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29918,6 +33908,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DividendsPaidDirectCashFlowStatement class
+		/// </summary>
+		public DividendsPaidDirectCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DividendsPaidDirectCashFlowStatement class
@@ -29958,6 +33953,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DividendsReceivedDirectCashFlowStatement class
 		/// </summary>
+		public DividendsReceivedDirectCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DividendsReceivedDirectCashFlowStatement class
+		/// </summary>
 		public DividendsReceivedDirectCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -29990,6 +33990,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestPaidDirectCashFlowStatement class
+		/// </summary>
+		public InterestPaidDirectCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestPaidDirectCashFlowStatement class
@@ -30030,6 +34035,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestReceivedDirectCashFlowStatement class
 		/// </summary>
+		public InterestReceivedDirectCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestReceivedDirectCashFlowStatement class
+		/// </summary>
 		public InterestReceivedDirectCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30062,6 +34072,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TaxesRefundPaidDirectCashFlowStatement class
+		/// </summary>
+		public TaxesRefundPaidDirectCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TaxesRefundPaidDirectCashFlowStatement class
@@ -30107,6 +34122,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalAdjustmentsforNonCashItemsCashFlowStatement class
 		/// </summary>
+		public TotalAdjustmentsforNonCashItemsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalAdjustmentsforNonCashItemsCashFlowStatement class
+		/// </summary>
 		public TotalAdjustmentsforNonCashItemsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30140,6 +34160,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ImpairmentLossReversalRecognizedinProfitorLossCashFlowStatement class
+		/// </summary>
+		public ImpairmentLossReversalRecognizedinProfitorLossCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ImpairmentLossReversalRecognizedinProfitorLossCashFlowStatement class
@@ -30180,6 +34205,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AdjustmentsforUndistributedProfitsofAssociatesCashFlowStatement class
 		/// </summary>
+		public AdjustmentsforUndistributedProfitsofAssociatesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AdjustmentsforUndistributedProfitsofAssociatesCashFlowStatement class
+		/// </summary>
 		public AdjustmentsforUndistributedProfitsofAssociatesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30216,6 +34246,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherAdjustmentsforWhichCashEffectsAreInvestingorFinancingCashFlowCashFlowStatement class
 		/// </summary>
+		public OtherAdjustmentsforWhichCashEffectsAreInvestingorFinancingCashFlowCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherAdjustmentsforWhichCashEffectsAreInvestingorFinancingCashFlowCashFlowStatement class
+		/// </summary>
 		public OtherAdjustmentsforWhichCashEffectsAreInvestingorFinancingCashFlowCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30233,6 +34268,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DividendPaidCFOCashFlowStatement class
+		/// </summary>
+		public DividendPaidCFOCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DividendPaidCFOCashFlowStatement class
@@ -30259,6 +34299,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DividendReceivedCFOCashFlowStatement class
+		/// </summary>
+		public DividendReceivedCFOCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DividendReceivedCFOCashFlowStatement class
@@ -30299,6 +34344,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TaxesRefundPaidCashFlowStatement class
 		/// </summary>
+		public TaxesRefundPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TaxesRefundPaidCashFlowStatement class
+		/// </summary>
 		public TaxesRefundPaidCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30331,6 +34381,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OtherOperatingInflowsOutflowsofCashCashFlowStatement class
+		/// </summary>
+		public OtherOperatingInflowsOutflowsofCashCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OtherOperatingInflowsOutflowsofCashCashFlowStatement class
@@ -30371,6 +34426,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProceedsfromGovernmentGrantsCFICashFlowStatement class
 		/// </summary>
+		public ProceedsfromGovernmentGrantsCFICashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsfromGovernmentGrantsCFICashFlowStatement class
+		/// </summary>
 		public ProceedsfromGovernmentGrantsCFICashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30388,6 +34448,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashAdvancesandLoansMadetoOtherPartiesCashFlowStatement class
+		/// </summary>
+		public CashAdvancesandLoansMadetoOtherPartiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashAdvancesandLoansMadetoOtherPartiesCashFlowStatement class
@@ -30414,6 +34479,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromRepaymentofAdvancesandLoansMadetoOtherPartiesCashFlowStatement class
+		/// </summary>
+		public CashReceiptsfromRepaymentofAdvancesandLoansMadetoOtherPartiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromRepaymentofAdvancesandLoansMadetoOtherPartiesCashFlowStatement class
@@ -30454,6 +34524,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromPaymentsforFinancialDerivativeContractsCashFlowStatement class
 		/// </summary>
+		public CashReceiptsfromPaymentsforFinancialDerivativeContractsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromPaymentsforFinancialDerivativeContractsCashFlowStatement class
+		/// </summary>
 		public CashReceiptsfromPaymentsforFinancialDerivativeContractsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30486,6 +34561,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DividendsReceivedCFICashFlowStatement class
+		/// </summary>
+		public DividendsReceivedCFICashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DividendsReceivedCFICashFlowStatement class
@@ -30526,6 +34606,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestReceivedCFICashFlowStatement class
 		/// </summary>
+		public InterestReceivedCFICashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestReceivedCFICashFlowStatement class
+		/// </summary>
 		public InterestReceivedCFICashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30562,6 +34647,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the IncomeTaxesRefundPaidCFICashFlowStatement class
 		/// </summary>
+		public IncomeTaxesRefundPaidCFICashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the IncomeTaxesRefundPaidCFICashFlowStatement class
+		/// </summary>
 		public IncomeTaxesRefundPaidCFICashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30584,6 +34674,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the IssuancePaymentofOtherEquityInstrumentsNetCashFlowStatement class
+		/// </summary>
+		public IssuancePaymentofOtherEquityInstrumentsNetCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the IssuancePaymentofOtherEquityInstrumentsNetCashFlowStatement class
@@ -30614,6 +34709,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PaymentsofOtherEquityInstrumentsCashFlowStatement class
 		/// </summary>
+		public PaymentsofOtherEquityInstrumentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PaymentsofOtherEquityInstrumentsCashFlowStatement class
+		/// </summary>
 		public PaymentsofOtherEquityInstrumentsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30636,6 +34736,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsfromIssuingOtherEquityInstrumentsCashFlowStatement class
+		/// </summary>
+		public ProceedsfromIssuingOtherEquityInstrumentsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProceedsfromIssuingOtherEquityInstrumentsCashFlowStatement class
@@ -30676,6 +34781,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProceedsfromGovernmentGrantsCFFCashFlowStatement class
 		/// </summary>
+		public ProceedsfromGovernmentGrantsCFFCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProceedsfromGovernmentGrantsCFFCashFlowStatement class
+		/// </summary>
 		public ProceedsfromGovernmentGrantsCFFCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30712,6 +34822,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InterestPaidCFFCashFlowStatement class
 		/// </summary>
+		public InterestPaidCFFCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InterestPaidCFFCashFlowStatement class
+		/// </summary>
 		public InterestPaidCFFCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30744,6 +34859,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the IncomeTaxesRefundPaidCFFCashFlowStatement class
+		/// </summary>
+		public IncomeTaxesRefundPaidCFFCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the IncomeTaxesRefundPaidCFFCashFlowStatement class
@@ -30785,6 +34905,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinAccruedIncomeCashFlowStatement class
 		/// </summary>
+		public ChangeinAccruedIncomeCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinAccruedIncomeCashFlowStatement class
+		/// </summary>
 		public ChangeinAccruedIncomeCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30821,6 +34946,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinDeferredIncomeCashFlowStatement class
 		/// </summary>
+		public ChangeinDeferredIncomeCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinDeferredIncomeCashFlowStatement class
+		/// </summary>
 		public ChangeinDeferredIncomeCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30838,6 +34968,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinFinancialAssetsCashFlowStatement class
+		/// </summary>
+		public ChangeinFinancialAssetsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeinFinancialAssetsCashFlowStatement class
@@ -30878,6 +35013,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinAdvancesfromCentralBanksCashFlowStatement class
 		/// </summary>
+		public ChangeinAdvancesfromCentralBanksCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinAdvancesfromCentralBanksCashFlowStatement class
+		/// </summary>
 		public ChangeinAdvancesfromCentralBanksCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30910,6 +35050,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinFinancialLiabilitiesCashFlowStatement class
+		/// </summary>
+		public ChangeinFinancialLiabilitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeinFinancialLiabilitiesCashFlowStatement class
@@ -30950,6 +35095,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinInsuranceContractAssetsCashFlowStatement class
 		/// </summary>
+		public ChangeinInsuranceContractAssetsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinInsuranceContractAssetsCashFlowStatement class
+		/// </summary>
 		public ChangeinInsuranceContractAssetsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -30982,6 +35132,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinReinsuranceReceivablesCashFlowStatement class
+		/// </summary>
+		public ChangeinReinsuranceReceivablesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeinReinsuranceReceivablesCashFlowStatement class
@@ -31022,6 +35177,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinDeferredAcquisitionCostsNetCashFlowStatement class
 		/// </summary>
+		public ChangeinDeferredAcquisitionCostsNetCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinDeferredAcquisitionCostsNetCashFlowStatement class
+		/// </summary>
 		public ChangeinDeferredAcquisitionCostsNetCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31054,6 +35214,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinInsuranceFundsCashFlowStatement class
+		/// </summary>
+		public ChangeinInsuranceFundsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeinInsuranceFundsCashFlowStatement class
@@ -31094,6 +35259,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinReinsurancePayablesCashFlowStatement class
 		/// </summary>
+		public ChangeinReinsurancePayablesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinReinsurancePayablesCashFlowStatement class
+		/// </summary>
 		public ChangeinReinsurancePayablesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31126,6 +35296,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinInvestmentContractLiabilitiesCashFlowStatement class
+		/// </summary>
+		public ChangeinInvestmentContractLiabilitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ChangeinInvestmentContractLiabilitiesCashFlowStatement class
@@ -31166,6 +35341,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ChangeinInsuranceContractLiabilitiesCashFlowStatement class
 		/// </summary>
+		public ChangeinInsuranceContractLiabilitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ChangeinInsuranceContractLiabilitiesCashFlowStatement class
+		/// </summary>
 		public ChangeinInsuranceContractLiabilitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31198,6 +35378,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ProvisionandWriteOffofAssetsCashFlowStatement class
+		/// </summary>
+		public ProvisionandWriteOffofAssetsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ProvisionandWriteOffofAssetsCashFlowStatement class
@@ -31238,6 +35423,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReceiptsfromCustomersCashFlowStatement class
 		/// </summary>
+		public ReceiptsfromCustomersCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReceiptsfromCustomersCashFlowStatement class
+		/// </summary>
 		public ReceiptsfromCustomersCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31274,6 +35464,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ReceiptsfromGovernmentGrantsCashFlowStatement class
 		/// </summary>
+		public ReceiptsfromGovernmentGrantsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ReceiptsfromGovernmentGrantsCashFlowStatement class
+		/// </summary>
 		public ReceiptsfromGovernmentGrantsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31292,6 +35487,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the MinorityInterestCashFlowStatement class
+		/// </summary>
+		public MinorityInterestCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the MinorityInterestCashFlowStatement class
@@ -31342,6 +35542,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CapExReportedCashFlowStatement class
 		/// </summary>
+		public CapExReportedCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CapExReportedCashFlowStatement class
+		/// </summary>
 		public CapExReportedCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31378,6 +35583,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromTaxRefundsCashFlowStatement class
 		/// </summary>
+		public CashReceiptsfromTaxRefundsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromTaxRefundsCashFlowStatement class
+		/// </summary>
 		public CashReceiptsfromTaxRefundsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31410,6 +35620,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromBorrowingsCashFlowStatement class
+		/// </summary>
+		public CashReceiptsfromBorrowingsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromBorrowingsCashFlowStatement class
@@ -31456,6 +35671,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromDepositsbyBanksandCustomersCashFlowStatement class
 		/// </summary>
+		public CashReceiptsfromDepositsbyBanksandCustomersCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromDepositsbyBanksandCustomersCashFlowStatement class
+		/// </summary>
 		public CashReceiptsfromDepositsbyBanksandCustomersCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31493,6 +35713,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromLoansCashFlowStatement class
+		/// </summary>
+		public CashReceiptsfromLoansCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromLoansCashFlowStatement class
@@ -31539,6 +35764,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromSecuritiesRelatedActivitiesCashFlowStatement class
 		/// </summary>
+		public CashReceiptsfromSecuritiesRelatedActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromSecuritiesRelatedActivitiesCashFlowStatement class
+		/// </summary>
 		public CashReceiptsfromSecuritiesRelatedActivitiesCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31572,6 +35802,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromDecreaseinAssetsCashFlowStatement class
+		/// </summary>
+		public CashReceiptsfromDecreaseinAssetsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromDecreaseinAssetsCashFlowStatement class
@@ -31613,6 +35848,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashReceiptsfromFeesandCommissionsCashFlowStatement class
 		/// </summary>
+		public CashReceiptsfromFeesandCommissionsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashReceiptsfromFeesandCommissionsCashFlowStatement class
+		/// </summary>
 		public CashReceiptsfromFeesandCommissionsCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31646,6 +35886,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashPaymentsforBorrowingsCashFlowStatement class
+		/// </summary>
+		public CashPaymentsforBorrowingsCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashPaymentsforBorrowingsCashFlowStatement class
@@ -31692,6 +35937,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashPaymentsforDepositsbyBanksandCustomersCashFlowStatement class
 		/// </summary>
+		public CashPaymentsforDepositsbyBanksandCustomersCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashPaymentsforDepositsbyBanksandCustomersCashFlowStatement class
+		/// </summary>
 		public CashPaymentsforDepositsbyBanksandCustomersCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31728,6 +35978,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashPaymentsforLoansCashFlowStatement class
 		/// </summary>
+		public CashPaymentsforLoansCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashPaymentsforLoansCashFlowStatement class
+		/// </summary>
 		public CashPaymentsforLoansCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31760,6 +36015,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestandCommissionPaidCashFlowStatement class
+		/// </summary>
+		public InterestandCommissionPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestandCommissionPaidCashFlowStatement class
@@ -31805,6 +36065,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the AllTaxesPaidCashFlowStatement class
 		/// </summary>
+		public AllTaxesPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the AllTaxesPaidCashFlowStatement class
+		/// </summary>
 		public AllTaxesPaidCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31838,6 +36103,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashReceivedfromInsuranceActivitiesCashFlowStatement class
+		/// </summary>
+		public CashReceivedfromInsuranceActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashReceivedfromInsuranceActivitiesCashFlowStatement class
@@ -31879,6 +36149,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PremiumReceivedCashFlowStatement class
 		/// </summary>
+		public PremiumReceivedCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PremiumReceivedCashFlowStatement class
+		/// </summary>
 		public PremiumReceivedCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31912,6 +36187,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ReinsuranceandOtherRecoveriesReceivedCashFlowStatement class
+		/// </summary>
+		public ReinsuranceandOtherRecoveriesReceivedCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ReinsuranceandOtherRecoveriesReceivedCashFlowStatement class
@@ -31953,6 +36233,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PolicyholderDepositInvestmentReceivedCashFlowStatement class
 		/// </summary>
+		public PolicyholderDepositInvestmentReceivedCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PolicyholderDepositInvestmentReceivedCashFlowStatement class
+		/// </summary>
 		public PolicyholderDepositInvestmentReceivedCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -31986,6 +36271,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashPaidforInsuranceActivitiesCashFlowStatement class
+		/// </summary>
+		public CashPaidforInsuranceActivitiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashPaidforInsuranceActivitiesCashFlowStatement class
@@ -32027,6 +36317,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ClaimsPaidCashFlowStatement class
 		/// </summary>
+		public ClaimsPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ClaimsPaidCashFlowStatement class
+		/// </summary>
 		public ClaimsPaidCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32063,6 +36358,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommissionPaidCashFlowStatement class
 		/// </summary>
+		public CommissionPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommissionPaidCashFlowStatement class
+		/// </summary>
 		public CommissionPaidCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32095,6 +36395,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashPaidtoReinsurersCashFlowStatement class
+		/// </summary>
+		public CashPaidtoReinsurersCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashPaidtoReinsurersCashFlowStatement class
@@ -32136,6 +36441,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OtherUnderwritingExpensesPaidCashFlowStatement class
 		/// </summary>
+		public OtherUnderwritingExpensesPaidCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OtherUnderwritingExpensesPaidCashFlowStatement class
+		/// </summary>
 		public OtherUnderwritingExpensesPaidCashFlowStatement(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32168,6 +36478,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CashDividendsForMinoritiesCashFlowStatement class
+		/// </summary>
+		public CashDividendsForMinoritiesCashFlowStatement() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CashDividendsForMinoritiesCashFlowStatement class
@@ -32212,6 +36527,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TotalRiskBasedCapital class
+		/// </summary>
+		public TotalRiskBasedCapital() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TotalRiskBasedCapital class
@@ -32263,6 +36583,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the BasicContinuousOperations class
 		/// </summary>
+		public BasicContinuousOperations() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the BasicContinuousOperations class
+		/// </summary>
 		public BasicContinuousOperations(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32306,6 +36631,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BasicDiscontinuousOperations class
+		/// </summary>
+		public BasicDiscontinuousOperations() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BasicDiscontinuousOperations class
@@ -32357,6 +36687,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the BasicExtraordinary class
 		/// </summary>
+		public BasicExtraordinary() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the BasicExtraordinary class
+		/// </summary>
 		public BasicExtraordinary(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32390,6 +36725,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BasicAccountingChange class
+		/// </summary>
+		public BasicAccountingChange() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BasicAccountingChange class
@@ -32436,6 +36776,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BasicEPS class
+		/// </summary>
+		public BasicEPS() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BasicEPS class
@@ -32488,6 +36833,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DilutedContinuousOperations class
 		/// </summary>
+		public DilutedContinuousOperations() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DilutedContinuousOperations class
+		/// </summary>
 		public DilutedContinuousOperations(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32532,6 +36882,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DilutedDiscontinuousOperations class
+		/// </summary>
+		public DilutedDiscontinuousOperations() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DilutedDiscontinuousOperations class
@@ -32584,6 +36939,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DilutedExtraordinary class
 		/// </summary>
+		public DilutedExtraordinary() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DilutedExtraordinary class
+		/// </summary>
 		public DilutedExtraordinary(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32618,6 +36978,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DilutedAccountingChange class
+		/// </summary>
+		public DilutedAccountingChange() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DilutedAccountingChange class
@@ -32671,6 +37036,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DilutedEPS class
 		/// </summary>
+		public DilutedEPS() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DilutedEPS class
+		/// </summary>
 		public DilutedEPS(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32715,6 +37085,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BasicAverageShares class
+		/// </summary>
+		public BasicAverageShares() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BasicAverageShares class
@@ -32769,6 +37144,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DilutedAverageShares class
 		/// </summary>
+		public DilutedAverageShares() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DilutedAverageShares class
+		/// </summary>
 		public DilutedAverageShares(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32817,6 +37197,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DividendPerShare class
 		/// </summary>
+		public DividendPerShare() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DividendPerShare class
+		/// </summary>
 		public DividendPerShare(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32850,6 +37235,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the BasicEPSOtherGainsLosses class
+		/// </summary>
+		public BasicEPSOtherGainsLosses() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the BasicEPSOtherGainsLosses class
@@ -32900,6 +37290,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ContinuingAndDiscontinuedBasicEPS class
 		/// </summary>
+		public ContinuingAndDiscontinuedBasicEPS() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ContinuingAndDiscontinuedBasicEPS class
+		/// </summary>
 		public ContinuingAndDiscontinuedBasicEPS(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -32932,6 +37327,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TaxLossCarryforwardBasicEPS class
+		/// </summary>
+		public TaxLossCarryforwardBasicEPS() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TaxLossCarryforwardBasicEPS class
@@ -32970,6 +37370,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DilutedEPSOtherGainsLosses class
+		/// </summary>
+		public DilutedEPSOtherGainsLosses() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DilutedEPSOtherGainsLosses class
@@ -33020,6 +37425,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ContinuingAndDiscontinuedDilutedEPS class
 		/// </summary>
+		public ContinuingAndDiscontinuedDilutedEPS() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ContinuingAndDiscontinuedDilutedEPS class
+		/// </summary>
 		public ContinuingAndDiscontinuedDilutedEPS(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33052,6 +37462,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the TaxLossCarryforwardDilutedEPS class
+		/// </summary>
+		public TaxLossCarryforwardDilutedEPS() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the TaxLossCarryforwardDilutedEPS class
@@ -33103,6 +37518,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NormalizedBasicEPS class
 		/// </summary>
+		public NormalizedBasicEPS() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NormalizedBasicEPS class
+		/// </summary>
 		public NormalizedBasicEPS(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33146,6 +37566,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the TwelveMonths period value for the field
 		/// </summary>
 		public decimal TwelveMonths { get { return GetPeriodValue(Period.TwelveMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NormalizedDilutedEPS class
+		/// </summary>
+		public NormalizedDilutedEPS() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NormalizedDilutedEPS class
@@ -33196,6 +37621,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalDividendPerShare class
 		/// </summary>
+		public TotalDividendPerShare() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalDividendPerShare class
+		/// </summary>
 		public TotalDividendPerShare(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33229,6 +37659,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the RevenueGrowth class
+		/// </summary>
+		public RevenueGrowth() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RevenueGrowth class
@@ -33270,6 +37705,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the OperationIncomeGrowth class
 		/// </summary>
+		public OperationIncomeGrowth() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the OperationIncomeGrowth class
+		/// </summary>
 		public OperationIncomeGrowth(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33303,6 +37743,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeGrowth class
+		/// </summary>
+		public NetIncomeGrowth() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetIncomeGrowth class
@@ -33346,6 +37791,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NetIncomeContOpsGrowth class
 		/// </summary>
+		public NetIncomeContOpsGrowth() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NetIncomeContOpsGrowth class
+		/// </summary>
 		public NetIncomeContOpsGrowth(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33374,6 +37824,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the CFOGrowth3MonthAvg class
+		/// </summary>
+		public CFOGrowth3MonthAvg() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CFOGrowth3MonthAvg class
@@ -33411,6 +37866,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FCFGrowth3MonthAvg class
 		/// </summary>
+		public FCFGrowth3MonthAvg() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FCFGrowth3MonthAvg class
+		/// </summary>
 		public FCFGrowth3MonthAvg(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33444,6 +37904,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the OperationRevenueGrowth3MonthAvg class
+		/// </summary>
+		public OperationRevenueGrowth3MonthAvg() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OperationRevenueGrowth3MonthAvg class
@@ -33495,6 +37960,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GrossMargin class
 		/// </summary>
+		public GrossMargin() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GrossMargin class
+		/// </summary>
 		public GrossMargin(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33538,6 +38008,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the NineMonths period value for the field
 		/// </summary>
 		public decimal NineMonths { get { return GetPeriodValue(Period.NineMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the OperationMargin class
+		/// </summary>
+		public OperationMargin() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the OperationMargin class
@@ -33589,6 +38064,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PretaxMargin class
 		/// </summary>
+		public PretaxMargin() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PretaxMargin class
+		/// </summary>
 		public PretaxMargin(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33632,6 +38112,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the NineMonths period value for the field
 		/// </summary>
 		public decimal NineMonths { get { return GetPeriodValue(Period.NineMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the NetMargin class
+		/// </summary>
+		public NetMargin() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the NetMargin class
@@ -33684,6 +38169,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TaxRate class
 		/// </summary>
+		public TaxRate() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TaxRate class
+		/// </summary>
 		public TaxRate(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33727,6 +38217,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the NineMonths period value for the field
 		/// </summary>
 		public decimal NineMonths { get { return GetPeriodValue(Period.NineMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the EBITMargin class
+		/// </summary>
+		public EBITMargin() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the EBITMargin class
@@ -33778,6 +38273,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EBITDAMargin class
 		/// </summary>
+		public EBITDAMargin() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EBITDAMargin class
+		/// </summary>
 		public EBITDAMargin(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33825,6 +38325,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the SalesPerEmployee class
 		/// </summary>
+		public SalesPerEmployee() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the SalesPerEmployee class
+		/// </summary>
 		public SalesPerEmployee(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33868,6 +38373,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the NineMonths period value for the field
 		/// </summary>
 		public decimal NineMonths { get { return GetPeriodValue(Period.NineMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the CurrentRatio class
+		/// </summary>
+		public CurrentRatio() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CurrentRatio class
@@ -33920,6 +38430,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the QuickRatio class
 		/// </summary>
+		public QuickRatio() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the QuickRatio class
+		/// </summary>
 		public QuickRatio(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -33968,6 +38483,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermDebtTotalCapitalRatio class
 		/// </summary>
+		public LongTermDebtTotalCapitalRatio() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermDebtTotalCapitalRatio class
+		/// </summary>
 		public LongTermDebtTotalCapitalRatio(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34011,6 +38531,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the NineMonths period value for the field
 		/// </summary>
 		public decimal NineMonths { get { return GetPeriodValue(Period.NineMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the InterestCoverage class
+		/// </summary>
+		public InterestCoverage() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the InterestCoverage class
@@ -34063,6 +38588,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the LongTermDebtEquityRatio class
 		/// </summary>
+		public LongTermDebtEquityRatio() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the LongTermDebtEquityRatio class
+		/// </summary>
 		public LongTermDebtEquityRatio(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34107,6 +38637,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the NineMonths period value for the field
 		/// </summary>
 		public decimal NineMonths { get { return GetPeriodValue(Period.NineMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the FinancialLeverage class
+		/// </summary>
+		public FinancialLeverage() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FinancialLeverage class
@@ -34160,6 +38695,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the TotalDebtEquityRatio class
 		/// </summary>
+		public TotalDebtEquityRatio() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the TotalDebtEquityRatio class
+		/// </summary>
 		public TotalDebtEquityRatio(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34207,6 +38747,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NormalizedNetProfitMargin class
 		/// </summary>
+		public NormalizedNetProfitMargin() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NormalizedNetProfitMargin class
+		/// </summary>
 		public NormalizedNetProfitMargin(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34234,6 +38779,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the SixMonths period value for the field
 		/// </summary>
 		public decimal SixMonths { get { return GetPeriodValue(Period.SixMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DaysInSales class
+		/// </summary>
+		public DaysInSales() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DaysInSales class
@@ -34269,6 +38819,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DaysInInventory class
 		/// </summary>
+		public DaysInInventory() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DaysInInventory class
+		/// </summary>
 		public DaysInInventory(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34296,6 +38851,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the SixMonths period value for the field
 		/// </summary>
 		public decimal SixMonths { get { return GetPeriodValue(Period.SixMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the DaysInPayment class
+		/// </summary>
+		public DaysInPayment() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DaysInPayment class
@@ -34331,6 +38891,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CashConversionCycle class
 		/// </summary>
+		public CashConversionCycle() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CashConversionCycle class
+		/// </summary>
 		public CashConversionCycle(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34358,6 +38923,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the SixMonths period value for the field
 		/// </summary>
 		public decimal SixMonths { get { return GetPeriodValue(Period.SixMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ReceivableTurnover class
+		/// </summary>
+		public ReceivableTurnover() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ReceivableTurnover class
@@ -34393,6 +38963,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the InventoryTurnover class
 		/// </summary>
+		public InventoryTurnover() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the InventoryTurnover class
+		/// </summary>
 		public InventoryTurnover(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34420,6 +38995,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the SixMonths period value for the field
 		/// </summary>
 		public decimal SixMonths { get { return GetPeriodValue(Period.SixMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the PaymentTurnover class
+		/// </summary>
+		public PaymentTurnover() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PaymentTurnover class
@@ -34455,6 +39035,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FixAssetsTuronver class
 		/// </summary>
+		public FixAssetsTuronver() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FixAssetsTuronver class
+		/// </summary>
 		public FixAssetsTuronver(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34482,6 +39067,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the SixMonths period value for the field
 		/// </summary>
 		public decimal SixMonths { get { return GetPeriodValue(Period.SixMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the AssetsTurnover class
+		/// </summary>
+		public AssetsTurnover() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AssetsTurnover class
@@ -34517,6 +39107,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ROE class
 		/// </summary>
+		public ROE() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ROE class
+		/// </summary>
 		public ROE(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34544,6 +39139,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the SixMonths period value for the field
 		/// </summary>
 		public decimal SixMonths { get { return GetPeriodValue(Period.SixMonths); } }
+
+		/// <summary>
+		/// Creates an instance of the ROA class
+		/// </summary>
+		public ROA() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ROA class
@@ -34579,6 +39179,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ROIC class
 		/// </summary>
+		public ROIC() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ROIC class
+		/// </summary>
 		public ROIC(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34596,6 +39201,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the OneYear period value for the field
 		/// </summary>
 		public decimal OneYear { get { return GetPeriodValue(Period.OneYear); } }
+
+		/// <summary>
+		/// Creates an instance of the FCFSalesRatio class
+		/// </summary>
+		public FCFSalesRatio() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the FCFSalesRatio class
@@ -34621,6 +39231,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the FCFNetIncomeRatio class
 		/// </summary>
+		public FCFNetIncomeRatio() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the FCFNetIncomeRatio class
+		/// </summary>
 		public FCFNetIncomeRatio(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34638,6 +39253,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the OneYear period value for the field
 		/// </summary>
 		public decimal OneYear { get { return GetPeriodValue(Period.OneYear); } }
+
+		/// <summary>
+		/// Creates an instance of the CapExSalesRatio class
+		/// </summary>
+		public CapExSalesRatio() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CapExSalesRatio class
@@ -34689,6 +39309,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DebttoAssets class
 		/// </summary>
+		public DebttoAssets() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DebttoAssets class
+		/// </summary>
 		public DebttoAssets(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34736,6 +39361,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the CommonEquityToAssets class
 		/// </summary>
+		public CommonEquityToAssets() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the CommonEquityToAssets class
+		/// </summary>
 		public CommonEquityToAssets(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34764,6 +39394,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the CapitalExpenditureAnnual5YrGrowth class
+		/// </summary>
+		public CapitalExpenditureAnnual5YrGrowth() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the CapitalExpenditureAnnual5YrGrowth class
@@ -34799,6 +39434,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the GrossProfitAnnual5YrGrowth class
 		/// </summary>
+		public GrossProfitAnnual5YrGrowth() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the GrossProfitAnnual5YrGrowth class
+		/// </summary>
 		public GrossProfitAnnual5YrGrowth(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34817,6 +39457,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the GrossMargin5YrAvg class
+		/// </summary>
+		public GrossMargin5YrAvg() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the GrossMargin5YrAvg class
@@ -34843,6 +39488,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the PostTaxMargin5YrAvg class
 		/// </summary>
+		public PostTaxMargin5YrAvg() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the PostTaxMargin5YrAvg class
+		/// </summary>
 		public PostTaxMargin5YrAvg(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34861,6 +39511,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the PreTaxMargin5YrAvg class
+		/// </summary>
+		public PreTaxMargin5YrAvg() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the PreTaxMargin5YrAvg class
@@ -34887,6 +39542,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ProfitMargin5YrAvg class
 		/// </summary>
+		public ProfitMargin5YrAvg() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ProfitMargin5YrAvg class
+		/// </summary>
 		public ProfitMargin5YrAvg(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34905,6 +39565,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the ROE5YrAvg class
+		/// </summary>
+		public ROE5YrAvg() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the ROE5YrAvg class
@@ -34931,6 +39596,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the ROA5YrAvg class
 		/// </summary>
+		public ROA5YrAvg() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the ROA5YrAvg class
+		/// </summary>
 		public ROA5YrAvg(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -34950,6 +39620,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the AVG5YrsROIC class
+		/// </summary>
+		public AVG5YrsROIC() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the AVG5YrsROIC class
@@ -34985,6 +39660,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the NormalizedROIC class
 		/// </summary>
+		public NormalizedROIC() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the NormalizedROIC class
+		/// </summary>
 		public NormalizedROIC(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -35002,6 +39682,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the RegressionGrowthOperatingRevenue5Years class
+		/// </summary>
+		public RegressionGrowthOperatingRevenue5Years() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RegressionGrowthOperatingRevenue5Years class
@@ -35039,6 +39724,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the DilutedEPSGrowth class
+		/// </summary>
+		public DilutedEPSGrowth() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DilutedEPSGrowth class
@@ -35081,6 +39771,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the DilutedContEPSGrowth class
 		/// </summary>
+		public DilutedContEPSGrowth() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the DilutedContEPSGrowth class
+		/// </summary>
 		public DilutedContEPSGrowth(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -35115,6 +39810,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the DPSGrowth class
+		/// </summary>
+		public DPSGrowth() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the DPSGrowth class
@@ -35156,6 +39856,11 @@ namespace QuantConnect.Data.Fundamental
 		/// <summary>
 		/// Creates an instance of the EquityPerShareGrowth class
 		/// </summary>
+		public EquityPerShareGrowth() { Store = new Dictionary<string, decimal>(); }
+
+		/// <summary>
+		/// Creates an instance of the EquityPerShareGrowth class
+		/// </summary>
 		public EquityPerShareGrowth(IDictionary<string, decimal> store) { Store = store; }
 	}
 
@@ -35173,6 +39878,11 @@ namespace QuantConnect.Data.Fundamental
 		/// Gets the FiveYears period value for the field
 		/// </summary>
 		public decimal FiveYears { get { return GetPeriodValue(Period.FiveYears); } }
+
+		/// <summary>
+		/// Creates an instance of the RegressionGrowthofDividends5Years class
+		/// </summary>
+		public RegressionGrowthofDividends5Years() { Store = new Dictionary<string, decimal>(); }
 
 		/// <summary>
 		/// Creates an instance of the RegressionGrowthofDividends5Years class

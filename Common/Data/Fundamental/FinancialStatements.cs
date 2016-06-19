@@ -118,5 +118,16 @@ namespace QuantConnect.Data.Fundamental
 		/// The instance of the CashFlowStatement class
 		/// </summary>
 		public CashFlowStatement CashFlowStatement { get; set; }
+
+		/// <summary>
+		/// Creates an instance of the FinancialStatements class
+		/// </summary>
+		public FinancialStatements()
+		{
+			TotalRiskBasedCapital = new TotalRiskBasedCapital();
+			IncomeStatement = new IncomeStatement();
+			BalanceSheet = new BalanceSheet();
+			CashFlowStatement = new CashFlowStatement();
+		}
 	}
 }
