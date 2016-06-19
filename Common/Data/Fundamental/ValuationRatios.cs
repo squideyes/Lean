@@ -351,5 +351,14 @@ namespace QuantConnect.Data.Fundamental
 		public ValuationRatios()
 		{
 		}
+
+		/// <summary>
+		/// Sets values for non existing periods from a previous instance
+		/// </summary>
+		/// <remarks>Used to fill-forward values from previous dates</remarks>
+		/// <param name="previous">The previous instance</param>
+		public void UpdateValues(ValuationRatios previous)
+		{
+		}
 	}
 }

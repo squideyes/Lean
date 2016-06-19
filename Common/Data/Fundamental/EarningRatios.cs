@@ -85,5 +85,19 @@ namespace QuantConnect.Data.Fundamental
 			EquityPerShareGrowth = new EquityPerShareGrowth();
 			RegressionGrowthofDividends5Years = new RegressionGrowthofDividends5Years();
 		}
+
+		/// <summary>
+		/// Sets values for non existing periods from a previous instance
+		/// </summary>
+		/// <remarks>Used to fill-forward values from previous dates</remarks>
+		/// <param name="previous">The previous instance</param>
+		public void UpdateValues(EarningRatios previous)
+		{
+			DilutedEPSGrowth.UpdateValues(previous.DilutedEPSGrowth);
+			DilutedContEPSGrowth.UpdateValues(previous.DilutedContEPSGrowth);
+			DPSGrowth.UpdateValues(previous.DPSGrowth);
+			EquityPerShareGrowth.UpdateValues(previous.EquityPerShareGrowth);
+			RegressionGrowthofDividends5Years.UpdateValues(previous.RegressionGrowthofDividends5Years);
+		}
 	}
 }

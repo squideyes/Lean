@@ -83,13 +83,13 @@ namespace QuantConnect.Data.Fundamental
         }
 
         /// <summary>
-        /// Sets period values from a previous field for non existing periods
+        /// Sets period values for non existing periods from a previous instance
         /// </summary>
         /// <remarks>Used to fill-forward values from previous dates</remarks>
-        /// <param name="previousField"></param>
-        public void UpdateValues(MultiPeriodField previousField)
+		/// <param name="previous">The previous instance</param>
+        public void UpdateValues(MultiPeriodField previous)
         {
-            foreach (var kvp in previousField.Store.Where(kvp => !Store.ContainsKey(kvp.Key)))
+            foreach (var kvp in previous.Store.Where(kvp => !Store.ContainsKey(kvp.Key)))
             {
                 SetPeriodValue(kvp.Key, kvp.Value);
             }

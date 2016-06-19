@@ -129,5 +129,18 @@ namespace QuantConnect.Data.Fundamental
 			BalanceSheet = new BalanceSheet();
 			CashFlowStatement = new CashFlowStatement();
 		}
+
+		/// <summary>
+		/// Sets values for non existing periods from a previous instance
+		/// </summary>
+		/// <remarks>Used to fill-forward values from previous dates</remarks>
+		/// <param name="previous">The previous instance</param>
+		public void UpdateValues(FinancialStatements previous)
+		{
+			TotalRiskBasedCapital.UpdateValues(previous.TotalRiskBasedCapital);
+			IncomeStatement.UpdateValues(previous.IncomeStatement);
+			BalanceSheet.UpdateValues(previous.BalanceSheet);
+			CashFlowStatement.UpdateValues(previous.CashFlowStatement);
+		}
 	}
 }

@@ -74,5 +74,21 @@ namespace QuantConnect.Data.Fundamental
 			EarningRatios = new EarningRatios();
 			ValuationRatios = new ValuationRatios();
 		}
+
+		/// <summary>
+		/// Sets values for non existing periods from a previous instance
+		/// </summary>
+		/// <remarks>Used to fill-forward values from previous dates</remarks>
+		/// <param name="previous">The previous instance</param>
+		public void UpdateValues(FineFundamental previous)
+		{
+			CompanyReference.UpdateValues(previous.CompanyReference);
+			SecurityReference.UpdateValues(previous.SecurityReference);
+			FinancialStatements.UpdateValues(previous.FinancialStatements);
+			EarningReports.UpdateValues(previous.EarningReports);
+			OperationRatios.UpdateValues(previous.OperationRatios);
+			EarningRatios.UpdateValues(previous.EarningRatios);
+			ValuationRatios.UpdateValues(previous.ValuationRatios);
+		}
 	}
 }

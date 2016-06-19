@@ -537,5 +537,65 @@ namespace QuantConnect.Data.Fundamental
 			NormalizedROIC = new NormalizedROIC();
 			RegressionGrowthOperatingRevenue5Years = new RegressionGrowthOperatingRevenue5Years();
 		}
+
+		/// <summary>
+		/// Sets values for non existing periods from a previous instance
+		/// </summary>
+		/// <remarks>Used to fill-forward values from previous dates</remarks>
+		/// <param name="previous">The previous instance</param>
+		public void UpdateValues(OperationRatios previous)
+		{
+			RevenueGrowth.UpdateValues(previous.RevenueGrowth);
+			OperationIncomeGrowth.UpdateValues(previous.OperationIncomeGrowth);
+			NetIncomeGrowth.UpdateValues(previous.NetIncomeGrowth);
+			NetIncomeContOpsGrowth.UpdateValues(previous.NetIncomeContOpsGrowth);
+			CFOGrowth3MonthAvg.UpdateValues(previous.CFOGrowth3MonthAvg);
+			FCFGrowth3MonthAvg.UpdateValues(previous.FCFGrowth3MonthAvg);
+			OperationRevenueGrowth3MonthAvg.UpdateValues(previous.OperationRevenueGrowth3MonthAvg);
+			GrossMargin.UpdateValues(previous.GrossMargin);
+			OperationMargin.UpdateValues(previous.OperationMargin);
+			PretaxMargin.UpdateValues(previous.PretaxMargin);
+			NetMargin.UpdateValues(previous.NetMargin);
+			TaxRate.UpdateValues(previous.TaxRate);
+			EBITMargin.UpdateValues(previous.EBITMargin);
+			EBITDAMargin.UpdateValues(previous.EBITDAMargin);
+			SalesPerEmployee.UpdateValues(previous.SalesPerEmployee);
+			CurrentRatio.UpdateValues(previous.CurrentRatio);
+			QuickRatio.UpdateValues(previous.QuickRatio);
+			LongTermDebtTotalCapitalRatio.UpdateValues(previous.LongTermDebtTotalCapitalRatio);
+			InterestCoverage.UpdateValues(previous.InterestCoverage);
+			LongTermDebtEquityRatio.UpdateValues(previous.LongTermDebtEquityRatio);
+			FinancialLeverage.UpdateValues(previous.FinancialLeverage);
+			TotalDebtEquityRatio.UpdateValues(previous.TotalDebtEquityRatio);
+			NormalizedNetProfitMargin.UpdateValues(previous.NormalizedNetProfitMargin);
+			DaysInSales.UpdateValues(previous.DaysInSales);
+			DaysInInventory.UpdateValues(previous.DaysInInventory);
+			DaysInPayment.UpdateValues(previous.DaysInPayment);
+			CashConversionCycle.UpdateValues(previous.CashConversionCycle);
+			ReceivableTurnover.UpdateValues(previous.ReceivableTurnover);
+			InventoryTurnover.UpdateValues(previous.InventoryTurnover);
+			PaymentTurnover.UpdateValues(previous.PaymentTurnover);
+			FixAssetsTuronver.UpdateValues(previous.FixAssetsTuronver);
+			AssetsTurnover.UpdateValues(previous.AssetsTurnover);
+			ROE.UpdateValues(previous.ROE);
+			ROA.UpdateValues(previous.ROA);
+			ROIC.UpdateValues(previous.ROIC);
+			FCFSalesRatio.UpdateValues(previous.FCFSalesRatio);
+			FCFNetIncomeRatio.UpdateValues(previous.FCFNetIncomeRatio);
+			CapExSalesRatio.UpdateValues(previous.CapExSalesRatio);
+			DebttoAssets.UpdateValues(previous.DebttoAssets);
+			CommonEquityToAssets.UpdateValues(previous.CommonEquityToAssets);
+			CapitalExpenditureAnnual5YrGrowth.UpdateValues(previous.CapitalExpenditureAnnual5YrGrowth);
+			GrossProfitAnnual5YrGrowth.UpdateValues(previous.GrossProfitAnnual5YrGrowth);
+			GrossMargin5YrAvg.UpdateValues(previous.GrossMargin5YrAvg);
+			PostTaxMargin5YrAvg.UpdateValues(previous.PostTaxMargin5YrAvg);
+			PreTaxMargin5YrAvg.UpdateValues(previous.PreTaxMargin5YrAvg);
+			ProfitMargin5YrAvg.UpdateValues(previous.ProfitMargin5YrAvg);
+			ROE5YrAvg.UpdateValues(previous.ROE5YrAvg);
+			ROA5YrAvg.UpdateValues(previous.ROA5YrAvg);
+			AVG5YrsROIC.UpdateValues(previous.AVG5YrsROIC);
+			NormalizedROIC.UpdateValues(previous.NormalizedROIC);
+			RegressionGrowthOperatingRevenue5Years.UpdateValues(previous.RegressionGrowthOperatingRevenue5Years);
+		}
 	}
 }

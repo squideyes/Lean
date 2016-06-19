@@ -292,5 +292,36 @@ namespace QuantConnect.Data.Fundamental
 			NormalizedDilutedEPS = new NormalizedDilutedEPS();
 			TotalDividendPerShare = new TotalDividendPerShare();
 		}
+
+		/// <summary>
+		/// Sets values for non existing periods from a previous instance
+		/// </summary>
+		/// <remarks>Used to fill-forward values from previous dates</remarks>
+		/// <param name="previous">The previous instance</param>
+		public void UpdateValues(EarningReports previous)
+		{
+			BasicContinuousOperations.UpdateValues(previous.BasicContinuousOperations);
+			BasicDiscontinuousOperations.UpdateValues(previous.BasicDiscontinuousOperations);
+			BasicExtraordinary.UpdateValues(previous.BasicExtraordinary);
+			BasicAccountingChange.UpdateValues(previous.BasicAccountingChange);
+			BasicEPS.UpdateValues(previous.BasicEPS);
+			DilutedContinuousOperations.UpdateValues(previous.DilutedContinuousOperations);
+			DilutedDiscontinuousOperations.UpdateValues(previous.DilutedDiscontinuousOperations);
+			DilutedExtraordinary.UpdateValues(previous.DilutedExtraordinary);
+			DilutedAccountingChange.UpdateValues(previous.DilutedAccountingChange);
+			DilutedEPS.UpdateValues(previous.DilutedEPS);
+			BasicAverageShares.UpdateValues(previous.BasicAverageShares);
+			DilutedAverageShares.UpdateValues(previous.DilutedAverageShares);
+			DividendPerShare.UpdateValues(previous.DividendPerShare);
+			BasicEPSOtherGainsLosses.UpdateValues(previous.BasicEPSOtherGainsLosses);
+			ContinuingAndDiscontinuedBasicEPS.UpdateValues(previous.ContinuingAndDiscontinuedBasicEPS);
+			TaxLossCarryforwardBasicEPS.UpdateValues(previous.TaxLossCarryforwardBasicEPS);
+			DilutedEPSOtherGainsLosses.UpdateValues(previous.DilutedEPSOtherGainsLosses);
+			ContinuingAndDiscontinuedDilutedEPS.UpdateValues(previous.ContinuingAndDiscontinuedDilutedEPS);
+			TaxLossCarryforwardDilutedEPS.UpdateValues(previous.TaxLossCarryforwardDilutedEPS);
+			NormalizedBasicEPS.UpdateValues(previous.NormalizedBasicEPS);
+			NormalizedDilutedEPS.UpdateValues(previous.NormalizedDilutedEPS);
+			TotalDividendPerShare.UpdateValues(previous.TotalDividendPerShare);
+		}
 	}
 }
