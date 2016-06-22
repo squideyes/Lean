@@ -26,7 +26,7 @@ namespace QuantConnect.Data.Fundamental
 	/// <summary>
 	/// Definition of the SecurityReference class
 	/// </summary>
-	public class SecurityReference
+	public class SecurityReference : BaseData
 	{
 		/// <summary>
 		/// An arrangement of characters (often letters) representing a particular security listed on an exchange or otherwise traded publicly.

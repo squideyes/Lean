@@ -24,7 +24,7 @@ namespace QuantConnect.Data.Fundamental
 	/// <summary>
 	/// Definition of the FineFundamental class
 	/// </summary>
-	public class FineFundamental
+	public class FineFundamental : BaseData
 	{
 		/// <summary>
 		/// The instance of the CompanyReference class

@@ -26,7 +26,7 @@ namespace QuantConnect.Data.Fundamental
 	/// <summary>
 	/// Definition of the CompanyReference class
 	/// </summary>
-	public class CompanyReference
+	public class CompanyReference : BaseData
 	{
 		/// <summary>
 		/// 10-digit unique and unchanging Morningstar identifier assigned to every company.

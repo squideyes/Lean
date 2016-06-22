@@ -20,13 +20,15 @@
 //------------------------------------------------------------------------------
 
 using System;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace QuantConnect.Data.Fundamental
 {
 	/// <summary>
 	/// Definition of the OperationRatios class
 	/// </summary>
-	public class OperationRatios
+	public class OperationRatios : BaseData
 	{
 		/// <summary>
 		/// The growth in the company’s revenue on a percentage basis. Morningstar calculates the growth percentage based on the
@@ -596,6 +598,27 @@ namespace QuantConnect.Data.Fundamental
 			AVG5YrsROIC.UpdateValues(previous.AVG5YrsROIC);
 			NormalizedROIC.UpdateValues(previous.NormalizedROIC);
 			RegressionGrowthOperatingRevenue5Years.UpdateValues(previous.RegressionGrowthOperatingRevenue5Years);
+		}
+
+		/// <summary>
+		/// Return the URL string source of the file. This will be converted to a stream 
+		/// </summary>
+		public override SubscriptionDataSource GetSource(SubscriptionDataConfig config, DateTime date, bool isLiveMode)
+		{
+			var source =
+				Path.Combine(Globals.DataFolder, "equity", config.Market, "fundamental", "fine", date.ToString("yyyyMMdd") + ".zip") +
+				"#" + config.Symbol.Value + "_operation-ratios.json";
+
+			return new SubscriptionDataSource(source, SubscriptionTransportMedium.LocalFile, FileFormat.Csv);
+		}
+
+		/// <summary>
+		/// Reader converts each line of the data source into BaseData objects. Each data type creates its own factory method, and returns a new instance of the object
+		/// each time it is called. The returned object is assumed to be time stamped in the config.ExchangeTimeZone.
+		/// </summary>
+		public override BaseData Reader(SubscriptionDataConfig config, string line, DateTime date, bool isLiveMode)
+		{
+			return JsonConvert.DeserializeObject<OperationRatios>(line);
 		}
 	}
 }

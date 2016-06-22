@@ -20,13 +20,15 @@
 //------------------------------------------------------------------------------
 
 using System;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace QuantConnect.Data.Fundamental
 {
 	/// <summary>
 	/// Definition of the ValuationRatios class
 	/// </summary>
-	public class ValuationRatios
+	public class ValuationRatios : BaseData
 	{
 		/// <summary>
 		/// Dividend per share / Diluted earning per share
@@ -359,6 +361,27 @@ namespace QuantConnect.Data.Fundamental
 		/// <param name="previous">The previous instance</param>
 		public void UpdateValues(ValuationRatios previous)
 		{
+		}
+
+		/// <summary>
+		/// Return the URL string source of the file. This will be converted to a stream 
+		/// </summary>
+		public override SubscriptionDataSource GetSource(SubscriptionDataConfig config, DateTime date, bool isLiveMode)
+		{
+			var source =
+				Path.Combine(Globals.DataFolder, "equity", config.Market, "fundamental", "fine", date.ToString("yyyyMMdd") + ".zip") +
+				"#" + config.Symbol.Value + "_valuation-ratios.json";
+
+			return new SubscriptionDataSource(source, SubscriptionTransportMedium.LocalFile, FileFormat.Csv);
+		}
+
+		/// <summary>
+		/// Reader converts each line of the data source into BaseData objects. Each data type creates its own factory method, and returns a new instance of the object
+		/// each time it is called. The returned object is assumed to be time stamped in the config.ExchangeTimeZone.
+		/// </summary>
+		public override BaseData Reader(SubscriptionDataConfig config, string line, DateTime date, bool isLiveMode)
+		{
+			return JsonConvert.DeserializeObject<ValuationRatios>(line);
 		}
 	}
 }
