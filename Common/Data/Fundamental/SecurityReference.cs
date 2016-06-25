@@ -36,7 +36,7 @@ namespace QuantConnect.Data.Fundamental
 		/// <remarks>
 		/// Morningstar DataId: 1001
 		/// </remarks>
-		public string Symbol { get; set; }
+		public string SecuritySymbol { get; set; }
 
 		/// <summary>
 		/// The Id representing the stock exchange that the particular share class is trading.  See separate reference document for Exchange
