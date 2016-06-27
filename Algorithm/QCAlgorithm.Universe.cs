@@ -270,6 +270,8 @@ namespace QuantConnect.Algorithm
 
             // redirect coarse to emit fine subscriptions
             coarse.ConfigurationRedirect = fine.Configuration;
+
+            AddUniverse(coarse);
         }
 
         /// <summary>
