@@ -57,11 +57,11 @@ namespace QuantConnect.Lean.Engine.DataFeeds.Enumerators.Factories
             var earningRatios = new EarningRatios();
             var valuationRatios = new ValuationRatios();
 
-            var financialStatementsConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(FinancialStatements));
-            var earningReportsConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(EarningReports));
-            var operationRatiosConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(OperationRatios));
-            var earningRatiosConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(EarningRatios));
-            var valuationRatiosConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(ValuationRatios));
+            var financialStatementsConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(FinancialStatements), request.Security.Symbol);
+            var earningReportsConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(EarningReports), request.Security.Symbol);
+            var operationRatiosConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(OperationRatios), request.Security.Symbol);
+            var earningRatiosConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(EarningRatios), request.Security.Symbol);
+            var valuationRatiosConfiguration = new SubscriptionDataConfig(request.Configuration, typeof(ValuationRatios), request.Security.Symbol);
 
             return (
                 from date in tradableDays
