@@ -58,8 +58,6 @@ namespace QuantConnect.Lean.Engine.DataFeeds
         /// <param name="universeData">The data provided to perform selection with</param>
         public SecurityChanges ApplyUniverseSelection(Universe universe, DateTime dateTimeUtc, BaseDataCollection universeData)
         {
-            var settings = universe.UniverseSettings;
-
             // perform initial filtering and limit the result
             var selectSymbolsResult = universe.PerformSelection(dateTimeUtc, universeData);
 
@@ -71,9 +69,6 @@ namespace QuantConnect.Lean.Engine.DataFeeds
 
             // materialize the enumerable into a set for processing
             var selections = selectSymbolsResult.ToHashSet();
-
-            // create a hash set of our existing subscriptions by sid
-            var existingSubscriptions = _dataFeed.Subscriptions.Where(x => !x.EndOfStream).ToHashSet(x => x.Security.Symbol);
 
             var additions = new List<Security>();
             var removals = new List<Security>();
@@ -116,9 +111,6 @@ namespace QuantConnect.Lean.Engine.DataFeeds
             // find new selections and add them to the algorithm
             foreach (var symbol in selections)
             {
-                // we already have a subscription for this symbol so don't re-add it
-                if (existingSubscriptions.Contains(symbol)) continue;
-
                 // create the new security, the algorithm thread will add this at the appropriate time
                 Security security;
                 if (!_algorithm.Securities.TryGetValue(symbol, out security))

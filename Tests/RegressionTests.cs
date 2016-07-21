@@ -147,25 +147,25 @@ namespace QuantConnect.Tests
 
             var universeSelectionRegressionStatistics = new Dictionary<string, string>
             {
-                {"Total Trades", "4"},
+                {"Total Trades", "6"},
                 {"Average Win", "0.70%"},
                 {"Average Loss", "0%"},
-                {"Compounding Annual Return", "-56.034%"},
-                {"Drawdown", "3.800%"},
+                {"Compounding Annual Return", "-89.618%"},
+                {"Drawdown", "10.500%"},
                 {"Expectancy", "0"},
-                {"Net Profit", "-3.755%"},
-                {"Sharpe Ratio", "-3.629"},
+                {"Net Profit", "-10.012%"},
+                {"Sharpe Ratio", "-4.155"},
                 {"Loss Rate", "0%"},
                 {"Win Rate", "100%"},
                 {"Profit-Loss Ratio", "0"},
-                {"Alpha", "-0.424"},
-                {"Beta", "1.25"},
-                {"Annual Standard Deviation", "0.173"},
-                {"Annual Variance", "0.03"},
-                {"Information Ratio", "-3.62"},
-                {"Tracking Error", "0.128"},
-                {"Treynor Ratio", "-0.502"},
-                {"Total Fees", "$2.00"}
+                {"Alpha", "-1.213"},
+                {"Beta", "2.894"},
+                {"Annual Standard Deviation", "0.406"},
+                {"Annual Variance", "0.165"},
+                {"Information Ratio", "-4.366"},
+                {"Tracking Error", "0.349"},
+                {"Treynor Ratio", "-0.583"},
+                {"Total Fees", "$4.00"}
             };
 
             var customDataRegressionStatistics = new Dictionary<string, string>
@@ -308,25 +308,25 @@ namespace QuantConnect.Tests
 
             var coarseFundamentalTop5AlgorithmStatistics = new Dictionary<string, string>
             {
-                {"Total Trades", "8"},
-                {"Average Win", "1.15%"},
+                {"Total Trades", "10"},
+                {"Average Win", "0.57%"},
                 {"Average Loss", "-0.60%"},
-                {"Compounding Annual Return", "-0.660%"},
-                {"Drawdown", "2.600%"},
-                {"Expectancy", "-0.271"},
-                {"Net Profit", "-0.660%"},
-                {"Sharpe Ratio", "-0.255"},
-                {"Loss Rate", "75%"},
-                {"Win Rate", "25%"},
-                {"Profit-Loss Ratio", "1.92"},
+                {"Compounding Annual Return", "-0.658%"},
+                {"Drawdown", "3.000%"},
+                {"Expectancy", "-0.216"},
+                {"Net Profit", "-0.658%"},
+                {"Sharpe Ratio", "-0.212"},
+                {"Loss Rate", "60%"},
+                {"Win Rate", "40%"},
+                {"Profit-Loss Ratio", "0.96"},
                 {"Alpha", "-0.009"},
-                {"Beta", "0.037"},
-                {"Annual Standard Deviation", "0.02"},
-                {"Annual Variance", "0"},
-                {"Information Ratio", "-0.967"},
+                {"Beta", "0.045"},
+                {"Annual Standard Deviation", "0.024"},
+                {"Annual Variance", "0.001"},
+                {"Information Ratio", "-1.002"},
                 {"Tracking Error", "0.1"},
-                {"Treynor Ratio", "-0.142"},
-                {"Total Fees", "$8.61"},
+                {"Treynor Ratio", "-0.114"},
+                {"Total Fees", "$10.61"},
             };
 
             return new List<AlgorithmStatisticsTestParameters>
