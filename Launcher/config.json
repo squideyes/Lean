@@ -9,7 +9,7 @@
   "environment": "backtesting",
 
   // algorithm class selector
-  "algorithm-type-name": "BasicTemplateAlgorithm",
+  "algorithm-type-name": "NpiRnd009CAlgorithm",
 
   // Algorithm language selector - options CSharp, FSharp, VisualBasic, Python, Java
   "algorithm-language": "CSharp",
@@ -69,8 +69,8 @@
   // fxcm configuration
   "fxcm-server": "http://www.fxcorporate.com/Hosts.jsp",
   "fxcm-terminal": "Demo", //Real or Demo
-  "fxcm-user-name": "",
-  "fxcm-password": "",
+  "fxcm-user-name": "D173051968001",
+  "fxcm-password": "3377",
   "fxcm-account-id": "",
 
   // iqfeed configuration

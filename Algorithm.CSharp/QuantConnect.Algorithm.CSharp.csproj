@@ -56,6 +56,7 @@
     <Compile Include="AddRemoveSecurityRegressionAlgorithm.cs" />
     <Compile Include="CoarseFineFundamentalRegressionAlgorithm.cs" />
     <Compile Include="CoarseFineFundamentalComboAlgorithm.cs" />
+    <Compile Include="NPI\NpiRnd009CAlgorithm.cs" />
     <Compile Include="PortfolioOptimizationNumericsAlgorithm.cs" />
     <Compile Include="DailyFxAlgorithm.cs" />
     <Compile Include="BasicTemplateForexAlgorithm.cs" />
@@ -136,9 +137,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NPI\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
