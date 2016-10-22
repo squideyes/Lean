@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Legomatic.Trading">
+      <HintPath>..\3rdParty\Legomatic.Trading.dll</HintPath>
+    </Reference>
     <Reference Include="MathNet.Numerics, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\MathNet.Numerics.3.7.0\lib\net40\MathNet.Numerics.dll</HintPath>
@@ -56,6 +59,7 @@
     <Compile Include="AddRemoveSecurityRegressionAlgorithm.cs" />
     <Compile Include="CoarseFineFundamentalRegressionAlgorithm.cs" />
     <Compile Include="CoarseFineFundamentalComboAlgorithm.cs" />
+    <Compile Include="NPI\NPI_010G1_Algorithm.cs" />
     <Compile Include="NPI\NpiRnd009CAlgorithm.cs" />
     <Compile Include="PortfolioOptimizationNumericsAlgorithm.cs" />
     <Compile Include="DailyFxAlgorithm.cs" />
