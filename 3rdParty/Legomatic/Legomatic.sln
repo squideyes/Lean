@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legomatic.Trading", "Source\Legomatic.Trading\Legomatic.Trading.csproj", "{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legomatic.Trading.Tests", "Source\Legomatic.Trading.Tests\Legomatic.Trading.Tests.csproj", "{B26C341B-2875-4920-B10F-4D0DCE9E2E00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{97BE73F5-6C4F-4EA3-855E-E41657DAB7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legomatic.LegPrinter", "Source\Legomatic.LegPrinter\Legomatic.LegPrinter.csproj", "{7CC1E2D3-04A6-4895-964C-40158F0B1EA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC1E2D3-04A6-4895-964C-40158F0B1EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC1E2D3-04A6-4895-964C-40158F0B1EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC1E2D3-04A6-4895-964C-40158F0B1EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC1E2D3-04A6-4895-964C-40158F0B1EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6} = {97BE73F5-6C4F-4EA3-855E-E41657DAB7DF}
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00} = {97BE73F5-6C4F-4EA3-855E-E41657DAB7DF}
+		{7CC1E2D3-04A6-4895-964C-40158F0B1EA8} = {97BE73F5-6C4F-4EA3-855E-E41657DAB7DF}
+	EndGlobalSection
+EndGlobal

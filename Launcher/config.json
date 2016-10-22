@@ -88,9 +88,11 @@
     "ema-fast": 10,
     "ema-slow": 20,
     "npi-010G1-ticker": "EURUSD",
+    "npi-010G1-tolerance": 3,
     "npi-010G1-bollinger-length": 20,
     "npi-010G1-bollinger-sdv": 1.75,
-    "npi-010G1-confirmation-bricks": 2
+    "npi-010G1-confirmation-bricks": 2,
+    "npi-010G1-brick-size-in-ticks":  0.003
   },
 
   "environments": {

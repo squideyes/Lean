@@ -58,10 +58,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{93A63A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantConnect.ToolBox", "ToolBox\QuantConnect.ToolBox.csproj", "{AC9A142C-B485-44D7-91FF-015C22C43D05}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{8C6FF010-C57F-41ED-A37B-F70F49E9BDE4}"
-	ProjectSection(SolutionItems) = preProject
-		3rdParty\Legomatic.Trading.dll = 3rdParty\Legomatic.Trading.dll
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdParty", "3rdParty", "{CDBEDB82-FC49-4F90-855D-6AAE7D6539F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Legomatic", "Legomatic", "{FE77BF2B-1345-4A94-BA12-2169618A80B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legomatic.Trading", "3rdParty\Legomatic\Source\Legomatic.Trading\Legomatic.Trading.csproj", "{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legomatic.Trading.Tests", "3rdParty\Legomatic\Source\Legomatic.Trading.Tests\Legomatic.Trading.Tests.csproj", "{B26C341B-2875-4920-B10F-4D0DCE9E2E00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,8 +204,29 @@ Global
 		{AC9A142C-B485-44D7-91FF-015C22C43D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC9A142C-B485-44D7-91FF-015C22C43D05}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC9A142C-B485-44D7-91FF-015C22C43D05}.Release|x64.ActiveCfg = Release|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Debug|x64.Build.0 = Debug|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Release|x64.ActiveCfg = Release|Any CPU
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6}.Release|x64.Build.0 = Release|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Debug|x64.Build.0 = Debug|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Release|x64.ActiveCfg = Release|Any CPU
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE77BF2B-1345-4A94-BA12-2169618A80B1} = {CDBEDB82-FC49-4F90-855D-6AAE7D6539F3}
+		{4CDDFF76-8A3D-485A-BF02-107A5752C7D6} = {FE77BF2B-1345-4A94-BA12-2169618A80B1}
+		{B26C341B-2875-4920-B10F-4D0DCE9E2E00} = {FE77BF2B-1345-4A94-BA12-2169618A80B1}
 	EndGlobalSection
 EndGlobal
