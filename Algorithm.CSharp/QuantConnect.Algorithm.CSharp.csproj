@@ -57,6 +57,7 @@
     <Compile Include="AddRemoveSecurityRegressionAlgorithm.cs" />
     <Compile Include="CoarseFineFundamentalRegressionAlgorithm.cs" />
     <Compile Include="CoarseFineFundamentalComboAlgorithm.cs" />
+    <Compile Include="NPI\Common\BuyOrSell.cs" />
     <Compile Include="NPI\NPI_010G1_Algorithm.cs" />
     <Compile Include="PortfolioOptimizationNumericsAlgorithm.cs" />
     <Compile Include="DailyFxAlgorithm.cs" />

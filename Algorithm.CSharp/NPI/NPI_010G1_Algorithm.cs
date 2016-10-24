@@ -11,9 +11,6 @@ namespace QuantConnect.Algorithm.CSharp
 {
     public class NPI_010G1_Algorithm : QCAlgorithm
     {
-        private decimal CURRENCYSCALE = 0.0001m;
-        private int CURRENCYDIGITS = 5;
-
         private LegEvaluator evaluator = new LegEvaluator();
         private List<Brick> bricks = new List<Brick>();
         private int currentBrickId = 0;
@@ -27,13 +24,16 @@ namespace QuantConnect.Algorithm.CSharp
 
         private BollingerBands bb;
         private Symbol symbol;
-        private double stopPrice;
+        private decimal stopPrice;
 
         [Parameter("npi-010G1-tolerance")]
         public int Tolerance = 3;
 
         [Parameter("npi-010G1-ticker")]
         public string Ticker = "EURUSD";
+
+        [Parameter("npi-010G1-ticker")]
+        public DateTime FirstDate = new DateTime(2016, 1, 2);
 
         [Parameter("npi-010G1-bollinger-length")]
         public int BollingerLength = 20;
@@ -51,10 +51,10 @@ namespace QuantConnect.Algorithm.CSharp
         {
             symbol = QuantConnect.Symbol.Create(Ticker, SecurityType.Forex, Market.FXCM);
 
-            SetStartDate(2016, 1, 2);
+            SetStartDate(FirstDate);
             SetEndDate(DateTime.Now.Date.AddDays(-1));
 
-            SetCash(100000);      
+            SetCash(100000);
 
             AddForex(symbol.Value, Resolution.Tick);
 
@@ -62,8 +62,9 @@ namespace QuantConnect.Algorithm.CSharp
 
             consolidator.DataConsolidated += (sender, bar) =>
             {
-                var brick = new Brick(currentBrickId++, bar.EndTime, (double)bar.Open,
-                    (double)bar.High, (double)bar.Low, (double)bar.Close, Decimals.Five);
+                var brick = new Brick(currentBrickId++, bar.EndTime,
+                    bar.Open, bar.High, bar.Low, bar.Close,
+                    Ticker == "USDJPY" ? Decimals.Three : Decimals.Five);
 
                 bricks.Insert(0, brick);
 
@@ -77,6 +78,29 @@ namespace QuantConnect.Algorithm.CSharp
 
                 if (!bb.IsReady)
                     return;
+
+                //ratePerPip = (evaluator[0].BrickSizeInRate / evaluator[0].BrickSizeInPips);
+
+                //currentBrickId = Bars.FullSymbolData.Current;
+
+                if (bricks[0].Close > bb.MiddleBand.Current.Value)
+                    directionFilterLong = false;
+
+                if (bricks[0].Close < bb.MiddleBand.Current.Value)
+                    directionFilterShort = false;
+
+                //switch (CurrentPosition.Side)
+                //{
+                //    case EMarketPositionSide.Flat:
+                //        HandleFlat(Bars.FullSymbolData.Current);
+                //        break;
+                //    case EMarketPositionSide.Long:
+                //        HandleLong(Bars.FullSymbolData.Current);
+                //        break;
+                //    case EMarketPositionSide.Short:
+                //        HandleShort(Bars.FullSymbolData.Current);
+                //        break;
+                //}
             };
 
             SubscriptionManager.AddConsolidator(symbol, consolidator);
@@ -103,6 +127,14 @@ namespace QuantConnect.Algorithm.CSharp
         {
         }
 
+        // Improve this !!!!!!!!!!!!!!!!!!!!!!!!!!!
+        private int Units(BuyOrSell buyOrSell)
+        {
+            const int UNITS = 100000;
+
+            return UNITS * (int)buyOrSell;
+        }
+
         private void Debug(string format, params object[] args)
         {
             var prefix = string.Format("CBID: {0:000000} - ", currentBrickId);
@@ -112,11 +144,12 @@ namespace QuantConnect.Algorithm.CSharp
 
         private void HandleLong(int brickId)
         {
-            if (Math.Round(bricks[0].Close, CURRENCYDIGITS) <= Math.Round(stopPrice, CURRENCYDIGITS))
+            if (bricks[0].Close <= stopPrice)
             {
-                //sellOrderMarket.Send("bbLXp");
+                var ticket = MarketOrder(
+                    symbol, Units(BuyOrSell.Sell), asynchronous: false);
 
-                Debug("Stop (Long)");
+                Debug("Stop Exit (Long)");
 
                 if (!firstMidlineCross)
                     directionFilterLong = true;
@@ -124,18 +157,17 @@ namespace QuantConnect.Algorithm.CSharp
                 return;
             }
 
-            if (bricks[0].Close >= (double)bb.MiddleBand.Current.Value
-                || bricks[0].High > (double)bb.MiddleBand.Current.Value)
+            if (bricks[0].Close >= bb.MiddleBand.Current.Value ||
+                bricks[0].High > bb.MiddleBand.Current.Value)
             {
                 //stopPrice = CurrentPosition.OpenTrades[0].EntryOrder.Price;
 
                 firstMidlineCross = true;
 
-                Debug("Over Mid Line stop price: {1:N5}", stopPrice);
+                Debug("Over mid-line stop price: {1:N5}", stopPrice);
             }
 
-
-            if (!exitArmed && bricks[0].Close > (double)lastUpperBand.Value)
+            if (!exitArmed && bricks[0].Close > lastUpperBand.Value)
             {
                 exitArmed = true;
 
@@ -144,9 +176,50 @@ namespace QuantConnect.Algorithm.CSharp
 
             if (exitArmed && bricks[0].Close < bricks[1].Close)
             {
-                //sellOrderMarket.Send("bbLXt");
+                var ticket = MarketOrder(
+                    symbol, Units(BuyOrSell.Sell), asynchronous: false);
 
                 Debug("Strategy Exit (Long)");
+            }
+        }
+
+        private void HandleShort(int brickId)
+        {
+            if (bricks[0].Close>= stopPrice)
+            {
+                var ticket = MarketOrder(
+                    symbol, Units(BuyOrSell.Buy), asynchronous: false);
+
+                Debug("Stop Exit (Short)");
+
+                if (!firstMidlineCross)
+                    directionFilterShort = true;
+
+                return;
+            }
+
+            if (bricks[0].Close <= lastMiddleBand.Value || bricks[0].Low < lastMiddleBand.Value)
+            {
+                //stopPrice = CurrentPosition.OpenTrades[0].EntryOrder.Price;
+
+                firstMidlineCross = true;
+
+                Debug("Under mid-line stop price: {1:N5}", stopPrice);
+            }
+
+            if (!exitArmed && bricks[0].Close < lastMiddleBand.Value)
+            {
+                exitArmed = true;
+
+                return;
+            }
+
+            if (exitArmed && bricks[0].Close > bricks[1].Close)
+            {
+                var ticket = MarketOrder(
+                    symbol, Units(BuyOrSell.Buy), asynchronous: false);
+
+                Debug("Strategy Exit (Short)");
             }
         }
     }
